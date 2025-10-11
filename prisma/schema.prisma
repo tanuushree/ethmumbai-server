@@ -1,6 +1,5 @@
 generator client {
   provider = "prisma-client-js"
-  output   = "../generated/prisma"
 }
 
 datasource db {
@@ -9,54 +8,38 @@ datasource db {
 }
 
 // =======================
-// Users Table
-// =======================
-model User {
-  id        Int      @id @default(autoincrement())
-  email     String   @unique
-  name      String
-  createdAt DateTime @default(now())
-  orders    Order[]
-}
-
-// =======================
 // Tickets Table
 // =======================
 model Ticket {
-  id          Int           @id @default(autoincrement())
-  title       String
-  description String?
-  type        String        // "earlybird" or "standard"
-  price       Float
+  id       Int    @id @default(autoincrement())
+  title    String @unique
+  type     String  // "earlybird" or "standard"
+  price    Float
+  quantity Int
+  carts    Cart[]  // back-relation to Cart
+}
+
+// =======================
+// Cart Table
+// =======================
+model Cart {
+  id          String       @id @default(cuid())
+  ticketId    Int
   quantity    Int
-  createdAt   DateTime      @default(now())
+  participants Participant[]
+  ticket      Ticket       @relation(fields: [ticketId], references: [id])
+  createdAt   DateTime     @default(now())
 }
 
 // =======================
-// Orders Table
+// Participant Table
 // =======================
-model Order {
-  id          Int           @id @default(autoincrement())
-  userId      Int
-  totalAmount Float
-  ticketCount Int
-  ticketType  String        // "earlybird" or "standard"
-  paymentId   String
-  provider    String        // "razorpay" / "daimo"
-  status      String        // pending / success / failed
-  createdAt   DateTime      @default(now())
-  user        User          @relation(fields: [userId], references: [id])
-  orderItems  OrderTicket[]
-}
-
-// =======================
-// OrderTickets Table
-// =======================
-model OrderTicket {
-  id               Int      @id @default(autoincrement())
-  orderId          Int
-  participantName  String
-  participantEmail String?
-  createdAt        DateTime @default(now())
-  order            Order    @relation(fields: [orderId], references: [id])
+model Participant {
+  id       Int    @id @default(autoincrement())
+  cartId   String
+  name     String
+  email    String?
+  isBuyer  Boolean @default(false) // marks the buyer
+  phone    String                    // buyer contact or participant optional
+  cart     Cart   @relation(fields: [cartId], references: [id])
 }
