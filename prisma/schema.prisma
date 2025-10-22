@@ -11,35 +11,79 @@ datasource db {
 // Tickets Table
 // =======================
 model Ticket {
-  id       Int    @id @default(autoincrement())
-  title    String @unique
-  type     String  // "earlybird" or "standard"
+  id       Int      @id @default(autoincrement())
+  title    String   @unique
+  type     String   // "earlybird" or "standard"
   price    Float
   quantity Int
-  carts    Cart[]  // back-relation to Cart
+  carts    Cart[]    // back-relation to Cart
+  orders   Order[]   // back-relation to Order
 }
 
 // =======================
 // Cart Table
 // =======================
 model Cart {
-  id          String       @id @default(cuid())
-  ticketId    Int
-  quantity    Int
+  id           String        @id @default(cuid())
+  ticketId     Int
+  quantity     Int
   participants Participant[]
-  ticket      Ticket       @relation(fields: [ticketId], references: [id])
-  createdAt   DateTime     @default(now())
+  order        Order?        // optional link to Order
+  ticket       Ticket        @relation(fields: [ticketId], references: [id])
+  createdAt    DateTime      @default(now())
 }
 
 // =======================
 // Participant Table
 // =======================
 model Participant {
-  id       Int    @id @default(autoincrement())
+  id       Int      @id @default(autoincrement())
   cartId   String
   name     String
   email    String?
-  isBuyer  Boolean @default(false) // marks the buyer
-  phone    String                    // buyer contact or participant optional
-  cart     Cart   @relation(fields: [cartId], references: [id])
+  isBuyer  Boolean  @default(false) // marks the buyer
+  phone    String                    // buyer contact
+  cart     Cart    @relation(fields: [cartId], references: [id])
+}
+
+// =======================
+// Order Table (new)
+// =======================
+model Order {
+  id          Int          @id @default(autoincrement())
+  cartId      String       @unique
+  ticketId    Int
+  amount      Float
+  currency    String       @default("INR")
+  status      String       @default("created") // created, attempted, paid, failed
+  paymentType PaymentType
+  payment     Payment?
+
+  cart        Cart         @relation(fields: [cartId], references: [id])
+  ticket      Ticket       @relation(fields: [ticketId], references: [id])
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+}
+
+// =======================
+// Payment Table (new)
+// =======================
+model Payment {
+  id                 Int       @id @default(autoincrement())
+  razorpayOrderId    String?   // from Razorpay
+  razorpayPaymentId  String?
+  daimoTxHash        String?   // from Daimo
+  status             String    @default("created")
+  verified           Boolean   @default(false)
+  orderId            Int       @unique
+  order              Order     @relation(fields: [orderId], references: [id])
+  createdAt          DateTime  @default(now())
+}
+
+// =======================
+// Payment Type Enum
+// =======================
+enum PaymentType {
+  RAZORPAY
+  DAIMO
 }
