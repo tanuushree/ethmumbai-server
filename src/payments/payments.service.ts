@@ -13,17 +13,17 @@ export class PaymentsService {
   async createRazorpayOrder(data: any) {
     const { ticketId, buyerName, buyerEmail, buyerPhone, participants, quantity } = data;
 
-    // 1️⃣ Fetch the ticket
+    // Fetch the ticket
     const ticket = await this.prisma.ticket.findUnique({ where: { id: ticketId } });
     if (!ticket) throw new Error('Ticket not found');
 
-    // 2️⃣ Calculate total amount
+    // Calculate total amount
     const totalAmount = ticket.price * quantity;
 
-    // 3️⃣ Create order in Razorpay
+    // Create order in Razorpay
     const razorpayOrder = await this.razorpayService.createOrder(totalAmount);
 
-    // 4️⃣ Save order in DB
+    // Save order in DB
     const order = await this.prisma.order.create({
       data: {
         razorpayOrderId: razorpayOrder.id,
@@ -44,12 +44,32 @@ export class PaymentsService {
       include: { participants: true },
     });
 
-    // 5️⃣ Return combined response
+    // Return combined response
     return {
       razorpayOrderId: razorpayOrder.id,
       amount: totalAmount,
       currency: 'INR',
       order,
     };
+  }
+
+  async verifySignature(body: any) {
+    const { razorpay_order_id, razorpay_payment_id, razorpay_signature } = body;
+
+    const verifyResult = this.razorpayService.verifySignature(
+      razorpay_order_id,
+      razorpay_payment_id,
+      razorpay_signature,
+    );
+
+    if (verifyResult.success) {
+      // Optionally update DB
+      await this.prisma.order.updateMany({
+        where: { razorpayOrderId: razorpay_order_id },
+        data: { paymentVerified: true, status: 'paid' },
+      });
+    }
+
+    return verifyResult;
   }
 }

@@ -9,4 +9,9 @@ export class PaymentsController {
   async createOrder(@Body() body: any) {
     return await this.paymentsService.createRazorpayOrder(body);
   }
+
+  @Post('verify')
+  async verifyPayment(@Body() body: any) {
+    return await this.paymentsService.verifySignature(body);
+  }
 }
