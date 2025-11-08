@@ -84,7 +84,7 @@ export class PaymentsService {
     if (!ticket) throw new Error('Ticket not found');
 
     // calculate total amount
-    const totalAmount = ticket.crypto * quantity;
+    const totalAmount = ticket.crypto * quantity; //0.1
 
     // call helper function to create Daimo Pay order and pass total amountas argument
     const daimoOrder = await this.daimoService.createOrder(totalAmount);
@@ -111,6 +111,10 @@ export class PaymentsService {
       include: { participants: true },
     });
 
+    // const daimoPaymentStatus = await this.daimoService.verifyPayment(
+    //   daimoOrder.paymentId,
+    // );
+
     // return back the response to frontend
     return {
       success: true,
@@ -122,26 +126,28 @@ export class PaymentsService {
   // 🔹 VERIFY (Razorpay OR Daimo)
   async verifyPayment(body: any) {
     if (body.paymentType === 'DAIMO') {
-      const res = await axios.get(
-        `https://api.daimo.xyz/api/payment/${body.paymentId}`,
-        {
-          headers: { Authorization: `Bearer ${process.env.DAIMO_API_KEY}` },
-        },
-      );
-
-      if (res.data.payment.status === 'payment_complete') {
-        await this.prisma.order.updateMany({
-          where: { daimoPaymentId: body.paymentId },
-          data: { status: 'paid' },
-        });
-        return {
-          success: true,
-          message: 'Daimo payment verified successfully',
-        };
-      } else {
-        return { success: false, message: 'Payment not completed yet' };
-      }
+      return await this.daimoService.verifyPayment(body.paymentId);
     }
+    // const res = await axios.get(
+    //   `https://api.daimo.xyz/api/payment/${body.paymentId}`,
+    //   {
+    //     headers: { Authorization: `Bearer ${process.env.DAIMO_API_KEY}` },
+    //   },
+    // );
+
+    // if (res.data.payment.status === 'payment_complete') {
+    //   await this.prisma.order.updateMany({
+    //     where: { daimoPaymentId: body.paymentId },
+    //     data: { status: 'paid' },
+    //   });
+    //   return {
+    //     success: true,
+    //     message: 'Daimo payment verified successfully',
+    //   };
+    // } else {
+    //   return { success: false, message: 'Payment not completed yet' };
+    // }
+    // }
 
     // Razorpay fallback
     return this.verifySignature(body);

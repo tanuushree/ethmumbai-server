@@ -88,6 +88,8 @@ export class DaimoService {
         where: { daimoPaymentId: paymentId },
         data: {
           status: isComplete ? 'paid' : 'pending',
+          daimoTxHash: payment.destination.txHash,
+          paymentVerified: true,
         },
       });
 
