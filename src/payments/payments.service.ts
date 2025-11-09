@@ -21,7 +21,7 @@ export class PaymentsService {
     if (!ticket) throw new Error('Ticket not found');
 
     // Calculate total amount
-    const totalAmount = ticket.price * quantity;
+    const totalAmount = ticket.fiat * quantity;
 
     // Create order in Razorpay
     const razorpayOrder = await this.razorpayService.createOrder(totalAmount);
