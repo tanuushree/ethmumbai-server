@@ -1,28 +1,17 @@
-/*
-  Warnings:
-
-  - You are about to drop the column `cartId` on the `Participant` table. All the data in the column will be lost.
-  - You are about to drop the column `phone` on the `Participant` table. All the data in the column will be lost.
-  - You are about to drop the `Cart` table. If the table is not empty, all the data it contains will be lost.
-  - Added the required column `orderId` to the `Participant` table without a default value. This is not possible if the table is not empty.
-
-*/
 -- CreateEnum
 CREATE TYPE "PaymentType" AS ENUM ('RAZORPAY', 'DAIMO');
 
--- DropForeignKey
-ALTER TABLE "public"."Cart" DROP CONSTRAINT "Cart_ticketId_fkey";
+-- CreateTable
+CREATE TABLE "Ticket" (
+    "id" SERIAL NOT NULL,
+    "title" TEXT NOT NULL,
+    "type" TEXT NOT NULL,
+    "fiat" DOUBLE PRECISION NOT NULL DEFAULT 999,
+    "crypto" DOUBLE PRECISION NOT NULL DEFAULT 12,
+    "quantity" INTEGER NOT NULL,
 
--- DropForeignKey
-ALTER TABLE "public"."Participant" DROP CONSTRAINT "Participant_cartId_fkey";
-
--- AlterTable
-ALTER TABLE "Participant" DROP COLUMN "cartId",
-DROP COLUMN "phone",
-ADD COLUMN     "orderId" INTEGER NOT NULL;
-
--- DropTable
-DROP TABLE "public"."Cart";
+    CONSTRAINT "Ticket_pkey" PRIMARY KEY ("id")
+);
 
 -- CreateTable
 CREATE TABLE "Order" (
@@ -45,6 +34,20 @@ CREATE TABLE "Order" (
 
     CONSTRAINT "Order_pkey" PRIMARY KEY ("id")
 );
+
+-- CreateTable
+CREATE TABLE "Participant" (
+    "id" SERIAL NOT NULL,
+    "orderId" INTEGER NOT NULL,
+    "name" TEXT NOT NULL,
+    "email" TEXT,
+    "isBuyer" BOOLEAN NOT NULL DEFAULT false,
+
+    CONSTRAINT "Participant_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateIndex
+CREATE UNIQUE INDEX "Ticket_title_key" ON "Ticket"("title");
 
 -- AddForeignKey
 ALTER TABLE "Order" ADD CONSTRAINT "Order_ticketId_fkey" FOREIGN KEY ("ticketId") REFERENCES "Ticket"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
