@@ -5,7 +5,6 @@ const prisma = new PrismaClient();
 async function main() {
   const tickets = [
     {
-      id: 1,
       title: 'Early Bird',
       type: 'earlybird',
       fiat: 999,
@@ -13,7 +12,6 @@ async function main() {
       quantity: 100,
     },
     {
-      id: 2,
       title: 'Standard',
       type: 'standard',
       fiat: 1999,

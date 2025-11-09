@@ -31,6 +31,7 @@ model Order {
   // Razorpay fields
   razorpayOrderId    String?            // Razorpay: order_id
   razorpayPaymentId  String?            // Razorpay: payment_id
+  razorpaySignature  String?            // Razorpay: signature_id
 
   // Daimo fields
   daimoPaymentId     String?            // Daimo: payId
