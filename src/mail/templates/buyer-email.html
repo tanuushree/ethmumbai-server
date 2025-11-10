@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Your ETHMumbai Order Confirmation</title>
+    <style>
+      body {
+        font-family: 'Inter', Arial, sans-serif;
+        background: #f9fafb;
+        color: #111827;
+        padding: 24px;
+      }
+      .card {
+        background: white;
+        border-radius: 12px;
+        padding: 24px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        max-width: 600px;
+        margin: auto;
+      }
+      h2 {
+        color: #111827;
+        font-size: 22px;
+        margin-bottom: 16px;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+      .participants {
+        margin-top: 16px;
+      }
+      .footer {
+        margin-top: 24px;
+        font-size: 13px;
+        color: #6b7280;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>🎟️ ETHMumbai Order Confirmation</h2>
+      <p>Hi {{buyerName}},</p>
+      <p>Thanks for your purchase! Here are your order details:</p>
+
+      <ul>
+        <li><strong>Order ID:</strong> {{orderId}}</li>
+        <li><strong>Payment ID:</strong> {{paymentId}}</li>
+        <li><strong>Amount:</strong> {{amount}} {{currency}}</li>
+        <li><strong>Status:</strong> {{status}}</li>
+      </ul>
+
+      <div class="participants">
+        <h3>Participants:</h3>
+        <ul>
+          {{participantsList}}
+        </ul>
+      </div>
+
+      <div class="footer">
+        <p>See you soon at ETHMumbai! 💜</p>
+      </div>
+    </div>
+  </body>
+</html>

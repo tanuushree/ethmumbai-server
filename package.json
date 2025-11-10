@@ -33,6 +33,7 @@
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.2",
     "daimo": "^1.0.1",
+    "nodemailer": "^7.0.10",
     "prisma": "^6.17.1",
     "razorpay": "^2.9.6",
     "reflect-metadata": "^0.2.2",

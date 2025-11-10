@@ -51,6 +51,9 @@ model Order {
   createdAt          DateTime           @default(now())
   updatedAt          DateTime           @updatedAt
 
+  buyerEmailSent     Boolean             @default(false)
+  buyerEmailSentAt   DateTime?
+
   // Relations
   ticket             Ticket             @relation(fields: [ticketId], references: [id])
   generatedTickets   GeneratedTicket[]        
@@ -69,6 +72,9 @@ model Participant {
   isBuyer         Boolean               @default(false)
   generatedTicket GeneratedTicket?
   order           Order                 @relation(fields: [orderId], references: [id])
+
+  emailSent       Boolean             @default(false)
+  emailSentAt     DateTime?
 }
 
 
