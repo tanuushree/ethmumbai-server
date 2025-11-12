@@ -20,6 +20,6 @@ export class PaymentsController {
   // Verify payments (both Razorpay & Daimo)
   @Post('verify')
   async verifyPayment(@Body() body: any) {
-    return await this.paymentsService.verifySignature(body);
+    return await this.paymentsService.verifyPayment(body);
   }
 }

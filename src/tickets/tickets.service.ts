@@ -31,8 +31,8 @@ export class TicketsService {
             participantId: participant.id,
             orderId: order.id,
           },
-        })
-      )
+        }),
+      ),
     );
 
     return generatedTickets;

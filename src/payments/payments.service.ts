@@ -16,10 +16,19 @@ export class PaymentsService {
   ) {}
 
   async createRazorpayOrder(data: any) {
-    const { ticketType, buyerName, buyerEmail, buyerPhone, participants, quantity } = data;
+    const {
+      ticketType,
+      buyerName,
+      buyerEmail,
+      buyerPhone,
+      participants,
+      quantity,
+    } = data;
 
     // Fetch the ticket
-    const ticket = await this.prisma.ticket.findFirst({ where: { type: ticketType } });
+    const ticket = await this.prisma.ticket.findFirst({
+      where: { type: ticketType },
+    });
     if (!ticket) throw new BadRequestException('Ticket not found');
 
     // Calculate total amount
@@ -32,7 +41,7 @@ export class PaymentsService {
     const order = await this.prisma.order.create({
       data: {
         razorpayOrderId: razorpayOrder.id,
-        ticketId: ticket.id, 
+        ticketId: ticket.id,
         buyerName,
         buyerEmail,
         buyerPhone,
@@ -63,10 +72,19 @@ export class PaymentsService {
 
   // DAIMO ORDER CREATION
   async createDaimoOrder(data: any) {
-    const { ticketType, buyerName, buyerEmail, buyerPhone, participants, quantity } = data;
+    const {
+      ticketType,
+      buyerName,
+      buyerEmail,
+      buyerPhone,
+      participants,
+      quantity,
+    } = data;
 
     // check the ticketId sent from frontend exists in the Tickets table
-    const ticket = await this.prisma.ticket.findFirst({ where: { type: ticketType } });
+    const ticket = await this.prisma.ticket.findFirst({
+      where: { type: ticketType },
+    });
     if (!ticket) throw new BadRequestException('Ticket not found');
 
     // calculate total amount
@@ -97,10 +115,6 @@ export class PaymentsService {
       include: { participants: true },
     });
 
-    // const daimoPaymentStatus = await this.daimoService.verifyPayment(
-    //   daimoOrder.paymentId,
-    // );
-
     // return back the response to frontend
     return {
       success: true,
@@ -115,26 +129,6 @@ export class PaymentsService {
     if (body.paymentType === 'DAIMO') {
       return await this.daimoService.verifyPayment(body.paymentId);
     }
-    // const res = await axios.get(
-    //   `https://api.daimo.xyz/api/payment/${body.paymentId}`,
-    //   {
-    //     headers: { Authorization: `Bearer ${process.env.DAIMO_API_KEY}` },
-    //   },
-    // );
-
-    // if (res.data.payment.status === 'payment_complete') {
-    //   await this.prisma.order.updateMany({
-    //     where: { daimoPaymentId: body.paymentId },
-    //     data: { status: 'paid' },
-    //   });
-    //   return {
-    //     success: true,
-    //     message: 'Daimo payment verified successfully',
-    //   };
-    // } else {
-    //   return { success: false, message: 'Payment not completed yet' };
-    // }
-    // }
 
     // Razorpay fallback
     return this.verifySignature(body);
@@ -155,7 +149,7 @@ export class PaymentsService {
       });
 
       if (!order) throw new BadRequestException('Order not found');
-      
+
       await this.prisma.order.update({
         where: { razorpayOrderId: razorpay_order_id },
         data: {
