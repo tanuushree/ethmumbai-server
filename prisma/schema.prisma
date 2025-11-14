@@ -7,84 +7,63 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-//
-// =======================
-// Tickets Table
-// =======================
 model Ticket {
-  id       String   @id @default(uuid())
-  title    String   @unique
-  type     String   // "earlybird" or "standard"
+  id       String  @id @default(uuid())
+  title    String  @unique
+  type     String
   fiat     Float   @default(999)
   crypto   Float   @default(12)
   quantity Int
   orders   Order[]
 }
 
-//
-// =======================
-// Order Table
-// =======================
 model Order {
-  id                 String             @id @default(uuid())  
-
-  // Razorpay fields
-  razorpayOrderId    String?            @unique   // Razorpay: order_id
-  razorpayPaymentId  String?            @unique   // Razorpay: payment_id
-  razorpaySignature  String?            @unique   // Razorpay: signature_id
-
-  // Daimo fields
-  daimoPaymentId     String?            @unique   // Daimo: payId
-  daimoTxHash        String?            @unique   // Daimo: blockchain transaction hash
-
-  // Common order info
-  ticketId           String
-  buyerName          String
-  buyerEmail         String
-  buyerPhone         String
-  amount             Float
-  currency           String             @default("INR") // INR or CRYPTO (USDC)
-  status             String             @default("created") // created, attempted, paid, failed
-  paymentType        PaymentType?
-  paymentVerified    Boolean            @default(false)
-
-  createdAt          DateTime           @default(now())
-  updatedAt          DateTime           @updatedAt
-
-  // Relations
-  ticket             Ticket             @relation(fields: [ticketId], references: [id])
-  generatedTickets   GeneratedTicket[]        
-  participants       Participant[]
+  id                String            @id @default(uuid())
+  razorpayOrderId   String?           @unique
+  razorpayPaymentId String?           @unique
+  daimoPaymentId    String?           @unique
+  daimoTxHash       String?           @unique
+  buyerName         String
+  buyerEmail        String
+  buyerPhone        String
+  amount            Float
+  currency          String            @default("INR")
+  status            String            @default("created")
+  paymentType       PaymentType?
+  paymentVerified   Boolean           @default(false)
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+  razorpaySignature String?           @unique
+  ticketId          String
+  generatedTickets  GeneratedTicket[]
+  ticket            Ticket            @relation(fields: [ticketId], references: [id])
+  participants      Participant[]
 }
 
-//
-// =======================
-// Participant Table
-// =======================
 model Participant {
-  id              String                @id @default(uuid()) // random unique participant ID
+  id              String           @id @default(uuid())
   orderId         String
   name            String
-  email           String?               @unique
-  isBuyer         Boolean               @default(false)
+  email           String?          @unique
+  isBuyer         Boolean          @default(false)
   generatedTicket GeneratedTicket?
-  order           Order                 @relation(fields: [orderId], references: [id])
+  order           Order            @relation(fields: [orderId], references: [id])
 }
-
 
 model GeneratedTicket {
-  id            String                  @id @default(uuid())
-  ticketCode    String                  @unique        // this is your unique ticket ID
-  participantId String                  @unique
+  id            String      @id @default(uuid())
+  ticketCode    String      @unique
+  participantId String      @unique
   orderId       String
 
-  participant Participant               @relation(fields: [participantId], references: [id])
-  order       Order                     @relation(fields: [orderId], references: [id])
+  qrHash        String?               
+  checkedIn     Boolean                 @default(false)  //for check-in
+  checkedInAt   DateTime                @default(now())  //for check-in
+
+  order         Order       @relation(fields: [orderId], references: [id])
+  participant   Participant @relation(fields: [participantId], references: [id])
 }
 
-// =======================
-// Payment Type Enum
-// =======================
 enum PaymentType {
   RAZORPAY
   DAIMO
