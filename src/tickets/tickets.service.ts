@@ -5,13 +5,17 @@ import {
 } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import * as QRCode from 'qrcode';
+import { MailService } from '../mail/mail.service';
 import * as crypto from 'crypto';
 import { encryptPayload, decryptPayload } from '../utils/ticket.utils';
 import { savePngFromDataUrl } from 'src/utils/save-png';
 
 @Injectable()
 export class TicketsService {
-  constructor(private prisma: PrismaService) {}
+constructor(
+  private prisma: PrismaService,
+  private mailService: MailService,
+) {}
 
   //Generates a unique, non-reversible ticket code based on participant email + randomness
   private generateTicketCode(email: string): string {
@@ -53,6 +57,10 @@ export class TicketsService {
         console.log(verifyUrl);
       }),
     );
+
+    await this.mailService.sendBuyerEmail(orderId);
+    await this.mailService.sendParticipantEmails(orderId);
+
 
     return generatedTickets;
   }
