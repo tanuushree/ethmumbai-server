@@ -12,7 +12,7 @@ datasource db {
 // Tickets Table
 // =======================
 model Ticket {
-  id       Int      @id @default(autoincrement())
+  id       String   @id @default(uuid())
   title    String   @unique
   type     String   // "earlybird" or "standard"
   fiat     Float   @default(999)
@@ -26,32 +26,34 @@ model Ticket {
 // Order Table
 // =======================
 model Order {
-  id                 Int          @id @default(autoincrement())
+  id                 String             @id @default(uuid())  
 
   // Razorpay fields
-  razorpayOrderId    String?      // Razorpay: order_id
-  razorpayPaymentId  String?      // Razorpay: payment_id
+  razorpayOrderId    String?            @unique   // Razorpay: order_id
+  razorpayPaymentId  String?            @unique   // Razorpay: payment_id
+  razorpaySignature  String?            @unique   // Razorpay: signature_id
 
   // Daimo fields
-  daimoPaymentId     String?      // Daimo: payId
-  daimoTxHash        String?      // Daimo: blockchain transaction hash
+  daimoPaymentId     String?            @unique   // Daimo: payId
+  daimoTxHash        String?            @unique   // Daimo: blockchain transaction hash
 
   // Common order info
-  ticketId           Int
+  ticketId           String
   buyerName          String
   buyerEmail         String
   buyerPhone         String
   amount             Float
-  currency           String       @default("INR") // INR or CRYPTO (USDC)
-  status             String       @default("created") // created, attempted, paid, failed
+  currency           String             @default("INR") // INR or CRYPTO (USDC)
+  status             String             @default("created") // created, attempted, paid, failed
   paymentType        PaymentType?
-  paymentVerified    Boolean       @default(false)
+  paymentVerified    Boolean            @default(false)
 
-  createdAt          DateTime      @default(now())
-  updatedAt          DateTime      @updatedAt
+  createdAt          DateTime           @default(now())
+  updatedAt          DateTime           @updatedAt
 
   // Relations
-  ticket             Ticket        @relation(fields: [ticketId], references: [id])
+  ticket             Ticket             @relation(fields: [ticketId], references: [id])
+  generatedTickets   GeneratedTicket[]        
   participants       Participant[]
 }
 
@@ -60,12 +62,24 @@ model Order {
 // Participant Table
 // =======================
 model Participant {
-  id        Int      @id @default(autoincrement())
-  orderId   Int
-  name      String
-  email     String?
-  isBuyer   Boolean  @default(false) // true if this participant is the buyer
-  order     Order    @relation(fields: [orderId], references: [id])
+  id              String                @id @default(uuid()) // random unique participant ID
+  orderId         String
+  name            String
+  email           String?               @unique
+  isBuyer         Boolean               @default(false)
+  generatedTicket GeneratedTicket?
+  order           Order                 @relation(fields: [orderId], references: [id])
+}
+
+
+model GeneratedTicket {
+  id            String                  @id @default(uuid())
+  ticketCode    String                  @unique        // this is your unique ticket ID
+  participantId String                  @unique
+  orderId       String
+
+  participant Participant               @relation(fields: [participantId], references: [id])
+  order       Order                     @relation(fields: [orderId], references: [id])
 }
 
 // =======================

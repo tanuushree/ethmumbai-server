@@ -5,7 +5,7 @@ import {
 } from '@nestjs/common';
 import axios from 'axios';
 import { PrismaService } from '../prisma/prisma.service';
-import { PaymentType } from '@prisma/client';
+import { TicketsService } from '../tickets/tickets.service';
 
 @Injectable()
 export class DaimoService {
@@ -13,7 +13,10 @@ export class DaimoService {
   private readonly DAIMO_API_KEY = process.env.DAIMO_API_KEY;
   private readonly DESTINATION_ADDRESS = process.env.DAIMO_DESTINATION_ADDRESS;
 
-  constructor(private prisma: PrismaService) {}
+  constructor(
+    private prisma: PrismaService,
+    private ticketsService: TicketsService,
+  ) {}
 
   /**
    * Create a Daimo payment order
@@ -82,7 +85,6 @@ export class DaimoService {
       console.log('🧾 Daimo payment fetched:', payment);
 
       const isComplete = payment.status === 'payment_complete';
-
       // ✅ Update the order in DB based on paymentId
       await this.prisma.order.updateMany({
         where: { daimoPaymentId: paymentId },
@@ -92,6 +94,16 @@ export class DaimoService {
           paymentVerified: true,
         },
       });
+
+      // Ticket Generation
+      if (isComplete == true) {
+        const orderComplete = await this.prisma.order.findFirst({
+          where: { daimoPaymentId: paymentId },
+        });
+        if (orderComplete?.id) {
+          await this.ticketsService.generateTicketsForOrder(orderComplete.id);
+        }
+      }
 
       return {
         success: isComplete,

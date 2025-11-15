@@ -1,24 +1,35 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, BadRequestException } from '@nestjs/common';
+import { generateTicketCode } from '../utils/ticket.utils';
 import { PrismaService } from '../prisma/prisma.service';
+import { TicketsService } from '../tickets/tickets.service';
 import { RazorpayService } from './razorpay.service';
-import { PaymentType } from '@prisma/client';
-import axios from 'axios';
 import { DaimoService } from './daimo.service';
+import { PaymentType } from '@prisma/client';
 
 @Injectable()
 export class PaymentsService {
   constructor(
     private prisma: PrismaService,
     private razorpayService: RazorpayService,
-     private daimoService: DaimoService,
+    private daimoService: DaimoService,
+    private ticketsService: TicketsService,
   ) {}
 
   async createRazorpayOrder(data: any) {
-    const { ticketId, buyerName, buyerEmail, buyerPhone, participants, quantity } = data;
+    const {
+      ticketType,
+      buyerName,
+      buyerEmail,
+      buyerPhone,
+      participants,
+      quantity,
+    } = data;
 
     // Fetch the ticket
-    const ticket = await this.prisma.ticket.findUnique({ where: { id: ticketId } });
-    if (!ticket) throw new Error('Ticket not found');
+    const ticket = await this.prisma.ticket.findFirst({
+      where: { type: ticketType },
+    });
+    if (!ticket) throw new BadRequestException('Ticket not found');
 
     // Calculate total amount
     const totalAmount = ticket.fiat * quantity;
@@ -30,11 +41,12 @@ export class PaymentsService {
     const order = await this.prisma.order.create({
       data: {
         razorpayOrderId: razorpayOrder.id,
-        ticketId,
+        ticketId: ticket.id,
         buyerName,
         buyerEmail,
         buyerPhone,
         amount: totalAmount,
+        currency: 'INR',
         paymentType: PaymentType.RAZORPAY,
         participants: {
           create: participants.map((p) => ({
@@ -49,9 +61,11 @@ export class PaymentsService {
 
     // Return combined response
     return {
+      success: true,
       razorpayOrderId: razorpayOrder.id,
       amount: totalAmount,
       currency: 'INR',
+      orderId: order.id,
       order,
     };
   }
@@ -59,7 +73,7 @@ export class PaymentsService {
   // DAIMO ORDER CREATION
   async createDaimoOrder(data: any) {
     const {
-      ticketId,
+      ticketType,
       buyerName,
       buyerEmail,
       buyerPhone,
@@ -68,10 +82,10 @@ export class PaymentsService {
     } = data;
 
     // check the ticketId sent from frontend exists in the Tickets table
-    const ticket = await this.prisma.ticket.findUnique({
-      where: { id: ticketId },
+    const ticket = await this.prisma.ticket.findFirst({
+      where: { type: ticketType },
     });
-    if (!ticket) throw new Error('Ticket not found');
+    if (!ticket) throw new BadRequestException('Ticket not found');
 
     // calculate total amount
     const totalAmount = ticket.crypto * quantity; //0.1
@@ -82,14 +96,14 @@ export class PaymentsService {
     // create an order in th Orders table with response from razorpay
     const order = await this.prisma.order.create({
       data: {
-        ticketId,
+        daimoPaymentId: daimoOrder.paymentId,
+        ticketId: ticket.id,
         buyerName,
         buyerEmail,
         buyerPhone,
         amount: totalAmount,
-        paymentType: PaymentType.DAIMO,
         currency: 'USDC',
-        daimoPaymentId: daimoOrder.paymentId, // from Daimo response
+        paymentType: PaymentType.DAIMO,
         participants: {
           create: participants.map((p) => ({
             name: p.name,
@@ -101,14 +115,11 @@ export class PaymentsService {
       include: { participants: true },
     });
 
-    // const daimoPaymentStatus = await this.daimoService.verifyPayment(
-    //   daimoOrder.paymentId,
-    // );
-
     // return back the response to frontend
     return {
       success: true,
       paymentId: daimoOrder.paymentId,
+      orderId: order.id,
       order,
     };
   }
@@ -118,26 +129,6 @@ export class PaymentsService {
     if (body.paymentType === 'DAIMO') {
       return await this.daimoService.verifyPayment(body.paymentId);
     }
-    // const res = await axios.get(
-    //   `https://api.daimo.xyz/api/payment/${body.paymentId}`,
-    //   {
-    //     headers: { Authorization: `Bearer ${process.env.DAIMO_API_KEY}` },
-    //   },
-    // );
-
-    // if (res.data.payment.status === 'payment_complete') {
-    //   await this.prisma.order.updateMany({
-    //     where: { daimoPaymentId: body.paymentId },
-    //     data: { status: 'paid' },
-    //   });
-    //   return {
-    //     success: true,
-    //     message: 'Daimo payment verified successfully',
-    //   };
-    // } else {
-    //   return { success: false, message: 'Payment not completed yet' };
-    // }
-    // }
 
     // Razorpay fallback
     return this.verifySignature(body);
@@ -146,17 +137,31 @@ export class PaymentsService {
   async verifySignature(body: any) {
     const { razorpay_order_id, razorpay_payment_id, razorpay_signature } = body;
 
-    const verifyResult = this.razorpayService.verifySignature(
+    const verifyResult = await this.razorpayService.verifySignature(
       razorpay_order_id,
       razorpay_payment_id,
       razorpay_signature,
     );
 
     if (verifyResult.success) {
-      await this.prisma.order.updateMany({
+      const order = await this.prisma.order.findFirst({
         where: { razorpayOrderId: razorpay_order_id },
-        data: { paymentVerified: true, status: 'paid' },
       });
+
+      if (!order) throw new BadRequestException('Order not found');
+
+      await this.prisma.order.update({
+        where: { razorpayOrderId: razorpay_order_id },
+        data: {
+          paymentVerified: true,
+          status: 'paid',
+          razorpayPaymentId: razorpay_payment_id,
+          razorpaySignature: razorpay_signature,
+        },
+      });
+
+      // Generate tickets through TicketsService
+      await this.ticketsService.generateTicketsForOrder(order.id);
     }
 
     return verifyResult;
