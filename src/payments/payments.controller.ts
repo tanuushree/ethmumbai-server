@@ -8,6 +8,7 @@ export class PaymentsController {
   // Razorpay order creation
   @Post('order')
   async createRazorpayOrder(@Body() body: any) {
+    console.log("BODY RECEIVED AT /payments/order:", body);
     return await this.paymentsService.createRazorpayOrder(body);
   }
 

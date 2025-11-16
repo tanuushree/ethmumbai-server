@@ -71,9 +71,9 @@ model GeneratedTicket {
   participantId String      @unique
   orderId       String
 
-  qrHash        String?               
-  checkedIn     Boolean                 @default(false)  //for check-in
-  checkedInAt   DateTime                @default(now())  //for check-in
+  qrHash        String?            
+  checkedIn     Boolean     @default(false)  //for check-in
+  checkedInAt   DateTime    @default(now())  //for check-in
 
   order         Order       @relation(fields: [orderId], references: [id])
   participant   Participant @relation(fields: [participantId], references: [id])

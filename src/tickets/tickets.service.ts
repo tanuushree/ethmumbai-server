@@ -70,19 +70,20 @@ constructor(
     const qrHash = crypto.createHash('sha256').update(ticketCode).digest('hex');
 
     await this.prisma.generatedTicket.update({
-      where: { ticketCode: ticketCode },
-      data: { qrHash: qrHash },
+      where: { ticketCode },
+      data: { qrHash },
     });
 
     const ticket = await this.prisma.generatedTicket.findFirst({
-      where: { ticketCode: ticketCode },
+      where: { ticketCode },
     });
 
     //get ticketCode + participantId to encrypt the QR
     const payloadObj = {
-      ticketCode: ticketCode,
+      ticketCode,
       participantId: ticket?.participantId,
     };
+
     const payloadStr = JSON.stringify(payloadObj);
     const token = encryptPayload(payloadStr);
 
@@ -95,8 +96,9 @@ constructor(
       errorCorrectionLevel: 'M',
     });
 
-    // return img link, scannedUrl
-    return { dataUrl, verifyUrl };
+    const filePath = `./qr/tickets/${ticketCode}.png`;
+
+    return { dataUrl, verifyUrl, filePath }; 
   }
 
   async verifyAndMark(token: string) {

@@ -45,7 +45,7 @@ export class MailService {
     );
   }
 
-  
+
   // Send buyer confirmation email with all participants listed.
   async sendBuyerEmail(orderId: string) {
     const order = await this.prisma.order.findUnique({
@@ -61,8 +61,7 @@ export class MailService {
     const participantsList = order.participants
       .map(
         (p) =>
-          `<li>${p.name} (${p.email}) - Ticket Code: <b>${
-            p.generatedTicket?.ticketCode ?? 'Pending'
+          `<li>${p.name} (${p.email}) - Ticket Code: <b>${p.generatedTicket?.ticketCode ?? 'Pending'
           }</b></li>`,
       )
       .join('');
@@ -112,17 +111,38 @@ export class MailService {
     for (const p of participants) {
       if (!p.email) continue;
 
+      const ticketCode = p.generatedTicket?.ticketCode;
+
       const html = this.inject(template, {
         name: p.name,
         orderId,
-        ticketCode: p.generatedTicket?.ticketCode ?? 'Pending',
+        ticketCode: ticketCode ?? 'Pending',
       });
+
+      const qrPath = path.join(
+        process.cwd(),
+        'qr',
+        'tickets',
+        `${ticketCode}.png`,
+      );
+
+      let attachments: nodemailer.Attachment[] = [];
+      if (fs.existsSync(qrPath)) {
+        attachments.push({
+          filename: `${ticketCode}.png`,
+          path: qrPath,
+          contentType: 'image/png',
+        });
+      } else {
+        this.logger.warn(`QR not found for ${p.email} at ${qrPath}`);
+      }
 
       await this.transporter.sendMail({
         from: process.env.MAIL_FROM,
         to: p.email,
         subject: '🎟️ Your ETHMumbai Ticket',
         html,
+        attachments, 
       });
 
       await this.prisma.participant.update({
@@ -130,7 +150,8 @@ export class MailService {
         data: { emailSent: true, emailSentAt: new Date() },
       });
 
-      this.logger.log(`Ticket email sent to ${p.email}`);
+      this.logger.log(`Ticket email sent to ${p.email} (with QR)`);
     }
   }
+
 }
