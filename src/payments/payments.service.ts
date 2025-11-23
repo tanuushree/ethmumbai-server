@@ -1,5 +1,5 @@
 import { Injectable, BadRequestException } from '@nestjs/common';
-import { generateTicketCode } from '../utils/ticket.utils';
+// import { generateTicketCode } from '../utils/ticket.utils';
 import { PrismaService } from '../prisma/prisma.service';
 import { TicketsService } from '../tickets/tickets.service';
 import { RazorpayService } from './razorpay.service';
