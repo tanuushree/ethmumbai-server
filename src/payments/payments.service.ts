@@ -81,7 +81,7 @@ export class PaymentsService {
       quantity,
     } = data;
 
-    // check the ticketId sent from frontend exists in the Tickets table
+    // get the ticket type and calculate payment amount
     const ticket = await this.prisma.ticket.findFirst({
       where: { type: ticketType },
     });
@@ -111,6 +111,7 @@ export class PaymentsService {
             isBuyer: p.isBuyer ?? false,
           })),
         },
+        status: daimoOrder.status,
       },
       include: { participants: true },
     });

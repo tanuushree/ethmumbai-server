@@ -7,7 +7,7 @@ import { AppService } from './app.service';
 
 @Module({
   imports: [
-    PrismaModule, 
+    PrismaModule,
     ConfigModule.forRoot({ isGlobal: true }),
     PaymentsModule,
   ],

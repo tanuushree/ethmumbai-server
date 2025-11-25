@@ -2,16 +2,32 @@ import {
   Injectable,
   InternalServerErrorException,
   BadRequestException,
+  Logger,
 } from '@nestjs/common';
 import axios from 'axios';
 import { PrismaService } from '../prisma/prisma.service';
 import { TicketsService } from '../tickets/tickets.service';
+
+type DaimoEventType =
+  | 'payment_started'
+  | 'payment_completed'
+  | 'payment_bounced'
+  | 'payment_refunded';
+
+interface DaimoPaymentObject {
+  id: string;
+  status?: string;
+  // add more fields as you need from Daimo's docs
+  metadata?: any;
+}
 
 @Injectable()
 export class DaimoService {
   private readonly DAIMO_API_URL = 'https://pay.daimo.com/api/payment';
   private readonly DAIMO_API_KEY = process.env.DAIMO_API_KEY;
   private readonly DESTINATION_ADDRESS = process.env.DAIMO_DESTINATION_ADDRESS;
+
+  private readonly logger = new Logger(DaimoService.name);
 
   constructor(
     private prisma: PrismaService,
@@ -51,14 +67,24 @@ export class DaimoService {
         },
       });
 
-      const data = response.data;
-      const payId = data.payment?.id;
+      if (response.status == 0) {
+        const text = response.statusText;
+        this.logger.error(
+          `Daimo create payment failed: ${response.status} - ${text}`,
+        );
+        throw new Error('Failed to create Daimo payment');
+      }
+
+      // const data = response.data;
+      const payId = await response.data.payment?.id;
 
       console.log('✅ Daimo Payment Created:', payId);
 
+      //return and create order in DB
       return {
         success: true,
         paymentId: payId,
+        status: response.data?.status || 'created',
       };
     } catch (error) {
       console.error(
@@ -118,6 +144,73 @@ export class DaimoService {
         error.response?.data || error.message,
       );
       throw new InternalServerErrorException('Failed to verify Daimo payment');
+    }
+  }
+
+  async markPaymentStatus(payId: string, status: string, meta?: any) {
+    // find by providerPaymentId or externalId
+    await this.prisma.order.updateMany({
+      where: { daimoPaymentId: payId },
+      data: {
+        status,
+      },
+    });
+    console.log(meta);
+  }
+
+  // =======================================
+  // 3) Main entry for Daimo webhook payload
+  // =======================================
+  /**
+   * Called by your Daimo webhook controller.
+   * It:
+   *  - figures out which payment row to update
+   *  - maps Daimo event type -> your internal payment status
+   *  - attaches useful metadata from the webhook
+   */
+  async handleDaimoWebhook(payload: any) {
+    this.logger.log(`Received Daimo webhook: ${payload.type} ${payload.payId}`);
+
+    const payId = payload.payId || payload.payment?.id;
+
+    if (!payId) {
+      this.logger.error('Daimo webhook missing paymentId/payment.id');
+      return;
+    }
+
+    // You can add more structured metadata here if you like
+    const meta = {
+      daimoEventType: payload.type,
+      daimoStatus: payload.payment?.status,
+      txHash: payload.txHash,
+      chainId: payload.chainId,
+      rawPaymentMetadata: payload.payment?.metadata ?? null,
+    };
+
+    switch (payload.type) {
+      case 'payment_started':
+        await this.markPaymentStatus(payId, 'started', meta);
+        break;
+
+      case 'payment_completed':
+        await this.markPaymentStatus(payId, 'completed', meta);
+        // here you can also trigger post-payment logic:
+        // - mark order as paid
+        // - send confirmation, etc. (either here or in another method)
+        break;
+
+      case 'payment_bounced':
+        await this.markPaymentStatus(payId, 'bounced', meta);
+        break;
+
+      case 'payment_refunded':
+        await this.markPaymentStatus(payId, 'refunded', meta);
+        break;
+
+      default:
+        this.logger.warn(
+          `Unhandled Daimo event type: ${payload.type as string}`,
+        );
     }
   }
 }
