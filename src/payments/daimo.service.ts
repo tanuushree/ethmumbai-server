@@ -127,7 +127,11 @@ export class DaimoService {
           where: { daimoPaymentId: paymentId },
         });
         if (orderComplete?.id) {
-          await this.ticketsService.generateTicketsForOrder(orderComplete.id);
+          try {
+            await this.ticketsService.generateTicketsForOrder(orderComplete.id);
+          } catch (e) {
+            this.logger.error('Failed to generate tickets / send emails', e);
+          }
         }
       }
 
