@@ -24,8 +24,21 @@ export class MailService {
   // Load HTML template from src/mail/templates
   private loadTemplate(templateName: string): string {
     const possiblePaths = [
-      path.join(process.cwd(), 'src', 'mail', 'templates', `${templateName}.html`),
-      path.join(process.cwd(), 'dist', 'src', 'mail', 'templates', `${templateName}.html`),
+      path.join(
+        process.cwd(),
+        'src',
+        'mail',
+        'templates',
+        `${templateName}.html`,
+      ),
+      path.join(
+        process.cwd(),
+        'dist',
+        'src',
+        'mail',
+        'templates',
+        `${templateName}.html`,
+      ),
     ];
 
     for (const p of possiblePaths) {
@@ -45,7 +58,6 @@ export class MailService {
     );
   }
 
-
   // Send buyer confirmation email with all participants listed.
   async sendBuyerEmail(orderId: string) {
     const order = await this.prisma.order.findUnique({
@@ -61,7 +73,8 @@ export class MailService {
     const participantsList = order.participants
       .map(
         (p) =>
-          `<li>${p.name} (${p.email}) - Ticket Code: <b>${p.generatedTicket?.ticketCode ?? 'Pending'
+          `<li>${p.name} (${p.email}) - Ticket Code: <b>${
+            p.generatedTicket?.ticketCode ?? 'Pending'
           }</b></li>`,
       )
       .join('');
@@ -142,7 +155,7 @@ export class MailService {
         to: p.email,
         subject: '🎟️ Your ETHMumbai Ticket',
         html,
-        attachments, 
+        attachments,
       });
 
       await this.prisma.participant.update({
@@ -153,5 +166,4 @@ export class MailService {
       this.logger.log(`Ticket email sent to ${p.email} (with QR)`);
     }
   }
-
 }

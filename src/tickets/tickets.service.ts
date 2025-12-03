@@ -60,10 +60,10 @@ export class TicketsService {
           },
         });
 
-        // convert dataURL → PNG file (example path)
-        const filePath = `./qr/tickets/${ticketCode}.png`;
+        // // convert dataURL → PNG file (example path)
+        // const filePath = `./qr/tickets/${ticketCode}.png`;
 
-        savePngFromDataUrl(dataUrl, filePath);
+        // savePngFromDataUrl(dataUrl, filePath);
         //for validation in dev with x-scanner-key
         console.log(ticketUrl);
       }),

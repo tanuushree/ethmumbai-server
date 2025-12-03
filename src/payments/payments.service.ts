@@ -88,7 +88,7 @@ export class PaymentsService {
     if (!ticket) throw new BadRequestException('Ticket not found');
 
     // calculate total amount
-    const totalAmount = ticket.crypto * quantity; //0.1
+    const totalAmount = 10; //ticket.crypto * quantity; //0.1
 
     // call helper function to create Daimo Pay order and pass total amountas argument
     const daimoOrder = await this.daimoService.createOrder(totalAmount);
