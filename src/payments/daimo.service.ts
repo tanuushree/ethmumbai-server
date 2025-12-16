@@ -6,6 +6,7 @@ import {
 import axios from 'axios';
 import { PrismaService } from '../prisma/prisma.service';
 import { TicketsService } from '../tickets/tickets.service';
+import { ethereumUSDC } from '@daimo/pay-common';
 
 @Injectable()
 export class DaimoService {
@@ -34,8 +35,8 @@ export class DaimoService {
         },
         destination: {
           destinationAddress: this.DESTINATION_ADDRESS,
-          chainId: 8453, // Base mainnet
-          tokenAddress: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913', // USDC
+          chainId: ethereumUSDC.chainId, // EThereum mainnet
+          tokenAddress: ethereumUSDC.token, // USDC
           amountUnits: amount.toString(), // <-- FIXED: amount passed from argument
         },
         metadata: {

@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@daimo/pay": "^1.18.3",
+    "@daimo/pay-common": "^1.19.6",
     "@nestjs/common": "^11.0.1",
     "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^11.0.1",

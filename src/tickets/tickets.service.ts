@@ -7,7 +7,10 @@ import { PrismaService } from '../prisma/prisma.service';
 import * as QRCode from 'qrcode';
 import { MailService } from '../mail/mail.service';
 import * as crypto from 'crypto';
-import { savePngFromDataUrl } from 'src/utils/save-png';
+import {
+  getPngBufferFromDataUrl,
+  savePngFromDataUrl,
+} from 'src/utils/handle-png';
 
 @Injectable()
 export class TicketsService {
@@ -61,9 +64,11 @@ export class TicketsService {
         });
 
         // convert dataURL → PNG file (example path)
-        const filePath = `./qr/tickets/${ticketCode}.png`;
+        // const filePath = `./qr/tickets/${ticketCode}.png`;
 
-        savePngFromDataUrl(dataUrl, filePath);
+        // Get PNG buffer for QR image
+        // getPngBufferFromDataUrl(dataUrl);
+
         //for validation in dev with x-scanner-key
         console.log(ticketUrl);
       }),

@@ -19,3 +19,12 @@ export function savePngFromDataUrl(dataUrl: string, filePath: string) {
 
   return filePath;
 }
+
+export function getPngBufferFromDataUrl(dataUrl: string): Buffer {
+  // Remove base64 header
+  const base64Data = dataUrl.replace(/^data:image\/png;base64,/, '');
+  console.log(base64Data);
+
+  // Convert Base64 → Buffer
+  return Buffer.from(base64Data, 'base64');
+}
