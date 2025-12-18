@@ -15,42 +15,42 @@ export function generateTicketPDF(data: TicketData): InstanceType<typeof PDFDocu
   });
 
   const pageWidth = doc.page.width;
+  const pageHeight = doc.page.height;
 
   const fontRegular = path.join(
     __dirname,
-    "../assets/fonts/MPLUSRounded1c-Light.ttf"
+    "../assets/fonts/InterTight-Regular.ttf"
   );
   const fontBold = path.join(
+    __dirname,
+    "../assets/fonts/InterTight-Bold.ttf"
+  );
+  const fontMPlus = path.join(
     __dirname,
     "../assets/fonts/MPLUSRounded1c-Black.ttf"
   );
 
   doc.registerFont("Regular", fontRegular);
   doc.registerFont("Bold", fontBold);
+  doc.registerFont("MPlus", fontMPlus);
 
   // Background
-  doc.rect(0, 0, pageWidth, doc.page.height).fill("#FFFFFF");
+  doc.rect(0, 0, pageWidth, pageHeight).fill("#FFFFFF");
 
-  // Header pill
-  const pillWidth = 220;
-  const pillHeight = 48;
-  const pillX = (pageWidth - pillWidth) / 2;
-  const pillY = 40;
-
-  doc.roundedRect(pillX, pillY, pillWidth, pillHeight, 24).fill("#E23B2E");
-
+  // Logo
   const logoPath = path.join(__dirname, "../assets/ethmumbai-logo.png");
-  doc.image(logoPath, pillX + 16, pillY + 10, { width: 28 });
 
-  doc
-    .font("Bold")
-    .fontSize(18)
-    .fillColor("#FFFFFF")
-    .text("ETHMUMBAI", pillX + 52, pillY + 14);
+  const logoWidth = 160;
+  const logoX = (pageWidth - logoWidth) / 2;
+  const logoY = 40;
 
-  // Hey {name}
+  doc.image(logoPath, logoX, logoY, { width: logoWidth });
+
+  /**
+   * Hey {name}
+   */
   doc
-    .font("Bold")
+    .font("MPlus")
     .fontSize(30)
     .fillColor("#000000")
     .text(`Hey ${data.name}`, 0, 120, { align: "center" });
@@ -65,14 +65,25 @@ export function generateTicketPDF(data: TicketData): InstanceType<typeof PDFDocu
       { align: "center" }
     );
 
-  // QR
-  const qrSize = 200;
+  /**
+   * QR CODE
+   */
+  const qrSize = 204;
   const qrX = (pageWidth - qrSize) / 2;
   const qrY = 260;
 
+  const qrPadding = 2; // reduced space
+  const qrBorderWidth = 2;
+
   doc
-    .roundedRect(qrX - 10, qrY - 10, qrSize + 20, qrSize + 20, 12)
-    .lineWidth(4)
+    .roundedRect(
+      qrX - qrPadding,
+      qrY - qrPadding,
+      qrSize + qrPadding * 2,
+      qrSize + qrPadding * 2,
+      12
+    )
+    .lineWidth(qrBorderWidth)
     .stroke("#E23B2E");
 
   doc.image(data.qrImage, qrX, qrY, {
@@ -80,7 +91,10 @@ export function generateTicketPDF(data: TicketData): InstanceType<typeof PDFDocu
     height: qrSize,
   });
 
-  const detailY = qrY + qrSize + 40;
+  /**
+   * DETAILS
+   */
+  const detailY = qrY + qrSize + 36;
 
   doc.font("Bold").fontSize(16).text("Name", 0, detailY, { align: "center" });
   doc
@@ -97,9 +111,10 @@ export function generateTicketPDF(data: TicketData): InstanceType<typeof PDFDocu
     .fontSize(16)
     .text(data.ticketId, 0, detailY + 80, { align: "center" });
 
-  doc.font("Bold").fontSize(16).text("Date", 0, detailY + 120, {
-    align: "center",
-  });
+  doc
+    .font("Bold")
+    .fontSize(16)
+    .text("Date", 0, detailY + 120, { align: "center" });
   doc
     .font("Regular")
     .fontSize(16)
@@ -107,15 +122,16 @@ export function generateTicketPDF(data: TicketData): InstanceType<typeof PDFDocu
       align: "center",
     });
 
+  /**
+   * Extra breathing space at bottom
+   */
+  doc.moveDown(2);
+
   doc.end();
   return doc;
 }
 
-export async function generateTicketPDFBuffer(data: {
-  name: string;
-  ticketId: string;
-  qrImage: Buffer;
-}): Promise<Buffer> {
+export async function generateTicketPDFBuffer(data: TicketData): Promise<Buffer> {
   return new Promise((resolve) => {
     const doc = generateTicketPDF(data);
 
