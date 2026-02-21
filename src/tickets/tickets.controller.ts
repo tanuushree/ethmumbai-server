@@ -272,6 +272,7 @@ export class TicketsController {
         addressLine1: address?.line1 || '',
         city: address?.city || '',
         state: address?.state || '',
+        country: address?.state || '',
         pincode: address?.postalCode || '',
       },
 

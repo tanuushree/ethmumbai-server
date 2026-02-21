@@ -10,6 +10,7 @@ export interface InvoiceData {
     addressLine1: string;
     city: string;
     state: string;
+    country: string;
     pincode: string;
   };
   item: {
@@ -110,18 +111,26 @@ export function generateInvoicePDF(
 
   /* ---------- BILLED TO ---------- */
   doc
-    .font('Bold')
-    .fontSize(11)
-    .text('Billed to:', 50, 110)
-    .font('Regular')
-    .text(data.billedTo?.name ?? '', 50, 130)
-    .text(data.billedTo?.addressLine1 ?? '', 50, 146)
-    .text(
-      `${data.billedTo?.city ?? ''}, ${data.billedTo?.state ?? ''}`,
-      50,
-      162,
-    )
-    .text(`India ${data.billedTo?.pincode ?? ''}`, 50, 178);
+   doc
+  .font('Bold')
+  .fontSize(11)
+  .text('Billed to:', 50, 110)
+
+  .font('Regular')
+  .text(data.billedTo?.name ?? '', 50, 130)
+
+  // Address (auto wrap)
+  .text(data.billedTo?.addressLine1 ?? '', 50, 146, {
+    width: 200,
+  })
+
+  // Continue without fixed Y — it will flow correctly
+  .text(
+    `${data.billedTo?.city ?? ''}, ${data.billedTo?.state ?? ''}`,
+    50
+  )
+
+  .text(`${data.billedTo?.country ?? ''} ${data.billedTo?.pincode ?? ''}`, 50);
 
   /* ---------- TABLE ---------- */
   let tableTop = 240;

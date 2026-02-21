@@ -532,6 +532,7 @@ export class TicketsService {
         addressLine1: address?.line1 || '',
         city: address?.city || '',
         state: address?.state || '',
+        country: address?.country || '',
         pincode: address?.postalCode || '',
       },
 
