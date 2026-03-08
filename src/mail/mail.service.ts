@@ -391,4 +391,32 @@ export class MailService {
 
     this.logger.log(`Ticket PDF sent → ${email}`);
   }
+
+  async sendDevconEmail(
+    email: string,
+    firstName: string,
+    discountCode: string,
+  ) {
+    const templateId = process.env.LOOPS_DEVCON_EMAIL_ID;
+    if (!templateId) {
+      this.logger.error('Missing env: LOOPS_DEVCON_EMAIL_ID');
+      return;
+    }
+
+    const resp = await this.loops.sendTransactionalEmail(
+      templateId,
+      email,
+      {
+        name: firstName,
+        discountCode,
+      },
+    );
+
+    if (!resp?.success) {
+      this.logger.error(`Failed sending Devcon email → ${email}`);
+      return;
+    }
+
+    this.logger.log(`Devcon email sent → ${email}`);
+  }
 }
