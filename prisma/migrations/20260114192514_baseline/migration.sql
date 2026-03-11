@@ -1,6 +1,0 @@
--- AlterTable
-ALTER TABLE "Ticket" ALTER COLUMN "isActive" DROP NOT NULL,
-ALTER COLUMN "isActive" SET DEFAULT false,
-ALTER COLUMN "priority" DROP NOT NULL,
-ALTER COLUMN "priority" DROP DEFAULT,
-ALTER COLUMN "remainingQuantity" DROP NOT NULL;

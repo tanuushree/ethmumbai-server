@@ -14,9 +14,9 @@ model Ticket {
   fiat              Float    @default(999)
   crypto            Float    @default(12)
   quantity          Int
-  remainingQuantity Int?
   isActive          Boolean? @default(false)
   priority          Int?
+  remainingQuantity Int?
   orders            Order[]
 }
 
@@ -94,6 +94,8 @@ model GeneratedTicket {
   checkedInAt   DateTime    @default(now())
   qrHash        String      @unique
   qrUrl         String?
+  checkedInBy   String?
+  merchReceived Boolean     @default(false)
   order         Order       @relation(fields: [orderId], references: [id])
   participant   Participant @relation(fields: [participantId], references: [id])
 }

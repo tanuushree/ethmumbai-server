@@ -56,6 +56,17 @@ export class TicketsService {
     }
   }
 
+  async markMerch (token:string){
+
+    
+    
+    await this.prisma.generatedTicket.update({
+      where: { ticketCode: token, merchReceived: false },
+      data: { merchReceived: true },
+    });
+
+  }
+
   async generateTicketsForOrder(orderId: string) {
     const order = await this.prisma.order.findUnique({
       where: { id: orderId },
@@ -168,6 +179,227 @@ export class TicketsService {
     //   },
     // });
   }
+
+  //v1 to generate tickets for existing ticketCode - with buyer emails
+  async generateTicketsForOrderWithTicketCode(orderId: string, ticketCode: string) {
+    const order = await this.prisma.order.findUnique({
+      where: { id: orderId },
+      include: { participants: true, ticket: true },
+    });
+
+    if (!order) throw new NotFoundException('Order not found');
+
+
+    const pdfMap = new Map<string, Buffer>();
+    const pngMap = new Map<string, Buffer>();
+
+    await Promise.all(
+      order.participants.map(async (participant) => {
+
+        const { ticketUrl, qrHash } =
+          await this.generateQRforTicket(ticketCode);
+
+        // QR AS BUFFER ONLY
+        const qrImageBuffer = await QRCode.toBuffer(ticketUrl, {
+          width: 220,
+          errorCorrectionLevel: 'M',
+        });
+
+        // PDF BUFFER
+        const pdfBuffer = await generateTicketPDFBuffer({
+          name: participant.firstName || 'Participant',
+          ticketId: ticketCode,
+          qrImage: qrImageBuffer,
+        });
+
+        pdfMap.set(ticketCode, pdfBuffer);
+
+        const ticketType = order?.ticket?.type ?? 'regular';
+        this.logger.log(`Ticket type: ${ticketType}`);
+
+        const pngBuffer = await this.visualTicketGeneration(
+          ticketType,
+          participant.firstName || 'Participant',
+        );
+
+        pngMap.set(ticketCode || 'Participant', pngBuffer);
+
+        //for validation in dev with x-scanner-key
+        console.log(ticketUrl);
+      }),
+    );
+
+    const pdfBufferInvoice = await this.generateInvoiceForOrder(orderId);
+
+    // SEND ALL PARTICIPANT PDFs
+    await this.mailService.sendParticipantEmails(orderId, pdfMap, pngMap);
+
+    // SEND BUYER CONFIRMATION
+    if (order.paymentType === 'RAZORPAY') {
+      await this.mailService.sendBuyerEmail(orderId, pdfBufferInvoice);
+    } else {
+      await this.mailService.sendBuyerCryptoEmail(orderId);
+    }
+  }
+
+   //v2 to generate free tickets without buyer emails 
+  async generateTicketsForFreeOrder(orderId: string) {
+    const order = await this.prisma.order.findUnique({
+      where: { id: orderId },
+      include: { participants: true, ticket: true },
+    });
+
+    if (!order) throw new NotFoundException('Order not found');
+
+
+    const pdfMap = new Map<string, Buffer>();
+    const pngMap = new Map<string, Buffer>();
+
+    await Promise.all(
+      order.participants.map(async (participant) => {
+        const ticketCode = await this.generateTicketCode();
+
+        const { ticketUrl, qrHash } =
+          await this.generateQRforTicket(ticketCode);
+
+        await this.prisma.generatedTicket.create({
+          data: {
+            ticketCode,
+            participantId: participant.id,
+            qrHash,
+            qrUrl: ticketUrl,
+            orderId: order.id,
+          },
+        });
+
+        // QR AS BUFFER ONLY
+        const qrImageBuffer = await QRCode.toBuffer(ticketUrl, {
+          width: 220,
+          errorCorrectionLevel: 'M',
+        });
+
+        // PDF BUFFER
+        const pdfBuffer = await generateTicketPDFBuffer({
+          name: participant.firstName || 'Participant',
+          ticketId: ticketCode,
+          qrImage: qrImageBuffer,
+        });
+
+        pdfMap.set(ticketCode, pdfBuffer);
+
+        const ticketType = order?.ticket?.type ?? 'regular';
+        this.logger.log(`Ticket type: ${ticketType}`);
+
+        const pngBuffer = await this.visualTicketGeneration(
+          ticketType,
+          participant.firstName || 'Participant',
+        );
+
+        pngMap.set(ticketCode || 'Participant', pngBuffer);
+        // convert dataURL → PNG file (example path)
+        // const filePath = `./qr/tickets/${ticketCode}.png`;
+
+        // Get PNG buffer for QR image
+        // getPngBufferFromDataUrl(dataUrl);
+
+        //save QR as PNG
+        // savePngFromDataUrl(dataUrl, filePath);
+
+        //for validation in dev with x-scanner-key
+        console.log(ticketUrl);
+      }),
+    );
+
+    const pdfBufferInvoice = await this.generateInvoiceForOrder(orderId);
+
+    // SEND ALL PARTICIPANT PDFs
+    await this.mailService.sendParticipantEmails(orderId, pdfMap, pngMap);
+
+  }
+
+  //v3 generate ticekt for wrong email id
+  async generateTicketForEmail(orderId:string, updateEmail: string, ticketCode: string) {
+
+    const order = await this.prisma.order.findUnique({
+      where: { id: orderId },
+      include: { participants: true, ticket: true },
+    });
+
+    if (!order) throw new NotFoundException('Order not found');
+
+    const particpant = await this.prisma.participant.findFirst({
+      where: { orderId, generatedTicket : {ticketCode:ticketCode} }
+    });
+
+    if (particpant?.isBuyer) {
+      await this.prisma.buyer.update({
+        where: { id: order.buyerId },
+        data: { email: updateEmail },
+      });
+    }
+
+    const updateParticipant = await this.prisma.participant.update({
+      where: { id: particpant?.id },
+      data: { email: updateEmail },
+    });
+
+    if (!particpant) throw new NotFoundException('Participant not found');
+
+
+
+    const pdfMap = new Map<string, Buffer>();
+    const pngMap = new Map<string, Buffer>();
+
+    await Promise.all(
+      order.participants.map(async (participant) => {
+
+        const { ticketUrl, qrHash } =
+          await this.generateQRforTicket(ticketCode);
+
+        // QR AS BUFFER ONLY
+        const qrImageBuffer = await QRCode.toBuffer(ticketUrl, {
+          width: 220,
+          errorCorrectionLevel: 'M',
+        });
+
+        // PDF BUFFER
+        const pdfBuffer = await generateTicketPDFBuffer({
+          name: participant.firstName || 'Participant',
+          ticketId: ticketCode,
+          qrImage: qrImageBuffer,
+        });
+
+        pdfMap.set(ticketCode, pdfBuffer);
+
+        const ticketType = order?.ticket?.type ?? 'regular';
+        this.logger.log(`Ticket type: ${ticketType}`);
+
+        const pngBuffer = await this.visualTicketGeneration(
+          ticketType,
+          participant.firstName || 'Participant',
+        );
+
+        pngMap.set(ticketCode || 'Participant', pngBuffer);
+
+        //for validation in dev with x-scanner-key
+        console.log(ticketUrl);
+      }),
+    );
+
+    const pdfBufferInvoice = await this.generateInvoiceForOrder(orderId);
+
+    // SEND ALL PARTICIPANT PDFs
+    await this.mailService.sendParticipantEmails(orderId, pdfMap, pngMap, true);
+
+    // SEND BUYER CONFIRMATION
+    if (order.paymentType === 'RAZORPAY') {
+      await this.mailService.sendBuyerEmail(orderId, pdfBufferInvoice, true);
+    } else {
+      await this.mailService.sendBuyerCryptoEmail(orderId, true);
+    }
+  }
+
+
 
   async generateQRforTicket(ticketCode: string) {
     const qrHash = crypto.createHash('sha256').update(ticketCode).digest('hex');
@@ -299,24 +531,26 @@ export class TicketsService {
     };
   }
 
-  async verifyAndMark(token: string) {
+  async verifyAndMark(token: string, checkedInBy: string) {
     if (!token) throw new BadRequestException('token required');
 
     const qrHash = crypto.createHash('sha256').update(token).digest('hex');
 
     const ticket = await this.prisma.generatedTicket.findFirst({
       where: { qrHash },
+      include: { participant: true,  order: { include: { buyer: true, ticket: true } } },
     });
 
     if (!ticket) throw new NotFoundException('Ticket not found');
 
     if (ticket.checkedIn) {
-      return { ok: false, reason: 'Participant is already checked in' };
+      return { ok: true, reason: 'checkedIn', participantName: ticket.participant.firstName, ticketTypeTitle: ticket.order.ticket.title || 'Ticket',
+        buyerName: ticket.order.buyer.firstName || 'Buyer', merchReceived: ticket.merchReceived };
     }
 
     const result = await this.prisma.generatedTicket.update({
       where: { qrHash, checkedIn: false },
-      data: { checkedIn: true },
+      data: { checkedIn: true, checkedInAt: new Date(), checkedInBy: checkedInBy },
     });
 
     if (result) {
@@ -633,31 +867,51 @@ export class TicketsService {
     };
   }
 
-  async sendEmailsWithPngTicket({ firstName, email }: { firstName: string, email: string }) {
+  //send visual ticket as PNG in email to particpants in db
+  async sendEmailsWithPngTicket({ email }: { email: string }) {
     this.logger.log(`sendEmailsWithPngTicket called with ${email}`);
 
-    // const participant = await this.prisma.participant.findFirst({
-    //   where: {
-    //     email, generatedTicket: {
-    //       isNot: null,
-    //     },
-    //   },
+    const participant = await this.prisma.participant.findFirst({
+      where: {
+        email, generatedTicket: {
+          isNot: null,
+        },
+      },     
+      include: {
 
-    //   include: {
-    //     order: {
-    //       include: { ticket: true },
-    //     },
-    //   },
-    // });
+        order: {
+          include: { ticket: true },
+        }, 
+      },
 
-    // this.logger.log(`Participant: ${participant?.id ?? 'NOT FOUND | Ticket not generated'}`);
+    });
 
-    // if (!participant) {
-    //   throw new BadRequestException(`No participant found with email: ${email}`);
-    // }
+    this.logger.log(`Participant: ${participant?.id ?? 'NOT FOUND | Ticket not generated'}`);
 
-    // const ticketType = participant.order?.ticket?.type ?? 'regular';
-    const ticketType = 'regular';
+    if (!participant) {
+      throw new BadRequestException(`No participant found with email: ${email}`);
+    }
+
+    const ticketType = participant.order?.ticket?.type ?? 'regular';
+   
+    this.logger.log(`Ticket type: ${ticketType}`);
+
+    const pngBuffer = await this.visualTicketGeneration(
+      ticketType,
+      participant.firstName || 'Participant',
+    );
+
+    this.logger.log(`PNG buffer generated: ${!!pngBuffer}`);
+
+    await this.mailService.sendParticipantEmailsWithPng(email, pngBuffer);
+  }
+
+
+  //send visual ticket as PNG in email to participants NOT in DB
+  async sendEmailsWithPngTicketNonDB({ firstName, email, ticketType }: { firstName: string, email: string, ticketType: string }) {
+    this.logger.log(`sendEmailsWithPngTicket called with ${email}`);
+
+   
     this.logger.log(`Ticket type: ${ticketType}`);
 
     const pngBuffer = await this.visualTicketGeneration(
@@ -667,7 +921,7 @@ export class TicketsService {
 
     this.logger.log(`PNG buffer generated: ${!!pngBuffer}`);
 
-    await this.mailService.sendParticipantEmailsWithPng(firstName, email, pngBuffer);
+    await this.mailService.sendParticipantEmailsWithPngForNonDB(firstName, email, pngBuffer);
   }
 
   async sendHackerEmailsWithPngTicket(firstName: string, email: string) {
@@ -684,6 +938,33 @@ export class TicketsService {
     await this.mailService.sendHackerEmailsWithPng(firstName, email, pngBuffer);
   }
 
+
+  async getTicketDetails(input: string) {
+  const ticket = await this.prisma.generatedTicket.findFirst({
+    where: {
+      OR: [
+        { participant: { email: input } },
+        { ticketCode: input },
+      ],
+    },
+    include: {
+      participant: true,
+    },
+  });
+
+  if (!ticket) {
+    throw new NotFoundException('Ticket not found');
+  }
+
+  return {
+    ticketCode: ticket.ticketCode,
+    participant : ticket.participant.firstName,
+    participantEmail: ticket.participant.email,
+    qrUrl: ticket.qrUrl,
+    checkedIn: ticket.checkedIn,
+    merchReceived: ticket.merchReceived,
+  };
+}
   async downloadSentRazorpayInvoices(): Promise<Buffer> {
     const orders = await this.prisma.order.findMany({
       where: {

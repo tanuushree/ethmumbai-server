@@ -1,0 +1,871 @@
+id,line1,line2,city,state,country,postalCode,buyerId,createdAt,updatedAt
+5cafeb9c-87eb-4599-9c8f-c7c7ec57f041,0,"",panipat,Haryana,India,132103,da6eb6b0-e276-46bf-a299-119dd78edc61,2025-12-20 07:41:51.626,2025-12-20 07:42:52.317
+1767f9a0-531e-4641-9883-b5840dbae084,B7 om shivam 2nd floor uttan road bhayandar west thane,"",Mumbai,Maharashtra,India,401101,1bba9ab2-ad66-49f2-b966-39e0f6881c16,2025-12-20 07:53:04.857,2025-12-20 07:53:50.126
+5bc1de1a-072e-48fa-aa12-01875332aae8,Jai Suryalok Apartment ,Vaishnodevi Square ,Nagpur,Maharashtra ,India,440008,b95a15c0-5e0b-4225-ac95-64a80ad68edb,2025-12-20 07:22:18.72,2025-12-20 07:22:18.72
+55fb29fa-b9f7-4909-9373-af5ddff68840,S.V. Road,"",Mumbai,Maharashtra,India,400064,180e5f13-b7c4-4894-a02a-a0c9f62fe7a3,2025-12-20 07:21:08.793,2025-12-20 07:23:14.194
+f1f14a0a-0eaa-4470-bce9-7116dd21ea9d,"77/7, Aakash Darshan, Opposite Kwality restaurant, St. Anthony Street,","Behind Vakola Masjid, Nehru road, Santacruz East",Mumbai,Maharashtra,India,400055,f397e84d-2e5a-40ef-b1d1-3955c27def12,2025-12-20 07:23:24.957,2025-12-20 07:23:24.957
+6181a906-08f4-4ac1-aa32-6954ee07cf98,Mumbai,"",Mumbai,Maharashtra,India,400050,7c80d386-2dee-4957-bbd0-758d695f812b,2025-12-20 07:23:17.313,2025-12-20 07:23:56.629
+8c072324-a4f6-4049-a09a-0537cd9b6204,Bhandup-West,"",Mumbai,Maharashtra,India,400078,a6f8448c-7cbd-47f3-8e30-9e8e4d633da3,2025-12-20 07:24:38.217,2025-12-20 07:24:38.217
+63b869fa-dce9-4214-97ee-bab917d24551,Ritu Horizon,Mira Road,Thane,Maharashtra,India,401107,4f046d4f-e44d-4538-811d-a45998fd0055,2025-12-20 07:21:13.279,2025-12-20 07:24:43.368
+68e4ee3c-9540-4c12-a527-7e52f4b51eb2,Vasai,"",Mumbai,Maharashtra ,India,401202,b1d5110e-2a9e-4d94-ad7b-c603705baecc,2025-12-20 07:24:43.964,2025-12-20 07:24:43.964
+0c2da255-9919-4e22-929f-404630101c6d,"Sakharam Keer Marg, Mahim","",Mumbai,Maharashtra,India,400016,07dda070-f8b7-4655-bb2a-f15520507aaa,2025-12-20 07:24:59.579,2025-12-20 07:24:59.579
+e0bc6e3d-dea3-42f4-a80f-91ebc6b99999,Suryodhay society E-138 sec 12 room no 21,"",kharghar Navi mumbai,Maharashtra,India,410210,ee7a91c6-bd8a-45e3-ba32-647f28ed032e,2025-12-20 07:25:19.73,2025-12-20 07:25:19.73
+58ecfdf7-b203-4cf5-8e11-5bd1225e668e,Hauz khas,"",Delhi,Delhi,India,110016,291e918f-b344-4919-a864-8fc7c1085189,2025-12-20 07:27:21.399,2025-12-20 07:27:21.399
+7b6f6ef0-e2a1-4f27-9140-b1c4b2f2071e,"27, ","Ramakrishna nagar, solipalayam",Tirupur,Tamilnadu,India,641652,c757d3c1-73d4-4156-910b-bac695279770,2025-12-20 07:44:55.92,2025-12-20 07:45:28.517
+77c70b1c-5a9a-4bee-b86b-0f623e30c30d,Pyramid elements,thane belapur road,thane,Maharashtra,India,400708,9c35705d-cb52-4c1b-b30e-9ebf82fe39b3,2025-12-20 07:28:44.454,2025-12-20 07:30:00.53
+f55bb0d8-66af-4e59-a491-eea6c2299cd0,chameli ki badi,"",khargone,Madhya pradesh,India,451001,07396e62-9ca8-4e51-a104-bc724c02fe12,2025-12-20 07:28:53.727,2025-12-20 07:30:48.192
+df17defc-8d9e-420c-aa2a-4f710701f5fe,Mumbai ,"",Mumbai ,Maharashtra ,India,415612,43549bd5-ff2f-4f34-a80a-a6a61a23a147,2025-12-20 07:34:42.703,2025-12-20 07:35:27.986
+43578ce0-4668-4ded-bb50-205dfb036aa7,"202, Pritam Pratap Complex ","Kashmiri Galli, Near Indora Square ",Nagpur ,Maharashtra ,India,440017,1df384e2-2fa8-41dc-9d50-c3a57ab03e6c,2025-12-20 07:36:37.24,2025-12-20 07:37:03.235
+168a8dcd-2e3d-4faa-ba72-0ec9b7ae19f9,Sheetal Deep,"",Nalasopara West ,Maharashtra ,India,401203,880c06d5-9bdf-4384-a4ae-16334543fd42,2025-12-20 07:35:25.197,2025-12-20 07:37:05.031
+b89d2c6b-dad7-4b19-841b-f0986c0847c8,Vyara,"",Vyara,Gujarat,India,394650,771a186a-8da7-4123-8b03-accf3351f615,2025-12-20 07:45:03.661,2025-12-20 07:45:57.052
+27704323-9dad-442d-b211-dd140b58c1f0,New Golden nest ,"",Mumbai ,Maharashtra ,India,401105,8d54f361-7a49-48eb-acf4-05dde3565355,2025-12-20 07:49:36.153,2025-12-20 07:54:32.487
+84ecab6b-b8d0-4375-8c30-c2e9c1e00eaf,Ahmedabad,"",Ahmedabad,Gujarat,India,380001,f676ee90-cb8b-4e2a-9830-6269bb3ada83,2025-12-20 07:52:44.774,2025-12-20 07:54:46.02
+99cf7aa3-35c6-4cab-89ca-3f9706ae6832,A202 Elite Mars,Malabar County Rd,Ahmedabad,Gujarat,India,382481,384f7462-2689-42cb-b234-5f31166f286d,2025-12-20 07:54:06.138,2025-12-20 07:55:35.597
+a901bc9b-342f-4cd7-a6f1-ed44a21e70a0,3B/9 Nibedita Palace,"",Durgapur,West Bengal,India,713213,69ed9c45-6b13-4297-b3cc-c6e8478f3bdb,2025-12-20 07:41:41.39,2025-12-20 07:41:41.39
+31ddf8b5-aac2-40ed-b2ff-eedd48b88319,"BH2 Rajkiya Engineering College, sonbhadra, churk",S-12,Robertsganj,UP,India,231206,50277c90-49ab-43cc-93af-5176529146d1,2025-12-20 07:41:04.687,2025-12-20 07:55:38.945
+d3e8c217-3bc7-4d23-b727-fb1efa96b2be,"Aster Tower, Gaur Saundaryam, Techzone-4, Greater Noida West","",Greater Noida,Uttar Pradesh,India,201318,008f9848-c538-48f7-b1bc-3979a405bc5a,2025-12-20 07:42:04.761,2025-12-21 07:22:51.741
+8b4922d2-bfa1-4e3b-81bb-19eb7241a589,"Just In front of ""Vidhyatri Public School"" Ranipur Road, Opposite Betul Town GATE 1, Betul, Madhya Pradesh. [460001]","",Betul (M.P),Madhya Pradesh,India,460001,065245a8-a477-4681-ab94-c402b4562571,2025-12-20 07:57:27.257,2025-12-20 07:58:55.367
+9c7f5694-19e5-402b-98a8-d11d3946d593,Tirupati Park 2,"",Jamnagar,Gujarat,India,361006,0a453720-3aeb-4529-aef1-04e64a7d9e4e,2025-12-20 07:56:39.22,2025-12-20 07:56:39.22
+05f2c861-4bd5-4091-a1d0-339ddc22529d,"b-56, Jhilmil Colony",Jhilmil,New Delhi,New Delhi,India,110095,e6159f0e-306d-43f9-bcb8-45ee68c185ac,2025-12-20 07:59:18.693,2025-12-20 08:30:32.718
+37126376-aab0-4aab-b4d8-cbba58ed88e4,"#305, Royal Residency",Arvind Nagar 4th Cross,Anantapur,Andhra Pradesh,India,515001,64238e45-9835-47c5-8b56-4e237a7aedc7,2025-12-20 07:48:24.941,2025-12-20 07:49:09.947
+2c71bc0f-d30e-4571-b3ae-8a8d2a3d5ff1,A202 Elite Mars,Malabar County rd,Ahmedabad,Gujarat,India,382481,13e59740-9ee1-4a25-9dfb-994bf28bfc71,2025-12-20 07:57:57.836,2025-12-20 07:57:57.836
+541a84d9-5736-4d63-bd80-4850d8ad3bd7,Vadodara,"",Vadodara,Gujarat,India,390001,6930f32f-0b16-45b5-8c30-d75b69beee07,2025-12-20 07:58:03.885,2025-12-20 07:58:03.885
+d0f65196-5ab9-4a7b-b8d2-e78200063da7,71 shiva colony,Tonk phatak,Jaipur,Rajasthan,India,302015,8a52e375-9a3b-455e-8663-75136400c00e,2025-12-20 07:53:32.661,2025-12-20 07:53:32.661
+a571e384-71af-4289-a90a-6bc29385fd8c,Vardhman Jewellers main market bhilai 3,"",Bhilai,Chhattisgarh,India,490021,a5ea7411-0eab-4c5f-9d43-13570bfbccca,2025-12-20 07:59:29.471,2025-12-20 08:02:21.613
+861452e3-900b-4615-8847-a5a488a8abbc,Bhandup-West,"",Mumbai,Maharashtra,India,400078,a00a6af4-653e-449f-beaf-12ff2e647f94,2025-12-20 07:36:03.744,2025-12-20 07:58:56.07
+0f4f3d80-e11e-402f-80f3-e28b08550dc2,GLS,"",Gurgaon,Haryana,India,122505,0e63796b-50ed-47bb-a9e4-502e47bd6ab4,2026-01-04 15:17:04.936,2026-01-04 15:17:04.936
+7004cc4c-4419-4a81-96ed-4a70b6282f8a,xfh,"",xn,xf,India,xn,3caddf13-2176-4744-8b2d-a5a83954e514,2025-12-20 07:58:18.884,2025-12-20 15:20:08.194
+92d2e525-fcff-42fc-af05-35652df351fb,"",,"","","","",4a7669df-274a-4b1c-abd5-61ae7af0c53e,2025-12-22 05:12:10.409,2025-12-22 05:12:10.409
+804bd0d5-3825-46bd-a00a-a74fba0c1480,145 Block No B-13,Old Police Line Near Nawapara,Bhavnagar,Gujarat,India,364001,799be772-13eb-419b-9e5f-a9951239e251,2025-12-20 07:57:05.491,2025-12-20 08:01:13.441
+c6e6f25b-6f58-49af-b046-b19c311bc55d,"",,"","","","",0a8659fd-0219-4386-b6cb-c3dea46f2293,2026-02-05 15:24:45.236,2026-02-05 15:24:45.236
+63365359-1a40-4a9f-a67e-4138b2d10963,Shinas Manzil Manacode Pangode P.o,Villa,Trivandrum,Kerala,India,695609,d253437b-5adb-4eef-b885-097e12e31beb,2025-12-20 08:01:29.017,2025-12-20 08:01:29.017
+3b0dc6ab-f985-4bd5-a9cc-e1fe31358ddc,DP 910 BGR TOWNSHIP ,"",Bongaigaon RPCL Township,Assam,India,783385,433d5ac6-a223-4334-824c-755d9cdd4a0a,2025-12-20 08:02:09.361,2025-12-20 08:41:23.365
+3b825175-68a1-451e-a669-6df3eaede32e,"BH2 Rajkiya Engineering College, sonbhadra, churk",S-12,Robertsganj,UP,India,231206,8694d5c9-de70-4c93-a64c-1cf72900f19f,2025-12-20 08:02:42.07,2025-12-20 08:02:42.07
+d89042cf-a73f-4ce2-82ef-6e3c47e2b2e6,"204, Gopal Parvati Heights","Pawale Chowk, Kasba Peth, Pune",Pune,Maharashtra,India,411011,4bf5a832-0cee-4c43-9bca-ee09b19c6af3,2025-12-20 07:57:20.335,2025-12-20 08:04:41.194
+0539405a-574c-4c6a-8123-7f0673cfc9c2,"",,"","","","",8b06c8a3-d317-468b-ac3c-5a51ebf01db6,2025-12-22 05:12:11.851,2025-12-22 05:12:11.851
+fb8bbcb8-daa3-423a-af45-29b1c0189ffd,"Room no 618, sector 8, Koparkhairane Navi Mumbai ",DSD,Mumbai ,Maharashtra ,India,400709,9b78759c-d285-4d8d-adac-a45ffc4c3d91,2025-12-20 08:03:12.613,2025-12-20 08:03:12.613
+2dc20510-bd72-4970-ae12-b682a28b64f2,A 7,Nidhivan,Ahmedabad ,Gujarat,India,380005,910ee6d2-b9d6-4470-9c55-d9d766409fb0,2025-12-20 08:05:43.421,2025-12-20 08:05:43.421
+07870638-1ca2-44ba-8e27-feaa60a1fc45,63sks,"",Ludhiana,Punjab,India,141011,6a161d1b-ec8a-4b84-a827-bf8c1d29a624,2025-12-20 08:22:37.307,2025-12-20 08:24:00.902
+af56e937-eaea-46e6-8f2d-4dd57ec1a503,Dj,"",Nm,Djdn,India,711102,61843971-a6ba-4236-8b6e-c588129bf604,2025-12-20 08:06:41.686,2025-12-20 08:06:41.686
+7c41e388-64f8-4f5d-b985-924b53526917,"Room No-202, Plot No-373, Ladki Jana Apt., Darshan Darbar Marg","Sec-6, Sarsole, Nerul",Navi Mumbai,Maharashtra,India,400706,5dd42e8e-6d0d-4d25-9e1f-49b421187a0a,2025-12-20 08:09:39.966,2025-12-20 08:09:39.966
+ffdbab46-8598-4df5-b321-a407c484a5d1,Shabnam manzil pangode pangode po,Villa,Trivandrum,Kerala,India,695609,ecb623ef-0c67-4ffe-b533-48be58005de2,2025-12-20 08:09:59.041,2025-12-20 08:09:59.041
+89eb49d1-1228-4883-a947-40d3ba843225,Allahabad,Allahabad,Allahabad,Uttar Pradesh,India,212303,91935e5e-89fe-4bd0-a64c-8c2da47fa6c5,2025-12-20 08:11:06.224,2025-12-20 08:11:06.224
+d6d1e279-62c6-4b88-be52-3b06facea057,Airoli,"",Navi Mumbai ,Maharashtra ,India,400708,23a4c57b-0fe7-477e-9d02-e2a8fbedfe72,2025-12-20 08:30:32.019,2025-12-20 08:30:32.019
+2ca55be8-12e5-4e6b-8319-be3bd92713e5,196 SN,"",Ernakulam,Kerala,India,682022,20d992b0-0427-4471-ae3e-3acdc45b337a,2025-12-20 08:14:03.637,2025-12-20 08:14:03.637
+0781ba09-1b6b-4c98-b219-b016a6eceeba,JSR,"",JSR,JH,India,831005,7925524e-bb35-4475-b97a-a2176dde4922,2025-12-20 08:04:58.695,2025-12-20 08:14:38.449
+64dac9b7-598e-4bec-beb9-ba32a55485a0,Jjj,"",Nn,Jj,India,Nn,5334733f-6daf-4eda-a702-8a0b66688649,2025-12-20 08:11:08.015,2025-12-20 08:25:41.903
+96d14123-41b9-4eef-becc-21f9ccd351a4,Dvdvb,Sgdbdh,Gddhhdhf,Dbdbfn,India,Dnnckf,80b6bb35-0a3e-4b74-aa5f-7ab52551ab7e,2025-12-20 08:25:50.005,2025-12-20 08:25:50.005
+360694f5-d493-4331-a4ee-2ad4d571d91b,Bfbfkgm,bffjfkkfk,Kolkata,Dbfngmgmmg,India,Xbcmmc,3c837b8d-c810-4bca-8609-b7b9bc8584ef,2025-12-20 08:11:50.355,2025-12-20 08:16:21.079
+fd7864e5-f310-4ce6-9052-4be81ac5e371,"26, Andal Nagar ",Dharmalingam Street,Chennai,Tamil Nadu,India,600051,2f617dc7-8a1b-4bfd-802f-a368e0cfa3bc,2025-12-20 08:14:41.167,2025-12-20 08:16:26.457
+dfcec471-18a0-49c2-843c-8093e76fbbde,Maharashtra,"",Mumbai,Maharashtra,India,421501,f99a7f86-b3b1-432c-b783-ac18fc903032,2025-12-20 08:15:42.641,2025-12-20 08:18:47.694
+7d2f0baa-c13d-474f-aff3-bbb1402a2ade,Abc,"",Bangalore,Karnataka,India,56072,f127c63f-9e71-415f-adec-21157fd94dcb,2025-12-20 08:18:55.603,2025-12-20 08:18:55.603
+035ccf30-964f-4c5e-8bb6-08030d9144fd,"A-40, Chitragupt Colony","Sector-1 Block-A, Dadabadi",Kota,Rajasthan,India,324009,102b02d2-7dc1-4b57-9e2e-03a33e0fdd9b,2025-12-20 08:19:03.054,2025-12-20 08:19:03.054
+9242b42b-9c62-491c-8bf3-383474fbe016,"Pengiparambil House Avitathur, Irinjalakuda, Thrissur, Kerala, India ","",Thrissur ,Kerala,India,680683,412c9595-3c1f-404b-a9c7-01aa6a4fa407,2025-12-20 08:20:00.652,2025-12-20 08:20:00.652
+c14a6ba8-110c-40e5-8005-8977718920c3,Flat no 205,Paradise Apartment Mankapur,Nagpur,Maharashtra,India,440030,7834b1fa-1df9-4769-bdc5-598bdbe7ae8b,2025-12-20 08:11:13.636,2025-12-20 08:20:25.301
+91784aee-c79c-4e5f-8a9a-c58c594dcae8,"1216, Phase-II","Mahindra University, Bahadurpally",Hyderabad,Telangana,India,500043,e9c4a780-f967-4f0b-b499-1413726fd95d,2025-12-20 08:20:41.61,2025-12-20 08:20:41.61
+ab108215-185b-47b5-88e1-2c2cc8bb9f7e,Bhishanpura Noida,Noida,201301,Uttar Pradesh,India,201301,7bc9b7db-f315-4623-8d11-378b88030675,2025-12-20 08:15:38.885,2025-12-20 08:36:27.458
+fec65b5a-bfc2-4e9d-a018-d2215249bac3,"Wf-14,5th floor IIt delhi","Himadri Hostel,Hauz khas",New Delhi,Delhi,India,110016,93c3dc19-b93d-44e0-bee1-47ecfbbbeeaf,2025-12-20 08:22:16.237,2025-12-20 08:22:16.237
+02f1cd29-fa51-48fc-851e-e2ed6877216b,"Pereppadan House,Puthenchira,Mala , Kerala","",Thrissur ,Kerala,India,680121,bdf359bf-0525-465e-a9a2-f46a01fb0e08,2025-12-20 08:33:30.769,2025-12-20 08:35:04.195
+0cc77b84-574b-43f7-970b-bea18d78bf4f,Suroor villa pangode pangode po,Villa,Trivandrum,Kerala,India,695609,320731ce-04fd-4974-80ad-cf22e7c44207,2025-12-20 08:30:43.34,2025-12-20 08:30:43.34
+d1803a95-7283-407e-883f-ca6c493b44af,HSR,"",Bangalore,Karnataka,India,562001,3867e0c8-9367-4436-a51a-fbb4a25d24f0,2025-12-20 08:22:51.184,2025-12-20 08:23:08.667
+5a9acbc8-9f2a-4884-8b63-d1201b3c152d,bznznz,Bznznzn,Kanpur,Uttar pradesh,India,202835,f0fcb40e-f015-494a-aeb7-97ca2dadec8b,2025-12-20 08:31:18.834,2025-12-20 08:31:18.834
+7b909dd4-2aee-4e3f-b7b7-0bbcb8e56eed,"Pengiparambil House, Avitathur, Irinjalakuda, Thrissur, Kerala ","",Thrissur ,Kerala,India,680683,b8532eb5-6aac-44a2-807e-736fb1e25780,2025-12-20 08:23:17.278,2025-12-20 08:23:17.278
+244b8fcb-342c-4d35-8408-4dea8c817cc8,"SF2, Vaibhav Residency ","",Visakhapatnam ,Andhra Pradesh,India,531116,958fde96-a75f-4b9f-bfc9-b1ce78a3f147,2025-12-20 08:32:45.105,2025-12-20 09:03:50.86
+47608e34-0473-4f68-bb59-d7f51078e127,"E-6, Bishanpura, sector 58 noida","",Noida,Uttar Pradesh,India,201301,8a39c4cf-436c-4b30-87ee-173825780122,2025-12-20 08:18:41.772,2025-12-20 08:38:04.306
+3e561508-bca8-4363-a823-618c75087179,Koilparambil,"",Alappuzha,Kerala,India,688004,d0c2bbd3-82d9-4d0e-be78-7445c2486203,2025-12-20 08:27:27.119,2025-12-20 08:28:09.868
+79e9fe7b-7650-4a65-86a6-b849ed17d14d,Classified,Classified,NA,NA,India,NA,37a7982e-edf6-4326-a7e0-15d19b892efb,2025-12-20 08:28:45.563,2025-12-20 08:28:45.563
+7a3dcfb3-ba5d-4097-a6a0-9461d0eeee3e,Nn,"",  ,Nn,India,Nn,c8ed8180-17b4-439d-8b4e-662a7176896f,2025-12-20 08:09:50.67,2025-12-20 08:36:42.453
+c4499416-ad97-42aa-b789-31a2349088c9,Kannai House,P.O PUTHENCHIRA EAST,Thrissur,Kerala,India,680682,1d76aa71-6cb5-4367-a657-769df9cf054c,2025-12-20 08:28:46.863,2025-12-20 08:29:35.338
+0ed19c7b-f101-4f24-b15a-df7742df50c0,Rainbow manzil Uliancode  Pangode,Villa,Trivandrum,Kerala,India,695609,3b3b41bd-c43b-4fe6-9e01-b27cccbff116,2025-12-20 08:32:58.934,2025-12-20 08:32:58.934
+bef9a425-147f-4e68-b344-619861691169,Bhishanpura Noida,Noida,Noida Sector 58,Uttar Pradesh,India,201301,25520411-6d0d-47f3-bf48-b3ca5036dba2,2025-12-20 08:28:02.878,2025-12-20 08:33:01.955
+190c595e-208c-41d2-a1a3-942412767906,Dakghar post office,"",Kolkata,West Bengal,India,7000141,9e0ca65f-b440-4ffa-bd61-bb19da5a4dcb,2025-12-20 08:03:20.679,2025-12-20 16:22:42.458
+17ed03b0-10b6-4e36-874d-af5c6878408a,"H.No 48A, Prem Nagar",Near Dr.Dua Clinic,Karnal,Haryana,India,132001,424acb19-0634-4321-9e3f-f16b21c38739,2025-12-20 08:32:33.422,2025-12-20 08:32:33.422
+b1229558-2cc0-47ba-b5a1-b48998108451,"kunnathodi house puthoor post kottakkal,l malappuram district, kerala ","",malappuram ,kerala,India,676503,7b35d4c9-470f-4156-b4bd-08b9c8e52b89,2025-12-20 08:36:58.408,2025-12-20 08:36:58.408
+5306246e-dad3-4133-9fbc-20a2e491104b,Teliwara Chowk,Old CIty Bikaner,Bikaner,Rajasthan,India,33401,8a1dec53-5cb1-4de9-8fd1-a79240a6be9b,2025-12-20 08:37:01.982,2025-12-20 08:40:27.813
+88b6dc98-6d74-4540-a442-d02f0992b020,11-A Aryan Nagar,Near Karkarduma Metro ,New Delhi,New Delhi,India,110092,d4c774e1-fc24-461a-94ed-e8f953fbd5eb,2025-12-20 08:33:15.302,2025-12-20 08:44:38.389
+37bf151c-050d-450f-af38-6bfe3fbae7ed,Nabin banerjee lane,"",Howrah,West Bengal,India,711104,ff0df6f2-fb00-4d18-b824-840a349d7f5a,2025-12-20 08:24:46.981,2025-12-20 16:25:15.625
+73698a98-1a63-4bd3-965f-759184b424d5,"B302, ND Passion ELITE","Haralur Main Road, Kudlu",BANGALORE,Karnataka,India,560068,4fc98235-0a96-4d25-b87c-4cafdeab6b3d,2025-12-20 08:12:22.893,2026-02-07 12:31:18.251
+e043e068-ac8f-49b6-8a88-9e10a047c10e,Anna Nagar,"",Chennai,Tamil Nadu,India,600040,8faed43c-07f6-47ee-87ae-9727ed1009c6,2025-12-20 08:05:17.502,2026-02-24 07:41:36.956
+066705a0-5f7e-4ac9-af24-ae69e9b7acc0,Kondapur ,"",Hyderabad ,Telangana,India,500084,c135f549-2c9b-440f-b297-67ee833e3d51,2025-12-20 08:38:00.177,2025-12-20 08:38:00.177
+4c3b599f-a267-4a04-8175-e7dc937a57a3,Raghna,North tripura,Dharmanagar ,Tripura,India,799251,5c28daa8-03e4-4615-949b-240c5a7f8315,2025-12-20 19:43:59.098,2025-12-20 20:47:40.387
+dce37bbd-ab21-4e00-8313-635e482d006f,Sheetal Deep,"",Nalasopara ,Mumbai,India,401203,699e64dd-a31c-47b8-a646-fc1871db70fe,2025-12-20 08:38:18.176,2025-12-20 08:38:46.963
+fd05798f-f226-4de6-b04d-e81ed80b0034,4-35-241,Kalavathi nagar jeedimetla ,Hyderabad ,Telangana,India,500055,039583db-2ebc-4d47-b31a-b010708356cc,2025-12-20 08:38:34.208,2025-12-20 08:38:52.631
+ac66173d-a917-4bdb-83e2-e4f307084f05,S.V. Road,"",Mumbai,Maharashtra,India,400064,9b6c4f7f-d910-447f-a76d-c4bcb7e96966,2025-12-20 08:39:16.763,2025-12-20 08:39:16.763
+6499ecb7-1f8d-4919-af03-1a2376df6d86,S.V. Road,"",Mumbai,Maharashtra,India,400064,b6e84413-2778-4b92-a700-1801843e6190,2025-12-20 08:41:03.368,2025-12-20 08:41:05.89
+271a32dd-17b9-43a5-ac79-c7c55fd5f261,Sheetal Deep,"",Mumbai,Maharashtra ,India,401203,c3fcaa3a-b9e3-4230-bb57-37b20131ebdf,2025-12-20 08:41:40.883,2025-12-20 08:41:40.883
+ef637793-b6c9-4c4d-acc9-c5d8c1c3042c,Bhishanpura Noida,Noida,Noida Sector 58,Uttar Pradesh,India,201301,d3e10631-9705-4b18-92d1-b05fff2d19ad,2025-12-20 08:41:55.204,2025-12-20 08:41:55.204
+3c10032f-b7c4-4b01-af96-9a860ebbb2d4,Ghayal Nagar,Income tax colony,Jalna,Maharashtra,India,431203,d0e75a4b-60eb-4e4f-ab20-b90c9c6a926d,2025-12-20 16:04:11.951,2025-12-20 16:04:11.951
+1f49ef71-3dec-49cb-aeac-a7fd125cedc3,Sheetla ka bas,"",Sikar,Rajasthan,India,332001,24ea49d6-4b29-421a-88ac-61153c1559a7,2025-12-20 08:37:18.955,2025-12-20 08:42:21.994
+0b3c3659-77e3-412a-b6d2-8cbc4276d164,S.V. Road,"",Mumbai,Maharashtra,India,400064,677fb0ff-8b29-4e66-b431-3b2f091b5ba2,2025-12-20 08:42:28.767,2025-12-20 08:42:28.767
+e83a89dd-180d-4d4d-95a8-f32bc353c0c0,Bengaluru,"",Bengaluru,Karnataka,India,560024,3446962b-ee91-467d-9bc5-3915760358a2,2025-12-20 08:47:13.181,2025-12-20 08:59:06.997
+81119145-58b9-4172-b110-8d43da7ecffa,Dadar,"",Mumbai,Maharashtra,India,400028,038c8fab-c911-46ad-b55b-2d3001927803,2025-12-20 14:33:46.127,2025-12-20 14:33:46.127
+7551c765-affb-4b7f-bcbc-2855174c4601,segd,d,zdb,dg,India,zadg,089ac003-7e7b-4931-a0de-0a8301486649,2025-12-20 14:45:04.56,2025-12-20 14:45:04.56
+785e9829-b282-4ae8-a53c-9b1b2088f284,Dadar,"",Mumbai,Maharashtra,India,400013,5658c0e7-f0f4-4278-bff1-cd55f474e925,2025-12-20 15:01:52.646,2025-12-20 15:01:52.646
+03ea9aee-7a47-45d2-bb05-1d6fa6550cb8,Dadar,"",Mumbai,Maharashtra,India,400028,58f1dded-2d6b-44ec-8545-fc54ae353131,2025-12-20 15:07:28.513,2025-12-20 15:07:28.513
+7b598d07-e63c-40e3-9296-7307bc59d8e8,shb,"",dseg,b,India,szdbg,d3beebfa-763d-49a4-a813-f521bb621b3a,2025-12-20 15:15:05.888,2025-12-20 15:15:05.888
+30d4c81e-58a4-433c-905a-a1640f1a519e,"A-104, Suryam Residency, ","Opp Raj Victoria, Pal",SURAT,Gujarat,India,395009,a53fdea4-0290-4aaa-b52d-eed470c37382,2025-12-20 15:55:20.438,2026-02-13 06:01:34.511
+1fba447f-e4e0-49af-86ea-1fee01c3369f,zdb,z,dcb,dxb,India,zxf,740e16ad-1867-4d17-aae5-d72b70b11890,2025-12-20 15:16:52.956,2025-12-20 15:16:52.956
+79283fd1-20b4-4353-96db-5a9b53a95651,Dadar,"",Mumbai,Maharashtra,India,400028,d31e426d-690e-459a-9a2c-106250983491,2025-12-20 15:33:42.168,2025-12-20 15:33:42.168
+924ed908-25e7-4c47-96ad-56d03d93a463,196 SN,"",Text,Andaman and Nicobar Islands,India,1234567,896fafd0-efe6-4932-bb00-ec56ded86fd6,2025-12-20 14:28:09.839,2026-01-15 08:57:54.807
+a8a7674f-8e56-4621-ae48-e3c18820c1cb,"#1033, D-block, 3rd main","AECS Layout, Kundanahalli gate, Marathalli",Bangalore,Karnataka,India,560037,89c69925-6e48-46dd-bfa7-561be39654ba,2025-12-20 16:48:05.595,2026-01-23 16:09:16.41
+ac11e9ef-7da2-4979-9372-ff0f901bfa79,685 opposite paratha plaza,"",Bangalore,Karnataka,India,560102,4e781a8f-5c29-426c-bdf5-f1f17b309bf2,2025-12-20 15:31:21.104,2026-03-11 07:45:20.965
+c2b2475a-af1f-4634-ac88-ac9069a666ab,edg,"",szg,sdh,India,szg,716a4cbd-f3d4-4d14-ba26-2a10b9f7be19,2025-12-20 15:38:41.449,2025-12-20 15:38:41.449
+7af1b674-7fab-491d-8e1c-5f688745fea2,4ewt,"",xs,zcdbyh,India,vxvbyh,4ecf51c6-1eb4-4b67-868a-acbd6ab7f0d7,2025-12-20 15:53:20.757,2025-12-20 15:53:20.757
+c540ff5d-807c-485c-b6a2-cd9ee820a5a1,IIT-BHU,"",Varanasi,UP,India,221005,fc044310-5291-4d58-b63d-0d8f77f5cc2e,2025-12-20 17:56:05.442,2025-12-20 18:12:50.381
+6aaad69a-cd6a-4b7a-b8d4-e8b2e974cc70,Bandhaghat,Salkia,Howrah,West Bengal,India,711106,e378620e-8e0d-4fbe-bec0-960451a265f3,2025-12-20 16:57:14.294,2025-12-20 17:02:32.947
+f5bf5053-b332-4b71-8ff4-69425a23bc5a,Margao,"",Margao,Goa,India,403601,a2619c5f-b46f-45a2-8a4b-72c797c46fd1,2025-12-20 18:38:11.756,2025-12-20 18:38:55.41
+8c0cced6-e74b-4bff-91de-195cb15ae2c5,Line 1,"",City,State,India,123456,3a8dbe14-8cae-4cc9-8d0b-58a4f065c9f7,2025-12-20 19:38:46.731,2025-12-20 19:38:46.731
+b9ebc47e-54cb-43db-bf1b-a892574d8869,RZ 600A Raj Nagar 1,Palam,Delhi,Delhi,India,110077,988ae84f-093f-42ad-a08b-73cca8c8c371,2025-12-20 17:16:56.241,2025-12-20 17:29:32.956
+841a9fe7-1616-41af-b752-c12654db4e9e,"7,Gorachand Ray Lane","",Howrah,West Bengal,India,711102,b4d8b623-4297-426e-8b5a-102f67b4e8a4,2025-12-20 15:55:32.897,2025-12-20 16:16:24.076
+91d05647-95d8-4a8e-8ead-d66461609917,Line 1,"",City,State,India,123456,9abafcd7-d8dd-4ddb-9ab9-caba03dac7a8,2025-12-20 16:28:35.601,2025-12-20 16:28:35.601
+920a2e7e-711a-445f-bd65-5012b5b79dfc,z,"",d,z,India,d,1ab261de-2485-4757-b9bb-a0109b0f8854,2025-12-20 16:33:45.417,2025-12-20 16:33:45.417
+db93cd36-258d-42da-85c0-3ab4971c0efd,Marol Pipe Line,Ak Roaf,Mumbai,Maharashtra,India,400059,5c47e74d-f11b-4066-a65a-69576bb03a42,2025-12-20 14:35:23.373,2025-12-20 16:51:16.087
+6d0bf6fc-2830-4609-af39-e002d5bbbe51,Tilak Bhoomi Taliya,Flat No 2 Floor No 2,JABALPUR,Madhya Pradesh,India,482002,d0c4aaf8-35e7-4b57-a293-db5aee4deb0a,2025-12-20 17:42:27.596,2025-12-20 17:42:27.596
+5c85699c-fdc0-458b-ae63-769318dcbed2,Ulkanagri,"",Aurangabad,Maharashtra,India,431001,107cef66-57a7-4bd0-af62-8aca99fb4743,2025-12-20 20:00:41.506,2025-12-20 20:00:41.506
+ef503ea2-118b-49ee-98d4-2ec169c33549,C-204 Jagganth ,Boat Club Road,Pune,Maharashtra ,India,411001,b8a64aff-8d76-4911-bb17-61b520fadd98,2025-12-20 20:52:30.276,2025-12-20 20:52:42.046
+25f7d887-534a-4408-a048-0d0a8844260c,Miła 15a,"",Dziekanów Leśny,Mazowieckie,Poland,05-092,6f09f441-549f-43db-aa8b-7748d15ea2f6,2025-12-21 00:14:07.797,2025-12-21 00:14:07.797
+ff3258aa-4c3a-498b-98a8-95b44a3fd283,Pune,"",Pune,Maharashtra ,India,411051,f51b9cfe-136b-457c-8379-0022085bbcda,2025-12-21 01:10:09.48,2025-12-21 01:19:21.546
+102611dc-a845-48a3-8603-a8fcc21be1dc,"70, A G Society, Street - 6, A G Chowk, Kalawad Road,","",RAJKOT,Gujarat,India,360005,536d83c7-dc11-4617-8e27-2c2e1c7d9b7b,2025-12-21 00:25:32.432,2025-12-21 00:25:32.432
+c8fbd91b-1b52-44ac-b9fa-ccb444d2ca75,"KRS AGRAHARA, KUNIGAL","",Tumakuru,Karnataka ,India,572130,f2e3aa9c-ce8f-4376-a735-815ac3d02429,2025-12-21 02:08:14.185,2025-12-21 02:25:41.435
+11c69034-920e-4c96-93ec-c903b277915a,5/38 Seven Wells Street St Thomas Mount,"",Chennai,TAMILNADU,India,600016,3cd7bace-dd16-4451-a509-5ba51323f94e,2025-12-21 04:31:59.143,2025-12-21 04:31:59.143
+6900f112-ce01-4490-855d-dacb1c0d6424,Gurgaon,"",Gurgaon,Haryana,India,12201,15ac19a5-fbfe-4ac6-b2a3-9dfe869376fc,2025-12-21 03:42:50.471,2025-12-21 04:07:33.936
+d5d38d4a-9264-44ea-a165-0184e6c6c076,"",,"","","","",e839cf5b-98dc-415c-88d9-fc8ee5ed8f35,2025-12-22 05:12:13.262,2025-12-22 05:12:13.262
+ebe33898-ecb7-4cc8-903c-e3acdf282fc4,"",,"","","","",e7217c63-ba99-4b01-bbf6-f22605590d60,2025-12-22 05:12:14.793,2025-12-22 05:12:14.793
+9ccd46c7-9737-47da-ada6-831ba59ee0b3,"301, Deepam CHS","",Navi Mumbai,Maharashtra ,India,400709,b7b9e54b-6ad8-4011-b863-7fc171f28bab,2025-12-21 08:46:49.848,2025-12-21 08:50:29.821
+bc8beaaa-8785-4bbb-9211-305e7a80e00a,"H.no-41/42, Galli no -2 , Vipin garden extension",Dwarka morh,Dwarka morh,Delhi,India,110059,be6c4da8-835d-4778-81ec-61baedc7edcf,2025-12-21 05:49:37.132,2025-12-29 11:14:13.109
+08dd18e0-672b-459f-b9cb-d7fb68df4648,Katraj,"",Pune,Maharashtra,India,411043,ea7eea07-5bb4-4e7c-8d77-93391c8b810e,2025-12-21 05:47:00.845,2025-12-21 05:50:17.659
+e6367251-4a0f-43fa-b385-8cfc4845e54e,Jay prakash nagar,Dhanbad,Dhanbad,Jharkhand,India,826001,0de0e2df-9eb4-4f42-ae74-d3e7a7bc1ee5,2025-12-21 05:38:43.293,2025-12-21 05:54:37.506
+f5044ec5-e88d-4c0a-be1e-f7690ba91027,"Plot no. 47, khiwansara park",ulkanagari,Chhatrapati Sambhajinagar,Maharashtra,India,431005,f1ca5625-a595-4824-9a43-54574da4533c,2025-12-21 08:51:24.622,2025-12-21 08:52:36.83
+06d02d6f-d65c-45fe-b6a0-a5dc072217fa,"H No- 572,NEAR SADAR MUSLIM LIBRARY","Durgaiyya Road, Sadar",NAGPUR,Maharashtra,India,440001,32813956-30cc-4e5f-b5b4-0c129ca58e73,2025-12-21 05:28:23.264,2025-12-21 06:15:41.374
+90513107-e400-4e00-8db5-77778a030b7d,Mittal Elanza,Kogilu,Bengaluru,Karnataka,India,560064,471d31f4-de9b-44ce-a74f-f3a876c8b0ca,2025-12-21 06:24:12.6,2025-12-21 06:27:52.705
+65496623-8745-435e-8169-2a12200a6358,Mittal Elanza,Kogilu,Bengaluru,Karnataka,India,560064,2978b5e4-5c27-440d-b0fe-a3a36df68ef4,2025-12-21 06:32:04.801,2025-12-21 06:32:04.801
+b74299a5-87bc-4446-9c3a-2bc528910de8,"55, Ramaji Ghate (Name plate)","Shri Ram Wadi, Opp. Adarsha Mangal Karalaya",Nagpur,Maharashtra,India,440024,4c31bdfc-a349-47bf-99c2-ebce08ba7c43,2025-12-21 05:26:06.75,2025-12-21 06:34:38.041
+54e29c6a-8c9f-462b-a06d-979efab70ef4,Alwal,"",Hyderabad ,Telangana ,India,500010,be1db51e-0b3d-4004-b90d-596cc8a50785,2025-12-21 06:53:56.082,2025-12-21 07:02:16.547
+3e4e9b74-4360-46ae-b351-cc8802486245,"102, Dev Shristi apartment ",Nilegoan ,Thane,Maharashtra,India,401203,116e8365-fcbe-4684-8597-b1a205fb62d3,2025-12-21 07:05:59.865,2025-12-21 07:05:59.865
+8f1bb265-fd08-406e-9653-e080594d1f1b,"20,Shesh Nagar, Kharbi Road","",Nagpur,Maharashtra,India,440009,adae2da5-ce51-4f8a-887f-dedfe441c140,2025-12-21 10:36:39.385,2025-12-21 10:36:39.385
+12a9c1f8-2e98-4cf2-9112-3f4c663098fe,"402,4th Floor E.M.Choudhary bldg Padmakar Colony Thakurli(East)","",Kalyan,Maharashtra,India,421201,38ca2144-a85f-4e8a-83eb-8bc071c277ce,2025-12-21 07:18:39.107,2025-12-21 07:18:39.107
+0f1f9299-7ce5-4eeb-8d05-a48782f62254,"Om sai elite 32,near Bmsit ","",Bangalore ,Karnataka ,India,560064,721b4f28-2c29-44e3-bcd1-acc258b7aa26,2025-12-21 07:42:50.634,2025-12-21 18:57:16.995
+25ca6efd-c077-41bc-a60f-3d525ec8ca73,"Aster Tower, Gaur Saundaryam, Techzone-4, Greater Noida West","",Greater Noida,Uttar Pradesh,India,201318,9fc37116-0c6a-4236-b48a-8be1e229c7f0,2025-12-21 07:25:51.508,2025-12-21 09:46:39.682
+aebd7265-adc2-4352-9f53-896667da185e,11/240 AVC COLONY YOJANA 3 JHUSHI,"",PRAYAGRAJ,Uttar Pradesh,India,211019,b24b01de-9920-46cb-b2e3-a5a5dc41454a,2025-12-21 07:41:06.153,2025-12-21 07:49:40.156
+92a0fd08-e90a-4c67-a480-b8828d983574,Blooms Coliving PG ,"",Bengaluru ,Karnataka ,India,560103,72f543f5-5598-4be5-84a5-b3d248905c67,2025-12-21 07:49:49.076,2025-12-21 07:49:49.076
+f7904bbd-f8cd-4fad-bfc6-fbffa1c11ca2,kirti Road laxmi chowk hinjewadi Road marunji,"",pune,Maharashtra,India,411057,ede0a094-0de3-4d29-979b-95e93ba15218,2025-12-21 07:21:56.15,2025-12-21 07:30:52.933
+ccb67433-fe34-41c3-a4d0-ca96d07c7aa8,"A-305, Ramaniyam Chaitanya","Koyambedu Market A Road, Nerkundram",Chennai,Tamil Nadu,India,600107,e0f76a2b-84a5-46cc-a7a5-e2410a782610,2025-12-21 07:31:41.599,2025-12-21 07:31:41.599
+7d370eb0-9ed8-4b58-8daf-0cb50a17ca03,E701 Kohinoor Shangrila,"",PIMPRI CHINCHWAD,MAHARASHTRA,India,411018,e1a7fd9f-a573-485e-aa94-5ac36a9b29bc,2025-12-21 07:34:02.768,2025-12-21 07:40:16.544
+58c40b81-2439-44ad-81ee-197b90a83d24,C102 Sai Shraddha Phase 1,"Nr Sai Baba Temple, Ashokvan",Mumbai,Maharastra,Qatar,400068,a49e8f5d-3d85-4e00-9af9-c7dd076439f5,2025-12-21 09:53:29.041,2025-12-21 09:53:29.041
+8fbdd096-4f38-4b09-86b6-d7a9afeedd2f,bamkim kanun,chinsuraha,hooghly,West Bengal,India,712102,764423a5-2be7-4739-aeb0-3e437b843991,2026-01-05 13:53:43.074,2026-01-05 14:02:31.492
+6266dfec-f04e-4d61-b745-9ac79729b47b,ND Passion Elite,Kudlu,Bangalore,Karnataka,India,560068,4084cded-3578-4ac6-9204-535e3da2de12,2025-12-21 07:53:41.528,2025-12-21 08:01:45.242
+9365377f-eeb4-4e8e-9a49-aa4da9fac9cd,"T1-2002, godrej hillside-1 mahalunge, Pune","T1-2002, godrej hillside-1 mhalunge Pune ",Pune,Maharashtra,India,410501,41eab4ae-6b79-4ae9-aadf-aae682c822de,2025-12-21 08:04:11.144,2025-12-21 08:04:11.144
+c34c8fe5-d3bd-44fb-9a5b-2e79dcd20f7f,shree krishna park section 38,",..",mumbai,Maharashtra,India,421004,9bbb336d-6abb-49a8-b6b4-d54de5524707,2025-12-21 08:14:30.027,2025-12-25 08:04:51.676
+359edc25-7055-4b7c-995c-86f664fdd499,Worli,"",Mumbai,Maharashtra,India,400018,ea6f4252-0af0-4297-b1d2-ec397fe6a747,2025-12-21 11:01:57.892,2026-02-05 10:16:04.717
+b92c0f52-4673-4139-b2b5-0f914f81a3af,Vidya Sagar Ward Panagar,"",Jabalpur,Madhya Pradesh,India,483220,4070d1f1-ee2a-4350-923e-5371b822a215,2025-12-21 08:22:26.868,2025-12-21 08:22:26.868
+43bd507f-fd33-45a6-aa26-8f8e524604cd,Guruprashad So. Block No. 1,"",Rajkot,Gujarat,India,360004,de679b5b-884c-4446-90c1-3382b6ad80c4,2025-12-21 08:34:48.907,2025-12-21 08:34:48.907
+9f3bf7cb-e2d3-4cf2-bf74-e7463d79e2b9,"24-C, Block B-11, Ashok Vihar Phase 3, extn., Gurugram","",Gurugram,Haryana,India,122001,577a9e6f-a7cb-4235-b04b-da610ef47189,2025-12-21 07:00:13.11,2025-12-21 10:07:20.838
+c7c96464-d631-49df-b7cc-5e7043daa9e8,Chandini Chowk,"",Delhi,Delhi,India,110006,0272fa14-5e57-46c5-b1ac-0bd70508c911,2025-12-21 10:50:06.828,2025-12-21 10:50:06.828
+a09072d6-a375-4544-998c-024c486ceae1,Sanjay Selenite Someshwarwadi road,"",Pune,Maharashtra,India,411008,8a5aece2-c4d8-4a32-a9c1-b958553c4cdd,2025-12-21 10:02:11.281,2025-12-21 10:09:04.327
+103b9b4d-a37e-42fd-9bb7-9bd9bec1deee,"The LNM Institute of Information Technilogy, rupa ki nanagal post sumel via jamdoli","",Jaipur,Rajasthan,India,302031,7cd24bf0-cb6f-4858-a5f5-58b12a4dacd1,2025-12-21 10:17:20.912,2025-12-21 10:17:20.912
+28ce93cd-66e3-4561-9610-dd9f758631a1,Lisa ,"",Hungry ,Maharashtra,India,414003,6d9f6b58-4493-4a5f-8668-1be33f42cdc3,2025-12-21 10:17:40.623,2025-12-21 10:17:40.623
+204b459e-7e18-46d9-b2b5-58dabfe8a775,Hola,Hola,dhanbad,jharkhand,India,826001,b301dd70-d88f-4153-b769-0127c1ce7e2a,2025-12-21 11:51:54.26,2025-12-21 11:51:54.26
+2d8377c2-eaad-466d-97bd-87d058040e3d,"Baishnabpara, Sonarpur","",Kolkata,West Bengal,India,700150,482a303d-a125-406c-9412-fab1ad698b88,2025-12-21 11:55:15.709,2025-12-21 12:04:37.138
+2b9cd058-f684-4d27-9b1c-df42ae22d445,Arkavathi Badavane,"",Ramanagara,Karnataka,India,562159,453274ee-3c41-4ac8-bdbb-a971e9f7b654,2025-12-21 12:00:43.528,2025-12-21 12:00:43.528
+6e3c702a-032c-478f-8ce2-463361927cf1,49 Blundell street,"",Liverpool,Merseyside,Virgin Islands (British),L1 0DX,d62a3ebd-ab58-4510-9291-d136c33fb134,2025-12-21 12:25:05.059,2025-12-21 12:25:11.862
+c916ccfd-0e5b-4674-ba7e-01d0948a93f3,"15th floor 1504, 25 down town , mahalxmi racecourse ","",Mumbai,Maharashtra ,India,400034,c1a982d6-2c6a-4d88-a7f4-e677fe996336,2025-12-21 12:09:33.026,2025-12-21 12:10:56.644
+9f4256d5-1d06-47b3-a8b9-e7b12e85b785,Shivaji nagar govandi,"",Mumbai,Maharashtra,India,40043,8159eb37-2523-4a9c-85cf-016a1d04a992,2025-12-21 07:03:36.195,2025-12-25 06:52:28.041
+40d97328-2979-481d-a536-1ab23253ee7b,Hijli co operative society Prembazar,"",West Midnapore,West Bengal,India,721306,c27d2a1e-14c4-4564-a96d-a471f1b22cb9,2025-12-21 08:15:14.348,2025-12-28 13:01:23.63
+d4355d9a-eed5-4ebc-96be-a537783d4fc5,11,D-135,delhi,Delhi,India,110094,d3439f40-6567-4e5a-9a39-a1425da792ee,2025-12-21 10:05:33.402,2026-01-30 13:59:48.199
+a7a3a3b3-be6e-452d-8ddc-08193d361845,"8196, Prestige High Fields","ISB Road, Financial District ",Hyderabad ,Telangana ,India,500032,c6efa98f-1032-4b17-aec2-c62af4a5bdc4,2025-12-21 12:42:49.902,2025-12-21 12:42:49.902
+1cb599ae-5172-45e5-af5b-0100e0faeb51,"A-102,S No 236/2/1, Nisargdeep-II, Kaspate Wasti Road, Pune City, PIN:411057","A,102,S No 236/2/1, Nisargdeep-II, Kaspate Wasti Road, Pune City, PIN:411057",Pune,Maharashtra,India,411057,1e7c5f98-16b7-45a6-97ab-181cfd4602d6,2025-12-21 12:58:04.428,2025-12-21 12:58:04.428
+4da7a3f3-3307-4a6e-bd90-503dec6611dc,gopalpur ,"",cuttack,Odisha,India,753011,3a2c8082-89f8-4839-8e98-55c8968651bb,2026-01-05 14:03:55.421,2026-01-05 14:03:55.421
+4aa21c40-2e41-42ff-bf4f-f97fc8f05645,S-102,Purva Palm Beach,Bangalore,KA,India,560077,cdf3d47a-3416-447d-ae7e-5b5a8832999f,2025-12-21 13:59:07.447,2025-12-21 14:07:43.804
+684054a4-68e1-4f55-a8de-2941acca61cd,24 Sheddings Lane,Auckland,Auckland,Auckland,New Zealand,2019,1372c159-06b8-46e3-bbc8-2e39e739ba9c,2025-12-21 14:09:13.677,2025-12-21 14:09:13.677
+e015d151-1086-4a41-a96b-7601939c88a3,Mnit Jaipur,"",Jaipur,Rajasthan,India,302017,7a01a43b-3a2a-46b9-a55f-6f97a0caed10,2025-12-21 14:09:37.847,2025-12-21 14:09:37.847
+c5327815-dd46-4d07-834f-03a9fae5950e,Nagpur,Nagpur,Nagpur,Maharashtra,India,441108,a151a8f5-e829-4470-b9d1-f1e03b1f4bd2,2025-12-21 14:38:03.611,2025-12-21 14:38:03.611
+ae450b96-f6be-413d-974c-8f4d5a47304a,"7th cross,kanakagiri main","",HORAMAVU BENGALURU,Karnataka,India,560043,50fe1cfd-28a4-4ec7-ab41-22361c6b8a51,2025-12-21 14:44:43.765,2025-12-21 14:44:43.765
+b8cf655a-1ecc-4f48-8705-09e7e5af1755,"Room no. 406 , Ramanujan Hostel, IIIT Naya Raipur","493661, Raipur, chhattisgarh",New Raipur,Chhattisgarh,India,493661,06488bc3-7061-4a2a-bbbf-f14da32f63a8,2025-12-21 14:54:50.472,2025-12-21 14:54:50.472
+8b0289f2-0ddb-4238-bc93-95e8263fcfd1,Doddabasthi,"",Bangalore,Karnataka,India,560056,7956cba0-4dd3-4477-a3f5-0a674d3ba729,2025-12-21 18:24:23.091,2025-12-21 18:24:43.959
+3dfe5565-9917-4d5a-999b-b1a15bca8fe4,Shankar Garden,Ayodhya Bypass,Bhopal,Madhya Pradesh,India,462041,85caeb62-9087-4f0a-b6d3-11aa87d5dae0,2025-12-21 14:59:11.339,2025-12-21 15:00:15.54
+1f01b26c-4903-48ff-8e97-639c95639ff8,"2nd floor, Kenjale Bunglo, Jagtab Dairy bus Stop, Model Colony, Shivajinagar, Pune.","","Pune, Maharashtra, India",Maharashtra,India,431102,2166d1eb-9d11-4480-ace9-5a26210b0c0d,2025-12-21 15:04:04.757,2025-12-21 15:12:21.711
+4204e6f2-98d0-4627-8b43-2eb920a380a9,Kyiv,Kyiv,Kyiv,Kyiv,Ukraine,01015,332e9e38-5a4c-415f-ac58-aff0214b0c7e,2025-12-21 15:40:20.021,2025-12-21 15:40:20.021
+fd6001aa-e5da-424c-8d40-0095c97e5075,Natarajan Residency A 301,"Padmarao Nagar, Secunderabad -25",Hyderabad,Andhra Pradesh,India,500025,64f5499f-170d-4fdc-9104-caac100648f0,2025-12-21 17:32:21.382,2025-12-21 18:26:11.618
+4529e15f-6d41-4737-a77f-7cd3f74119a2,196 SN,"",Text,Arunachal Pradesh,India,1234567,7f967376-2e17-4675-9e7a-e51fb7f4214d,2026-01-12 14:38:51.949,2026-01-12 14:38:51.949
+0c3ae97c-85ef-430d-9662-0846f890b045,"117, Rajyadharpur Government Colony PO:Mallickpara Serampore","",Serampore,West Bengal,India,712203,22043268-d763-478c-9932-61ce01529b4e,2025-12-21 14:01:26.064,2025-12-21 15:59:46.894
+f843e37e-a9a9-4453-92f7-4ca1f25379f5,SH,"",M,Maharashtra,India,400009,bcf9a4f7-f7fe-4d3a-8a83-180f4cf1fc75,2025-12-21 16:07:08.164,2025-12-21 16:07:08.164
+7dd4f5f3-7274-45c3-a551-5886c35e5f28,Bangalore ,Bangalore ,Bangalore ,Karnataka ,India,560045,7d1348d2-520c-4897-9e06-9c458a2f2817,2025-12-21 16:12:39.818,2025-12-21 16:12:39.818
+05465dab-137d-4f02-a5dd-7660a1e38808,D-148 Anand Vihar,Delhi-92,Delhi,Delhi,India,110092,2c8b7f33-7a75-453c-8763-8f699bbb9f6b,2025-12-21 16:47:18.028,2025-12-21 16:47:18.028
+0e2b93a0-60ef-4009-8e92-55916ab09407,"479-K, Choubey Colony, Bhama Ward, Near TVS Showroom, Palotan Gunj","",Gadarwara,Madhya Pradesh,India,487551,a7daf5c8-a548-45cf-8904-33afc3bad0be,2025-12-21 16:38:24.779,2025-12-21 16:52:16.152
+77dd67c5-051d-4223-803c-379b4be97c77,Dharuni Complex,Outer Ring Road,Bangalore,Karnataka,India,560048,f4475160-c2dd-4a29-a33c-b1400c079cfb,2025-12-21 17:09:36.999,2025-12-21 17:09:36.999
+eea4d875-9bcb-437b-870a-438fb248b7a4,D-148 Anand Vihar,Delhi-92,Delhi,Delhi,India,110092,3ae39826-03ed-462c-a8ef-6b730498192f,2025-12-21 17:10:20.662,2025-12-21 17:10:20.662
+d4c06553-871c-481a-aaa6-8608ceaa5297,Beml layout ,"",Bengaluru ,Karnataka ,India,560066,87b22e41-dab5-4f3d-aa30-f87589e11151,2025-12-21 17:19:25.973,2025-12-21 17:19:25.973
+78af7ac5-2359-41d9-b94d-5e3952c30feb,Sipelga 3a,"",Tallinn ,Harjumaa,India,12423,99ee15df-0056-449f-bc2a-1ab8cbe46806,2025-12-21 17:25:31.262,2025-12-21 17:25:31.262
+3a46b655-1e91-42b7-8fca-5436782c31e9,"Jabalpur ,labour chowk ",Olympus cafe ,Jabalpur ,MADHYA PRADESH,India,484665,9a07c0cb-fbce-4e13-809a-6864f053914c,2025-12-21 17:37:00.456,2025-12-21 17:37:00.456
+7688f381-a306-4809-bb65-724792737952,Gulabithota ,"",Vijayawada ,Andhra Pradesh,India,520003,395348e5-58e4-46bd-979c-d6351e1fca37,2025-12-21 18:12:01.332,2025-12-21 18:12:01.332
+86f63983-9fc5-4e5c-88c4-b3d6d899e58e,SH,"",M,Maharashtra,India,09,83662943-6f88-4963-9ffa-ef61c53093e6,2025-12-21 19:37:52.453,2025-12-21 19:37:52.453
+ef5b6f87-c6cc-4171-a597-0971da934286,Dadar,"",Mumbai,Maharashtra,India,400028,ea5fdf49-6b93-405a-87dc-47595efde05e,2025-12-22 03:36:56.466,2025-12-22 03:36:56.466
+439c01c3-c29b-450f-adf3-cea841908ba1,"C bldg/203, A wing, Teresa Apt, 60 feet road, Bhayandar west","",Thane,Maharashtra,India,401101,cb6c5ee7-fd88-4d0b-93a9-a4d8775291fc,2025-12-21 20:23:52.929,2025-12-21 20:23:52.929
+06989ec7-f347-40d4-92bc-05e1f6c8ef37,"16 D twitlight building Cosmos Horizon, thane west ","",thane,Maharashtra,India,400610,30f5d6f7-29eb-4cf9-9a28-93e91e1cba4f,2025-12-21 19:46:35.347,2025-12-21 20:25:00.949
+8f3827e6-2556-4386-901e-3f7e90ad2eaa,"16 D twitlight building Cosmos Horizon, thane west ","",thane,Maharashtra,India,400610,b6d74c94-06ae-4b18-ae91-02d5b95f3cc7,2025-12-21 20:35:52.038,2025-12-21 20:35:52.038
+6d5da3bb-685b-48b4-8bf9-fbb5dad061f8,"16 D twitlight building Cosmos Horizon, thane west ","16 D twitlight building Cosmos Horizon, thane west ",thane,Maharashtra,India,400610,44f2f089-f2c9-4718-994f-f528a0c389cf,2025-12-21 19:46:50.479,2025-12-21 20:41:52.752
+89259fbc-4a32-42bf-8e48-4ca093eaeefe,"Casa Lagoona A, 1202, Palava City, Kalyan, Thane","",Thane,Maharashtra,India,410210,355b83e8-7f8e-4511-8cf1-f114a6a83cde,2025-12-21 20:51:55.775,2025-12-21 20:51:55.775
+5d70fd99-72a4-4005-8346-90b2e6765902,"PUTHIYAVEETIL HOUSE, CHENTHRAPPINNI P.O.",Near chenthrappinni high school,Thrissur,Kerala,India,680687,8c513f8e-949c-4d16-85ae-66253f11d0da,2025-12-21 21:21:34.184,2025-12-21 21:21:34.184
+767bfd98-ad1c-4f83-8d20-6a20300e596f,"PUTHIYAVEETIL HOUSE, CHENTHRAPPINNI P.O.",Near chenthrappinni high school,Thrissur,Kerala,India,680687,cb158e23-f2dd-4017-aae2-edb03de25999,2025-12-22 00:00:52.313,2025-12-22 00:00:52.313
+e6c51290-f8b6-480a-97b5-c545d14c8adb,"11104, Tower - 1, Nikoo Homes, Thanisandra","",Bengaluru ,Karnataka,India,560077,da7229dc-aa1f-40b5-9d83-701b912ddbbe,2025-12-22 04:42:03.121,2025-12-22 04:42:03.121
+12d0ec32-9b08-49a4-a863-65ac7ab00c8c,Karunamoyee,"",Kolkata,West Bengal,India,700091,3d1da5bc-02c2-488d-a1e8-b245922a0be0,2025-12-22 04:54:20.007,2025-12-22 04:54:20.007
+bf5c1297-8242-4a4a-8f8b-87ebaf3d56be,"",,"","","","",724e21f8-ad38-48f7-aba1-a0336b655f7c,2025-12-22 05:11:20.543,2025-12-22 05:11:20.543
+0a049b5b-d372-49c8-a2a7-b8adc130bbdb,"",,"","","","",198d4fe8-ad6e-4629-95a3-c4a4b74246b1,2025-12-22 05:12:00.392,2025-12-22 05:12:00.392
+053e46a9-a83f-42c2-8f02-76715079d360,"",,"","","","",54624365-27ae-4d3d-874a-5fdb2428119f,2025-12-22 05:12:02.272,2025-12-22 05:12:02.272
+84cf21f5-357c-4f20-bd4a-70dcf5704868,"",,"","","","",84a8251e-d897-4d0b-bf69-870da34eee95,2025-12-22 05:12:04.063,2025-12-22 05:12:04.063
+f3c8d2de-d63f-4e66-adc8-e8beb746609e,"",,"","","","",78e64595-6d1e-48a0-8511-006b9811104a,2025-12-22 05:12:05.627,2025-12-22 05:12:05.627
+272f6218-f854-4de2-b351-75e8b497f1c6,"",,"","","","",0f0d3b13-c44d-4857-81d5-8cf41610c952,2025-12-22 05:12:07.061,2025-12-22 05:12:07.061
+25c5cee7-f467-4bab-b31f-9e49e02e0453,"",,"","","","",3d8307c6-df68-4e9b-ae7e-7dc84c79804e,2025-12-22 05:12:08.742,2025-12-22 05:12:08.742
+7483fcd9-82fc-485f-b3a8-0382e54c91b0,"",,"","","","",df9b3987-5912-49a7-ac58-7ac41d7f0c5a,2025-12-22 05:12:16.281,2025-12-22 05:12:16.281
+d8dea84a-aff0-4d3b-acfd-ac144138d782,"",,"","","","",d7461cd9-0b10-4087-b818-f87044915671,2025-12-22 05:12:18.201,2025-12-22 05:12:18.201
+0c77c26f-8e69-411f-ba83-4e8a48bf47ef,"",,"","","","",59f3c3b1-dd1d-4d54-a934-86381b0d36b2,2025-12-22 05:12:19.776,2025-12-22 05:12:19.776
+8eae3c69-726b-432b-b557-7dddf1f7bbe2,"",,"","","","",6f201201-1589-4e8c-ae6e-4f7ff0f723cd,2025-12-22 05:12:21.417,2025-12-22 05:12:21.417
+900de158-7534-43f9-a6db-b19cefbc8ccf,"",,"","","","",625c8d83-4b54-4362-bc00-c3d04c13a6d3,2025-12-22 05:12:23.259,2025-12-22 05:12:23.259
+9c09c87b-8b2d-4c00-af02-0a7614fa08e7,"",,"","","","",65c06516-86b3-4c52-b383-b19d1b118e32,2025-12-22 05:12:25.059,2025-12-22 05:12:25.059
+4ea52efa-851f-438f-af9d-c08c3778ec11,"",,"","","","",8f166cc9-652a-4dda-bd46-2888d14202d8,2025-12-22 05:12:26.753,2025-12-22 05:12:26.753
+917e7c67-ea16-4f8c-b981-83f7ef59d716,"",,"","","","",a3a65d19-f1ec-44e8-9bf1-9b4d2715720d,2025-12-22 05:12:28.336,2025-12-22 05:12:28.336
+2a95088b-9b48-499f-abec-775631986e30,"",,"","","","",acc9b86b-0f6f-4a5a-9ed7-fe21f27862bf,2025-12-22 05:12:29.81,2025-12-22 05:12:29.81
+cf1278d8-987b-41cc-8eda-a11f2d237114,"",,"","","","",d366b05e-175b-4f13-8f88-73129980c52f,2025-12-22 05:12:31.284,2025-12-22 05:12:31.284
+88f5815e-da2d-4d92-b3cf-8aae2b839d7f,"",,"","","","",a2a6459b-c5d7-4ad8-adbe-2086b476bd7e,2025-12-22 05:12:32.999,2025-12-22 05:12:32.999
+20c6ae18-5c00-4338-9ee7-a2a8d2cff28b,"",,"","","","",ebe84f16-f3e8-4cb7-99d7-eb98ad6d02f0,2025-12-22 05:12:34.378,2025-12-22 05:12:34.378
+dea35762-c374-43df-af67-c43e4831f59d,"",,"","","","",b384fe7c-a7ea-435a-b58e-ed5aafdfe977,2025-12-22 05:12:35.969,2025-12-22 05:12:35.969
+32d26f00-b1ca-4d66-9bbd-3284993274ba,SH,"",M,Maharashtra,India,09,3f794cc3-0db5-45dd-aa3d-52fc010dca69,2025-12-22 08:26:43.853,2025-12-22 08:26:43.853
+bb89dd89-4c71-4548-9a8f-378b2b48bd0c,"H2-MARS VILLA , Jagmara ,Bhubaneswar","",Khurda,Odisha,India,751030,71896e61-dbbd-463a-9eb4-900647eafe3d,2025-12-22 05:29:04.389,2025-12-22 05:29:04.389
+f7dad6be-ad2c-4ecb-b9a7-405ac8350b19,Sangam Galli Shivaji Nagar,90 Feet Road Dharavi,Mumbai,Maharashtra,India,400017,2617efa4-a7fe-4dfc-8460-9d50c40e7eb9,2025-12-22 05:27:19.035,2025-12-22 05:29:08.043
+d499238d-bdf5-4c3f-af29-afb526af4140,"Nayapura, Lalghati","",Bhopal,Madhya Pradesh,India,462023,97121165-b8de-4960-8cd6-70e70ac30894,2025-12-22 05:30:58.618,2025-12-22 05:30:58.618
+e2d8f957-1f14-4e65-9729-446aa387e115,"462/3, Rohan Palace",Sector 23,Gandhinagar,Gujarat,India,382016,13e1f946-d646-4e75-8a8c-6a1429412826,2025-12-22 05:37:58.929,2025-12-22 05:37:58.929
+c6187b47-394a-4b45-8b8c-d80e1cbbe02c,C-1002,Tinseltown,Pune,Maharashtra,India,411021,c26f3cd5-620b-499a-803e-6f97d81917ef,2025-12-22 05:39:38.202,2025-12-22 05:39:38.202
+57efbfac-f7c4-4537-95e1-91b67471cebc,E9/1 Karunamoyee Housing Estate,Karunamoyee Housing Estate,Kolkata,West Bengal,India,700091,e5c1ad21-d3c0-45ad-a8eb-fd7567f40b3e,2025-12-22 05:34:24.112,2025-12-22 05:41:09.065
+5e3d7a2d-7955-4b11-a835-961565d3e0f0,Maniktala Housing Estate,"",Kolkata,West Bengal,India,700054,8ab589ce-1ec9-4eca-b6f6-ecd7bce13c2b,2025-12-22 06:14:27.677,2025-12-22 06:14:27.677
+7a0776f0-740b-4f0c-80cb-f1174e904f9b,E2-202 Sripati Nilayam 85-School Road,Ayanambakkam,Chennai,Tamil Nadu,India,600095,fb955f07-9080-471f-8010-405d99d5640b,2025-12-22 07:52:54.919,2025-12-22 09:07:38.243
+62bf3701-d031-4e6c-9eef-5fc5bad1f16f,Vp road,Grant road,Mumbai,Maharashtra,India,400007,0a5a5953-bc16-4a57-a874-d6825385b21a,2025-12-22 06:52:13.666,2025-12-22 06:54:26.238
+f6a5d39e-fbaf-4375-8e77-feb228070ccb,Vp road,Grant road,Mumbai ,Maharashtra,India,400007,842eeb1f-0f35-4561-994c-1c3b923f84fc,2025-12-22 07:02:16.92,2025-12-22 07:02:16.92
+27c3808c-8784-4baf-9865-6f79c839cff3,"21, North Avenue","",Delhi,Delhi,India,110026,62ab9eca-44a0-4046-9715-6a07fc6492cf,2025-12-22 07:20:03.715,2025-12-22 07:20:03.715
+11c0ce17-42a8-436c-9c3b-9fea69e133dc,SH,"",M,Maharashtra,India,9,7f2089ff-c537-45bb-a9dc-a2923d6f5d3f,2025-12-22 07:28:17.654,2025-12-22 07:28:17.654
+171e11e3-e54d-4fc7-9a80-7c52a9bec8c0,Plumeria Drive,"",Pune,Maharashtra,India,411033,10cd6991-196d-490e-9f3c-6135edd5e31a,2025-12-22 07:28:41.834,2025-12-22 07:28:41.834
+2915afb8-552f-4c73-98f8-58ab5db1d514,D-148 Anand Vihar,Delhi-92,Delhi,Delhi,India,110092,3c6d382a-b914-4bf3-908e-e8eb662d992e,2025-12-22 07:29:20.888,2025-12-22 07:29:20.888
+6efe1c20-0fac-4261-a210-f2a3809eef2f,"Indora, Bezonbagh Nagpur","Indora, Bezonbagh, Nagpur",Nagpur,Maharashtra,India,440014,600f2df7-715b-4821-9823-6a2d86133a67,2025-12-22 07:31:11.603,2025-12-22 07:31:11.603
+b47b0a6e-c774-45f2-99cb-b9689f781eab,"Flat - F1 , ADR Construction, Ruckmani ammal Street",", Keelkatalai , ph no. : 8610843922",Chennai,Tamil Nadu,India,600117,cbf48fa3-5f25-4623-b7a7-f2735e5b0510,2025-12-22 07:27:53.232,2025-12-22 07:33:29.376
+142e5b9a-9582-4e4f-b382-b6f657254629,SH,"",M,Maharashtra,India,09,6166e63e-e42a-4a73-b085-b100d67f5e0c,2025-12-22 07:47:38.65,2025-12-22 07:47:38.65
+64bdc393-6e51-48be-9493-3e67ac672e4d,"Fortuna Blue, B-wing, 1702",Lower Parel,Mumbai,Maharashtra,India,400013,32be810c-0816-4834-85d9-45e1568547db,2025-12-22 07:48:58.39,2025-12-22 07:48:58.39
+bcb5a2e0-8b7f-421a-b677-cc70b5a29112,SH,"",M,Maharashtra,India,09,8bc4490f-a0fe-4e9c-8a29-a1edb751fbc7,2025-12-22 07:57:39.4,2025-12-22 07:57:39.4
+c608e36a-9210-492b-bcb5-f45b2dccb29e,SH,"",M,Maharashtra,India,09,d5035768-48db-42b1-a712-4adab595ba18,2025-12-22 08:07:02.553,2025-12-22 08:07:02.553
+c58c4106-6d98-4e6a-9929-32a766d11446,Row House H-4,"Sector 4, Airoli",Navi Mumbai,Maharashtra,India,400708,447a5e39-0465-4b93-b486-ca067c36a1fb,2025-12-22 08:07:12.238,2025-12-22 08:07:12.238
+098541d9-6c5b-465b-bb21-979cc274c16f,"sector-4, Airoli","",navi mumbai,Maharashtra,India,400708,f9a47608-a018-471c-8d7b-89712357d54f,2025-12-22 08:09:26.882,2025-12-22 08:09:26.882
+add1559b-e317-4ca2-88f6-338d8b632f61,Ajit Nagar,"",Patiala,Punjab,India,147001,235a4a1c-03d8-466c-ae92-42055b952dee,2025-12-22 08:18:55.015,2025-12-22 08:20:40.832
+7169e137-83ac-4118-a2d3-6362805fcf7a,SH,"",M,Maharashtra,India,09,6a238205-b707-4bb9-a994-9f50a62046f6,2025-12-22 09:09:43.524,2025-12-22 09:09:43.524
+538715b3-03ad-48da-91a4-2804ade3bed6,"13/1 Rajarajasvari nagar , BK pudur, Kuniyamuthur","13/1 Rajarajasvari nagar , BK pudur, Kuniyamuthur",Coimbatore,Tamil Nadu,India,641008,23cec805-2e7f-483e-83bb-5057c7c425fa,2025-12-22 09:07:40.319,2025-12-22 15:02:13.923
+4e9232bd-87ec-4644-b5bf-187be4fb91d6,"101, Jewel Annexe PG, B/H Shatrunjay Residency","Anand Nagar Road, Prahladnagar",Ahmedabad,Gujarat,India,380015,0f33b3b2-ccc4-43f0-b209-3a26bca11f30,2025-12-22 11:09:27.822,2025-12-26 10:34:01.813
+cf2a1b41-e4b1-4cd1-a0bb-0d45581ad41f,wef,wf,fw,Andhra Pradesh,India,wf,fcdd6391-9487-49b0-bc08-c7e7903dd92b,2025-12-22 10:02:12.367,2025-12-22 10:02:12.367
+eae73613-266c-4b7b-9583-3436bce05ac0,Khordha,Bhubaneswar,khordha,Odisha,India,752050,fd36c3d1-340f-49b2-b7b9-e81d2d7ef981,2025-12-22 10:26:30.902,2025-12-22 10:26:30.902
+bbc578cc-3256-4507-84f5-0a416819f9b1,Alisha Bazar Mangla Mandir Road,"",Cuttack,Odisha,India,753002,2888bb63-c669-418b-b6ae-8a7ce47af4a7,2025-12-22 06:35:52.383,2025-12-25 07:10:54.712
+a423ab39-1d95-41be-8891-cf4a923805ec,Jatni ,Bhubaneswar ,Bhubaneswar ,Odisha,India,752050,66c89a65-26ef-449f-9809-51a56e91fd27,2025-12-22 11:36:55.823,2025-12-25 06:47:21.401
+44f7b93c-8db5-483c-af14-404cee3edfe8,The LNM Institute of Information Technology,Rupa ki nangal post sumel via jamdoli,Jaipur,Rajasthan,India,302031,747c3fcc-99c2-4e9a-9cc0-3727331a7fdc,2026-01-05 15:03:02.728,2026-01-05 15:03:02.728
+b8c225f0-5adb-4165-b5fc-8e99962d54cd,Dadar,"",Mumbai,Maharashtra,India,400028,26a96c3b-5504-474f-aa32-865a492f7eac,2026-01-12 15:44:29.311,2026-01-12 15:44:29.311
+a81a3c04-755e-4300-bbaf-a32cb351740d,"402/T-4 Sakar ,Shree Yogi Darshan Residence, Opp. Yoginagar Township.,",Chhani,Vadodara,Gujarat,India,391740,a5c5117c-fe51-4337-927f-757c7462c1d7,2025-12-22 13:44:58.934,2025-12-22 13:45:15.848
+f500c94f-9e05-49e7-a7b2-9dd96828a788,Golden Fortune,"104, Nolumbur Main Road",Chennai,Tamil Nadu,India,600107,74cfc083-2964-4fc3-945a-4f07cddb8bb1,2025-12-22 14:13:52.831,2025-12-22 14:13:52.831
+b203ddd1-b0ab-436a-acbe-e4f3105a24f3,Dadar,"",Mumbai,Maharashtra,India,400028,fd0e1882-0fa5-4427-b82d-20e239116119,2025-12-22 14:29:21.117,2025-12-22 14:29:21.117
+fc12e184-14dc-443b-87b0-4bfd961dce04,Raghna,Dharmanagar ,Dharmanagar ,Tripura,India,799251,217278da-c428-43d5-932e-ab5c92eba6ee,2025-12-22 17:02:27.727,2025-12-22 17:02:27.727
+a8b9e0db-95d4-42ae-a0ec-d59fd78d6fa1,"Solace Park, Flat no 16, Building no A4","Bhagwan Tatyasaheb Kawade Rd, near Kalashankar Nagar",Pune,Maharashtra,India,411001,f84e1196-42ef-4883-ae88-97d0d48cdea6,2025-12-22 14:32:21.9,2025-12-22 14:34:22.911
+2a6e1fae-c466-4537-b76c-ebe663576d6c,Khordha,Bhubaneswar,khordha,Odisha,India,752050,0cb98471-0246-41cc-a072-31fc94af9973,2025-12-22 14:38:02.387,2025-12-22 14:38:02.387
+de960f4a-7ee0-4f54-a33b-56b22e362b1b,"402/T-4 Sakar ,Shree Yogi Darshan Residence, Opp. Yoginagar Township.,",Chhani,Vadodara,Gujarat,India,391740,d5f84d42-9154-414d-89a4-304eb33ccc35,2025-12-22 14:41:22.254,2025-12-22 14:41:22.254
+79a464ff-a6e9-4d3f-90d9-716080ed1d4b,Allahabad,Allahabad,Allahabad,Uttar Pradesh,India,212303,23b96d4a-c9f7-4d7a-861c-7d4adf5aea51,2025-12-22 14:42:52.141,2025-12-22 14:42:52.141
+1165aa4c-60e3-49c2-b87e-7bb4180634cc,196 SN,"",Text,Andhra Pradesh,India,1234567,e2015167-fe1e-4ae1-99f7-4f501ed003c6,2025-12-22 14:53:02.433,2025-12-22 14:53:02.433
+6236ee6f-d571-402e-9f0c-56aaf245beb3,"A6, Quality Pride Apts","Otur, Junnar",Pune,Maharashtra,India,412409,92f4c0ea-f0cc-438e-a0fc-10d56d24c821,2025-12-22 15:01:14.111,2025-12-22 15:01:14.111
+52fe50e8-0707-4637-b08e-5a1185549e41,None,None,Surat,Gujarat,India,395007,579907b0-c024-4559-a20e-7bf3005f4f7d,2026-01-06 07:03:06.836,2026-01-06 07:03:06.836
+23db18bd-0d8f-4c34-b100-f5e9cf3cfd40,Online,Bandra,Mumbai,Maharashtra,India,400050,d22731f3-300d-4be5-a4fe-af4c4f9d1463,2026-01-08 12:07:14.724,2026-01-08 12:09:48.662
+f876d52a-6e4d-4da3-ada7-af80db7d786c,"13/1 Rajarajasvari nagar , BK pudur, Kuniyamuthur","13/1 Rajarajasvari nagar , BK pudur, Kuniyamuthur",Coimbatore,Tamil Nadu,India,641008,ce7cc7ad-b52e-458a-baec-89ae64ca4127,2025-12-22 15:10:06.808,2025-12-22 15:10:06.808
+507703d8-caf3-4d8b-a472-2b04a5a8d9f3,"AB99, 1St Floor, 1St Street, Pushkar Varsha Apartments,","Annanagar,",Chennai,Tamil Nadu,India,600040,86807ee1-6a8b-4768-8c49-75f9b12179ba,2025-12-22 15:24:03.985,2025-12-22 15:24:03.985
+1519d202-2deb-4415-a6e1-f7a41ab6c0a2,heu,"",Kol`,Saxony-Anhalt,Germany,1234567,f16788f8-537b-4827-9388-b0e3c0a03edf,2025-12-22 15:25:03.192,2025-12-22 15:25:16.476
+b8cf071c-fa94-4956-855d-de0f376e96e9,House No 857 Green City Phase 3 Bathinda Punjab,"",Bathinda,Punjab,India,151001,52480d51-4e81-4fe9-9cf9-06936681226e,2025-12-22 21:58:16.167,2025-12-22 21:59:06.677
+eee48409-3946-47d4-9c40-b6b04113b904,House no 857 Green City Phase 3 Bathinda,"",Bathinda,Punjab,India,151001,511b3a38-fb29-4aa5-880e-3eaec1ad9a58,2025-12-22 22:06:23.579,2025-12-22 22:06:23.579
+114f6603-de52-49f7-b601-bd0ebe96cb9a,"Room no 204, Shrayanks Empire","Block B , Kondapur",Hyderabad,Telangana,India,500084,47e6ca51-c4b6-417b-ad6a-f9b86b47acab,2025-12-22 16:10:59.255,2025-12-22 16:11:13.563
+91f98dac-e8fc-467b-8c49-7d3b2f5e41b3,"Room 204,Shrayanks Empire","Block B ,Kondapur",Hyderabad,Telangana,India,500084,bc651c9a-5fe4-4b47-aff0-b0e07d8bf066,2025-12-22 16:13:18.287,2025-12-22 16:13:18.287
+145cae1e-5ecd-4518-9842-34454c29f853,"204, Second Floor, Shrayanks Empire, Sri Ramnagar - Block B, Kondapur, Hyderabad, Telangana 500084","",Hyderabad City,Andhra Pradesh,India,500084,83e49c27-72b1-4580-b083-4dee83c6e7a5,2025-12-22 16:09:48.417,2025-12-22 16:14:09.606
+bb5ab768-ac26-4d93-a005-e318202a47b5,"E-101, East-12 apartment",Shankar Nagar,Raipur,Chhattisgarh,India,492001,81456ff2-f250-4303-a2bb-075f490c2e63,2025-12-22 16:14:30.845,2025-12-22 16:14:30.845
+f676095e-136e-441e-86ad-d2d6bdec95fb,H.No.47 Velop Queula Ponda Goa,"",ponda,Goa,India,403401,4951f153-94d4-4217-9211-421b4ee34a68,2025-12-22 15:54:09.402,2025-12-22 16:22:01.771
+666d9699-d2a0-458d-b2c5-dbfe1e96f895,Kharghar,3 Monkey Point,Mumbai,Maharashtra,India,410210,a9a4eed0-2f31-4281-b669-22bda3fddd60,2025-12-22 16:56:52.923,2025-12-22 17:18:26.423
+093ae9d0-19c9-4857-8317-1403223eac67,"Gujarat Technological University Campus Nr. Vishwakarma Government Engineering College, Visat-Gandhinagar Highway,","",Ahmedabad,Gujarat,India,382424,9ee1cf24-95bc-4b3d-84c6-6d87cb6d8ad6,2026-01-11 16:14:38.606,2026-01-11 16:14:38.606
+d7724340-29b8-49cd-aeb0-afa81f45f80e,"3rd floor, 202, Hilton Drive Avenue","I block, Pocket C South City 2",Gurgaon,Haryana,India,122018,692ccf2b-b246-4bd7-840e-ff4d7821a840,2025-12-22 16:55:02.071,2025-12-22 16:55:02.071
+54677b80-ac52-488c-81e1-9776100fbe69,Jl. Samping Ria 91,"",Jambi,Jambi,Indonesia,36133,7a22e58a-8119-49ad-87b5-c559805c6b64,2026-01-10 08:38:17.13,2026-01-10 08:38:17.13
+b1899c0e-8480-4e77-9e53-ace4614a3b10,"182, Gandhi Nagar, Teelakhedi Quarters Road, next to niramaya hospital","",Vidisha,Madhya Pradesh,India,464001,290eb107-2081-4428-a860-a52ebe3d166a,2025-12-22 17:20:11.825,2025-12-22 17:27:18.186
+5586ff0e-1758-4f02-926b-25d5ca62202c,Sai Ritika Enclave Building,Flat. 302,Hyderabad,Telangana,India,500084,b3f51bea-4cba-46b8-a5f7-80ad74c0d1fd,2025-12-22 17:41:01.078,2025-12-29 12:11:40.754
+df2102fd-8a32-4e07-b729-a7ea53858ada,A1-124 SNN Raj Etternia,"",Bengaluru ,Karnataka,India,560068,0559d195-f4f5-4067-8d5c-8c8e0ba93bd4,2025-12-22 18:37:56.797,2025-12-22 18:37:56.797
+f7b8209d-918c-4023-ba41-5ad73c4b9dff,11A 24 tilak nagar,"",Bhilwara ,Rajasthan,India,1311001,c3378bc8-7dd3-439d-b826-36a3e08f7f16,2025-12-22 16:30:09.433,2025-12-25 17:58:10.61
+f0490744-4418-4ab3-8e66-750f06f57486,"Sai prasanna street, gulabithota",P castle 1st floor,Vijayawada,Andhra Pradesh,India,520003,a7df029d-3bc9-45c0-951b-fb48a9d16f16,2025-12-22 20:38:02.095,2025-12-22 20:38:02.095
+2c17592c-b07c-4480-b724-6b079631ffb2,"120, Bamnoli, Dwarka, Sec-28","",Delhi,Delhi,India,110077,2d68ddef-05bd-425d-b8e7-8735469b301c,2025-12-23 04:19:27.629,2025-12-23 04:19:27.629
+bda7e365-b7ce-4683-8b8d-30347d984cc2,J-1/703,Lok upvan phase 1,Thane,Maharashtra,India,400610,e693407a-669e-408c-8a8f-939d3237279e,2026-01-15 18:28:49.908,2026-01-15 18:28:49.908
+d0521ac1-d500-483d-9dfa-ce1e3fc97353,"CUSAT, KAruvally Road","",Kochi,Karnataka,India,682022,820f69e3-f5f4-427a-aa07-86b446070ff6,2026-01-15 05:57:38.366,2026-01-15 05:57:38.366
+04c4e2ef-86c6-4581-844e-2c93a56d1886,196 SN,"",Text,Delhi,India,1234567,52c41562-2641-420e-9662-4574dddda08e,2026-01-15 12:19:43.634,2026-01-15 12:19:43.634
+d843bb18-0df7-4161-9bd5-4098c7a29538,196 SN,"",Text,Andhra Pradesh,India,1234567,05e29b92-21a6-4f73-8e78-379ddef5983a,2026-01-15 12:16:10.277,2026-01-15 12:16:10.277
+1967060d-0694-4c78-bb73-b040bebd867f,Sai Ritika Enclave Building ,Kondapur ,Hyderabad,Telangana,India,500084,d8cc8b08-c828-4a5b-bba4-aff0d9220ff0,2025-12-22 18:38:45.486,2025-12-24 07:44:32.019
+83931e2f-b44e-459b-b7de-bbe907fe6f0f,Line 1,"",City,Kerala,India,123456,5811f592-fe42-4612-ba7f-d67e7f9d194b,2026-01-15 12:16:06.836,2026-01-15 12:20:00.592
+534950fd-fddb-466c-87bd-eefa6075748d,"House no 49, Subhash Nagar","",Khandwa,Madhya Pradesh,India,450001,3c74fbf9-dc6b-4d1f-b912-1e07060d5f61,2026-01-16 08:52:49.321,2026-01-16 08:52:49.321
+0624c554-2068-42ee-8061-996f96fbcc4a, VINAY NAGAR ,"",GWALIOR,Madhya Pradesh,India,474012,442c2d82-5690-40e5-91ec-851c325be78f,2025-12-22 19:15:47.167,2026-02-27 19:07:03.314
+1c5268bc-b75f-40b6-9446-d6ca656ef648,"130 B, SANGAM NAGAR,",BEHIND YOG MANDIR,Indore,Madhya Pradesh,India,452006,83b04328-75d5-41da-b444-1d40c1023ee8,2026-01-06 09:49:08.919,2026-01-06 09:49:08.919
+05f7c713-2e33-4816-b73a-9cafc18803ee,"603, keystone altura, ","B wing wakad, pune",Pune,Maharashtra,India,411057,923d45d9-2637-457e-a73d-305de2f01b80,2026-01-12 05:35:03.889,2026-01-12 05:35:03.889
+8a683507-9d53-4ebf-9dce-9fbb44646557,"CUSAT, KAruvally Road","",Kochi,Karnataka,India,682022,8250172d-83ca-4710-aee9-004a176f94f8,2026-01-15 06:04:01.728,2026-01-15 06:04:01.728
+6920cfb8-0c6f-413c-b586-be8b21de909e,Ahimanpur khamaria Bhadohi,"",Bhadohi,Uttar Pradesh,India,221306,903bd602-199b-4691-a06d-159f61627323,2026-01-08 12:44:55.141,2026-01-08 13:21:47.998
+404d2bea-7df1-4739-b019-b3925002cb25,"1803, Tower I",Coralwood ,Gurugram,Haryana,India,122004,4e3cfa78-fdf6-4ea3-99c4-c3e4903fdf61,2026-01-09 12:09:55.141,2026-01-09 12:09:55.141
+fa25a625-4de5-4d13-94bb-d1595b62cd11,duhtoto6,eh8eh,bifyytittititl,Assam,India,31005,9d2d0e1b-b155-46cb-a6e7-11644d8ecb98,2026-01-10 13:54:37.134,2026-01-10 13:54:37.134
+683c6933-3802-4d95-87f0-84d9eff38f4f,196 SN,"",Text,Arunachal Pradesh,India,1234567,10ea263e-afc3-4806-859b-3ace524d3b6d,2026-01-15 12:21:30.191,2026-01-15 12:21:30.191
+a6d08a13-a04f-407f-b0fb-85d09e41e1c9,32 Jayashree Apts,75 Worli Sea Face,Mumbai,Maharashtra,India,400030,4126c70c-da9d-4dd0-bb41-c2f940b415c2,2025-12-23 04:47:02.622,2025-12-23 04:47:02.622
+9918d62e-ece0-472e-b3cb-55269be408c9,32 Jayashree Apts,75 Worli Sea Face,Mumbai,Maharashtra,India,400030,8dc78fd6-4d39-47cb-991d-98a94e3f90c2,2025-12-23 04:50:49.867,2025-12-23 04:50:49.867
+b9473404-2965-4429-a4fb-5bbdce334432,"Kharghar, Navi Mumbai",Three Monkey Point. ,Navi Mumbai,Maharashtra,India,410210,a7047267-a8fc-466b-933f-4cc8107db284,2025-12-23 06:40:47.078,2025-12-23 06:40:47.078
+5ef17e12-c5c1-4607-a33e-1c4b08c04cc3,Sailashree Vihar ,Chandrashekharpur ,Bhubaneswar ,Odisha,India,751021,6dff05f2-e89c-4853-a9b7-812f7a334e1d,2025-12-23 06:59:47.903,2025-12-23 07:00:13.662
+f820e1fc-8059-4a24-a6aa-e4751076d7d2,13/1 pampa mahakavi road ,shankarpuram bangalore ,Bangalore ,Karnataka,India,56004,45325c06-7da2-45d9-80f9-93d33fdf1f34,2025-12-23 07:28:01.651,2025-12-23 07:28:01.651
+b96ed510-fb8e-4474-aeda-c01dfec893fd,abc,abc,abc,Haut-Ogooué Province,Gabon,123456,7d830cc1-b89c-41fe-9e4c-b5e723582c10,2025-12-23 08:58:37.957,2025-12-23 09:01:41.798
+559d5243-92c1-4c18-8bfa-672da31674a5,102 Parichay Apartment,"",Ahemdabad,Gujarat,India,380054,be17f604-010d-46f9-8986-1e208b6b3ef8,2025-12-23 09:02:55.384,2025-12-23 09:02:59.472
+9fe3ee6c-ba04-414e-8074-45577a98106f,50 eldams road,"",chennai,Karnataka,India,600018,9e0ac822-9ce6-4abf-9923-955dda16befb,2025-12-23 09:52:43.462,2025-12-23 09:52:43.462
+36d7aa3b-9e7e-4b8b-87f9-5404ff579224,near oberio mall ,"",Mumbai,Maharashtra,India,400049,8902cdac-fe58-476c-b39c-2b13774f93c0,2025-12-23 13:00:07.5,2025-12-23 13:00:15.184
+8b93d7a7-0a80-4596-b94a-eb3983f5ee34,abhay nagar,c/126,Barabanki,Uttar Pradesh,India,225001,1ba14eb0-00ba-4ca7-8387-7664c7fcd575,2025-12-23 13:01:45.952,2025-12-23 13:01:45.952
+d6ae2661-6328-4acc-9242-fb040e792af6,Lucknow,"",Lucknow,Uttar Pradesh,India,227105,8733dea4-ecb6-4bd0-b4c5-9ffbd9fd56c5,2025-12-23 13:02:32.223,2025-12-23 13:02:32.223
+d719e77d-8161-44c6-9588-517dc2fe1648,"#3011, Near Community Center",Sector 70,Mohali,Punjab,India,160071,4bf4215d-76a6-4f72-9a3d-a0fcd4c74cfb,2025-12-23 14:48:35.32,2025-12-23 17:01:29.188
+a627b806-145e-4bff-95df-141abeb73b62,"#3011, Near community center",Sector 70,Mohali,Punjab,India,160071,6be70ea4-9092-44b7-830a-96f559884260,2025-12-23 17:04:22.435,2025-12-23 17:04:22.435
+26b90ac2-b425-4b15-9707-9bc9097dddf8,Line 1,"",City,Jharkhand,India,123456,8de827cd-32da-46b9-a0f7-3d4f115bcd55,2026-01-15 12:24:20.362,2026-01-15 12:24:20.362
+0efda239-68d6-4f8a-9138-abcd73cabcc7,802,Shrinagar ,Hapur,Uttar Pradesh,India,245101,ca4ea756-80dd-4713-b0e9-f0f329561ba9,2025-12-23 18:17:11.037,2025-12-24 11:17:21.524
+d02470af-1d20-49c2-8de7-9b707b1eb060,Abhay nagar ,dewa road,Barabanki,Uttar Pradesh,India,225001,ac2a8944-04fe-4146-ab1b-fdd943413be9,2025-12-23 13:06:22.279,2025-12-23 13:47:58.376
+08db1323-6b33-453a-b447-e43216635155,"34,Rudra Main Road",Behind Banseria Municipality,Bansberia,West Bengal,India,712502,e8354ce2-2e4b-4546-8c10-cb64acd619f0,2025-12-23 13:58:46.006,2025-12-23 13:58:46.006
+d901d39b-e793-491c-a282-0d5c7915492e,"Naper part, 2 Road, Friend's Colony",Daulatganj,Lucknow,Uttar Pradesh,India,226003,bc43ef8b-cd68-460d-a8b7-8eff46bed6a8,2025-12-23 14:13:45.978,2025-12-23 14:13:45.978
+cc011fd0-962e-42be-93b4-40a040247b68,"2 nd cross , Ward no - 02 , Tippu Nagar ","Near Shiva Ganapti temple Badami , Dist - Bagalkot",Badami,Karnataka,India,587201,102df67c-e985-49b3-8d46-df46ec3c02f1,2025-12-23 17:35:06.137,2025-12-23 17:36:44.397
+aa521f25-4518-4814-a371-760f099533b8,"2 nd cross , Ward no - 02 , Tippu Nagar ","Near Shiva Ganapti temple Badami , Dist - Bagalkot",Badami,Karnataka,India,587201,d6a65fa6-eb3f-4ca5-9add-52daf52838f9,2025-12-23 17:41:10.28,2025-12-23 17:41:10.28
+f1146474-340f-4839-86a4-063b6c660394,Kondhwa,"",Pune,Maharashtra,India,411048,99561e2d-5da9-4b29-9c37-05506c8b99a1,2026-01-13 16:20:31.465,2026-01-15 16:46:52.854
+ba8ddf4e-9d66-4b5d-bcd9-0a8801536ce0,"1012,big bazaar street , cbe-1",Coimbatore-641001,coimbatore,Tamil Nadu,India,641001,40db462d-6978-40f4-bd17-bc11acd900c0,2025-12-23 15:35:44.381,2025-12-23 15:42:33.007
+9dde129e-ebba-4d69-8521-d79d269799c9,Nutan nagar,"",Hazaribagh,Jharkhand,India,825301,554449d5-79c7-47bd-9afb-eec5a5096244,2025-12-23 17:50:46.347,2025-12-23 17:50:46.347
+7baf8b0d-cf11-49d1-bc57-690940e2cd05,"Villa 47, Vajram Aster Homes","Tellapur Road, Gopanpally",Hyderabad,Telangana,India,500046,07448c40-3739-4dd0-a7e3-038ad2d57aaf,2026-01-15 19:17:19.401,2026-01-15 19:17:27.243
+8c729fb8-f446-4486-9652-6cf1568ba59c,"304, Rakesh Heights, New Ayre Road",Dombivli East,Dombivlli,Maharashtra,India,421201,eb765d3c-710c-4ebb-8108-575f97da4601,2026-01-16 09:17:07.763,2026-01-16 09:17:07.763
+863c2460-76a2-4ef7-b0a2-600fc661ebad,"40-a,opp. Himalaya soda,vaibhav nagar,navavas,madhapar, bhuj-kutch.","",Madhapar,Gujarat,India,370020,da9eb49d-cadd-45cd-a1ec-890ec3f6edbe,2026-01-16 11:36:31.733,2026-01-16 11:36:31.733
+e45ccb9a-310e-49f8-a19a-acbebe086394,"13/1 Rajarajasvari nagar , BK pudur","13/1 Rajarajasvari nagar , BK pudur, Kuniyamuthur",Coimbatore,Tamil Nadu,India,641008,1d0bf6cc-ef6f-4b1d-8929-48f03349abaa,2025-12-23 14:57:37.639,2025-12-23 16:02:41.052
+8240650e-5e92-45d3-afc8-de0c0363ae9e,"501, Ashoka 1, Ashoka Hind CHS","15th Road, Khar West",Mumbai,Maharashtra,India,400052,9b2ee82c-283a-4f6c-b334-6f37f16f90d9,2025-12-23 17:54:12.607,2025-12-23 17:54:12.607
+2402412e-cf93-4a8c-a94d-ac4d166425ab,"21, North Avenue","",Delhi,Delhi,India,110026,6d0ab915-85f0-45c0-94d9-f9452932e586,2025-12-23 19:03:52.679,2025-12-23 19:03:52.679
+06ea4580-16e6-415d-84f4-3bac96401578,Karvenagar,"",Pune,Maharashtra,India,400052,1b1326ed-690d-4727-bf04-2efccbb2ff42,2025-12-24 02:04:12.556,2025-12-24 02:04:12.556
+0f3f9019-337a-4b8d-aa85-fc625c2c3fb6,elite 32 omsai luxury pg,near bmsit,bengaluru,Karnataka,India,560064,d5b2b7ed-53eb-4e7b-8e1f-697f0ace969c,2025-12-23 07:59:29.777,2025-12-25 08:32:30.355
+7a28d7ae-1f68-4ddf-9052-634c71dc9846,"Golden Fortune, 104",Nolumbur Main Road,Chennai,Tamil Nadu,India,600107,1b38cccf-105e-46d3-a794-26f783dbb510,2025-12-24 03:24:33.84,2025-12-24 03:24:33.84
+cf6549d3-a73d-4605-8d85-9497f0a1d258,"Nu Tech Tulips, 12 Barathi Salai",Ramapuram,Chennai,Tamil Nadu,India,600089,6a7bafb3-adf6-4933-9450-c35e43bb3bf6,2025-12-24 03:54:39.073,2025-12-24 03:54:39.073
+adb5ea73-9e58-4edc-994d-711d0bdfebec,New Ashok Nagar,"",New Delhi,Delhi,India,110096,a7f81813-b1ff-4cf7-b993-09b5feddc73b,2025-12-24 07:13:02.289,2025-12-24 07:22:25.47
+d2aaa7f3-9d69-4b0d-9892-17a146c8f8c9,"RZ D-301, Top Floor, Street No - 9","Sadh Nagar, Palam",New Delhi,Delhi,India,110045,62f503e6-b2bd-4f77-be09-b4786a9da3f3,2025-12-24 07:07:21.949,2025-12-24 07:26:49.217
+65f35eec-6e1a-4ce8-aedb-76231309fb00,Janakpuri,"",New delhi,Delhi,India,110045,7d408048-d934-4f35-9924-533eff2f4c20,2025-12-24 07:32:12.855,2025-12-24 07:32:12.855
+3112df9f-1f52-4ef3-9df6-35199031d3b4,Shree Krishna park near anandpur Darbar section 38 flat no 204,.,Ulhasnagar 5,Maharashtra,India,421005,8b4f1caa-dddb-4531-afbb-848be5151fa8,2025-12-24 07:39:59.97,2025-12-24 07:39:59.97
+81e0d6bf-64cf-490f-90b9-3f7affd1c0ce,"GYANESH KUMAR,VIKAS NAGAR,KOTHIYAN,KURJI,R","",PATNA,Cuanza Sul,Angola,800010,c276b6c3-c4ea-486b-9b60-f57592f83d03,2025-12-24 07:50:44.5,2025-12-24 07:50:44.5
+7336d110-f0ac-46a3-bb42-1cfcd1fdc3eb,1665,Mohan Nagar,Derabassi,Punjab,India,140507,c598075c-9c9e-4784-834a-24e7e87df6b9,2025-12-24 12:49:14.33,2025-12-25 07:23:09.907
+11044e6e-ba28-4861-894a-1b5b94a49c7f,"GYANESH KUMAR,VIKAS NAGAR,KOTHIYAN,KURJI,R","",PATNA,Syunik Province,Armenia,800010,a945efbe-f2ee-461f-ab6c-635bee5b7c76,2025-12-24 08:13:15.368,2025-12-24 08:13:51.69
+c5b03d34-8963-4ebd-a78f-c476924171f9,"LNMIIT college, post sumel, via Jamdoli ",India,Jaipur ,Rajasthan,India,302031,b91da842-cc4a-4ae5-be61-e005a7ffa758,2025-12-24 08:41:51.756,2025-12-24 08:41:53.126
+16e14c51-1295-4d95-a323-1cb49801870e,151 A1 2nd main road,velachery,Chennai,Tamil Nadu,India,600042,ede11c29-d104-47d5-a9a0-d47c9644b59f,2025-12-21 05:50:36.504,2025-12-24 08:55:50.857
+22a4289a-6e42-4c25-870f-5a1d47c9367b,"Sneha Annex, Bethany Convent Road",Lower Bendoor,Mangalore,Karnataka,India,575002,7349b474-c6cd-40dd-a922-7398943ac8c2,2025-12-24 09:08:23.147,2025-12-24 09:08:23.147
+41ed0f21-8488-44e9-a103-a295df7ead29,"201 plot 48, bhawani kunj, vasant kunj","",delhi,Delhi,India,110070,8823d28b-dfa4-4348-9743-abccf36a9981,2026-01-06 11:23:51.534,2026-01-06 11:23:51.534
+376d01d7-704e-44c1-bc61-ac1e93fff2ef,196 SN,"",Text,Andaman and Nicobar Islands,India,1234567,2f3ef87a-bc08-4923-8217-2623bb799886,2026-01-15 07:06:08.115,2026-01-15 07:06:08.115
+37430ad9-35d4-4e6b-97a2-5d79cda915df,"201 plot 48, bhawani kunj, vasant kunj","",delhi,Delhi,India,110070,2943897b-b063-4c22-bd19-a5e856f44620,2026-01-06 11:23:55.064,2026-01-06 11:32:07.101
+7a581841-eb08-4aa6-8a23-79ad3e6e950e,"A & V Mansion, Royal PG for Gents, Ground floor, Room 002","116, 5th cross road, Sidhartha colony,2nd block, Koramangala",BENGALURU,Karnataka,India,560034,24fef4d2-2351-4370-9a40-a74c7f9ef649,2025-12-24 13:13:11.609,2025-12-25 13:12:28.543
+47ab31e4-e66a-457a-8c47-275dbb27d357,at ,"",Nagpur,Maharashtra,India,441108,16927162-3141-43ca-86e0-1bb4ae2f19e2,2025-12-24 10:56:46.486,2025-12-24 10:56:46.486
+aa7e798a-be96-4934-b11f-ad79d525a9f5,"204, Second Floor, Shrayanks Empire, Sri Ramnagar - Block B, Kondapur, Hyderabad, Telangana 500084","",Hyderabad City,Telangana,India,500084,fdfffdd8-7682-4968-afb8-6bddb1ad4726,2025-12-24 11:07:04.784,2025-12-24 11:07:04.784
+8deb02ef-4f80-488d-a37e-790b5af1c28b,House no 930,Bilpura bharti colony,Jabalpur,Madhya Pradesh,India,482009,eacc2486-b1d2-4eb2-b84f-3c0c4f7b1c94,2025-12-24 12:06:10.351,2025-12-24 12:06:10.351
+e7346894-c096-4610-aa6e-04c8d1bb07e1,"1/24, Nav Alka, A. G. Khan road, Worli","",Mumbai,Maharashtra,India,400018,c31ced4b-7872-4a65-a624-3480d7a45488,2025-12-24 12:55:45.428,2025-12-24 12:56:26.693
+31d2e219-79bb-4d2a-98c2-a6a241d52471,"39 A/1 Jayhind Chouk, Mirya Road","",Ratnagiri,Maharashtra,India,415612,7b7a0b8e-a004-4e17-b32c-9914daf01220,2025-12-24 13:55:46.433,2025-12-24 13:55:46.433
+308d9c5d-131d-4edf-a725-79b760c392c3,598 Uprenganj,"",Jabalpur,Madhya Pradesh,India,482002,810f5f44-0b80-4a6b-84f8-9bfc5c61f611,2025-12-24 12:59:29.42,2025-12-24 13:06:55.346
+29773eb8-3f33-4190-8b51-c00976200bbd,"#134, Shree Hanuman Nilaya, Kanakashree Layout, Kannuru",BANGALORE-77,Bangalore Urban,Karnataka,India,560077,b3d536bb-2e25-4172-a6c4-721afea2c201,2025-12-24 10:12:31.977,2025-12-25 15:50:12.812
+18ef8afa-3c8d-4ce3-8256-6924ab0de8cf,Platina,Mount Poonamallee Road,Chennai,Tamil Nadu,India,600116,c9c984f5-e33e-457c-a5ce-ec8982f9a1f3,2026-01-08 16:20:46.597,2026-01-08 16:20:46.597
+7d42f6f3-3b6b-4358-bf4c-85ede3d0d27b,ujnjjbkhj,"",jaipur,Rajasthan,India,302022,edaae474-36a9-4f5a-a7df-1666d01244b2,2026-01-09 20:40:33.003,2026-01-09 20:41:29.7
+465dea7c-2d75-4942-a026-19ac021812c5,"B-127, 2nd floor ",Parsvnath Paradise Mohan Nagar,Ghaiziabad,Uttar Pradesh,India,201007,193b4f15-628a-43eb-a0ff-21a76a6fe176,2026-01-10 20:08:43.984,2026-01-10 20:08:43.984
+1408a966-5264-48be-b96b-cf4d861d227d,C101,Treasure Park,Pune,Maharashtra,India,411009,7dd45f35-9f42-44ef-b67b-425100b429fb,2025-12-24 17:10:23.363,2025-12-24 17:10:23.363
+65f5b569-7fd5-4116-ab1f-1f09f6c8d887,mumbai ,mumbai,mumbai ,Delhi,India,110047,41942153-f967-49da-97c1-df7b68702d3a,2026-01-15 12:32:35.063,2026-01-15 12:32:35.063
+a6b246d9-705a-4105-89d8-cbc9df5d3db2,"hydrabad road ,solapur","",solapur ,Maharashtra,India,413005,7da87ee6-4d2b-4175-9bc1-3325bac11d77,2026-01-15 12:35:02.459,2026-01-15 12:35:02.459
+d6ac944a-2106-42a0-8f86-8afbfba8f805,"Keystone altura, 603, wakad",Pune,Pune,Maharashtra,India,411057,26173680-c1d2-42b2-8b8d-e38a060afc4f,2026-01-12 05:41:29.631,2026-01-12 05:47:18.074
+a619755c-42d8-47d7-bffd-6cf34e79498d,Provident tempore ,Nulla minima et culp,Minima explicabo Oc,Delhi,Equatorial Guinea,Eveniet dolorem rer,94601e68-ee9a-4617-ad5b-fd66d4417ba2,2026-01-13 06:17:20.319,2026-01-13 06:17:20.319
+ce176fcb-3182-4b36-99eb-c6bcf149c00c,Gurukrupa co HSG soc,Kurla west,Mumbai ,Maharashtra,India,400070,7ff6b306-e331-4759-9b99-c873d8ab07ca,2025-12-24 04:37:04.05,2026-01-04 04:29:13.724
+5b332d9f-919f-4f3b-ad0c-026e6dd7cd59,New delhi -madhu vihar b-62A,"",Delhi,Delhi,India,110059,780faa89-e3da-470d-be40-6b5b601ed110,2026-01-14 07:06:07.255,2026-01-14 07:06:07.255
+c789a453-5ef0-453b-99f9-434e9acd5000,"A-802,floor -8,plot-368,CAM HARBANSLAL  MARG MAHARASHI BALAMAKI S.R.A CHS LTD G.T.B. NAGAR, MUMBAI-37","",Mumbai,Maharashtra,India,400037,b37f2248-0d0d-4d2b-9fd1-cd17944a9e21,2026-01-13 10:14:17.391,2026-01-15 17:30:14.066
+b80d7597-9601-442e-88a4-cfa608361c7a,"11104, Tower - 1, Nikoo Homes, Thanisandra","",Bengaluru ,Arunachal Pradesh,India,560077,15f22047-9092-4156-9776-3afe8099f81b,2025-12-24 07:59:40.226,2026-01-15 15:18:22.497
+1f18257e-3d98-4bd5-bbe8-4c695473c16a,"A-702, Ashoka Residency","Sec-12, Kharghar",Navi Mumbai,Maharashtra,India,410210,10ebfbab-9652-4b54-9b87-6e20663d1a0b,2026-01-16 09:24:10.508,2026-01-16 09:24:10.508
+2c35708d-27df-486d-9776-df22d035d154,Apml tower ,"",Mumbai ,Maharashtra,India,400064,6398e778-c964-4786-bcd6-1112bcc12b0c,2026-01-16 06:43:14.639,2026-01-16 06:43:14.639
+424b2a19-d7bd-4bf7-b1c6-da2de48a5b23,Apml Tower,"",Mumbai ,Maharashtra,India,400063,89d631b7-ea4c-4434-92ca-ee27fe40142a,2026-01-16 06:45:04.148,2026-01-16 06:45:04.148
+1f69e04c-72c4-4133-9ad4-1038f2175dd6,"Gujarat Technological University Campus Nr. Vishwakarma Government Engineering College, Visat-Gandhinagar Highway,","",Ahmedabad,Gujarat,India,382424,c9ea5779-4ed0-4dec-9307-308362d59682,2026-01-16 13:51:34.345,2026-01-16 13:51:34.345
+4a3c66a8-beb4-46a8-90e5-d8c47586780f,Avasvikas,"",Rudrapur,Uttarakhand,India,263153,09b357bc-44b1-42ff-9012-f761b2842f58,2026-01-06 17:10:40.871,2026-01-06 17:10:40.871
+a2f326d9-6ea1-4d7e-9843-f42e1ab4b488,"",,"","","","",ee8e9928-598c-43bb-a26c-78181a5ee1ec,2026-02-05 15:30:37.908,2026-02-05 15:30:37.908
+bfba5308-11b5-4572-99cd-47a4123902eb,"15, Hebbal Kempapura Bengaluru - 560024","",Bengaluru,Karnataka,India,560032,c2a73cdb-d2db-43c7-9e10-e573195d2646,2025-12-24 17:58:19.489,2025-12-24 17:58:19.489
+4fc92a95-4c01-417d-8f3d-3cb3cbe0da2f,3jagdish appartment,"",Ahmedabad ,Gujarat,India,380009,32bae8de-8fe6-488a-9c6f-ff8fa1add810,2025-12-25 06:43:52.761,2025-12-25 06:43:52.761
+1838b5eb-7c91-4302-8e7b-99b631c8c025,196 SN,"",Text,Badghis,Afghanistan,1111567,ba1a1430-354b-4609-81db-007505f43aae,2025-12-24 18:09:52.552,2025-12-24 18:11:17.005
+4c697c51-fadd-4f53-a540-95b604c398dc,Via del Cristo 1/V,"",solignano,Emilia-Romagna,Italy,41014,1e0dbc56-9268-405d-8db7-e9646e21398a,2025-12-24 18:26:25.812,2025-12-24 18:26:25.812
+ba64fc8a-ff13-4c88-ac50-ccc514c438de,Lower McCarthy Hills Avenue,"",Accra,Greater Accra,Ghana,00233,b38fa44e-0f6a-4fd4-879f-5a877cada737,2025-12-24 18:31:07.927,2025-12-24 18:31:07.927
+3400bd35-e29d-45c2-a9bd-97eddae24c7d,Nadzalevi Dt.,"",Tbilisi,Tbilisi,Georgia,000101,61ad8950-0777-4390-9e7c-8acf4612a64c,2025-12-24 23:36:01.323,2025-12-24 23:36:01.323
+65363ec6-b18b-43e0-a007-95cd0adb221c,Eshwar Nagar ,Manipal,Udupi ,Karnataka,India,576104,7c97ee68-360b-4ea6-acd7-ad6a59de0db8,2025-12-25 05:47:37.09,2025-12-25 05:47:37.09
+f2c0cc97-b81b-4cf2-8daf-62f00713c4f4,196 SN,"",Text,Badakhshan,Afghanistan,1234567,6cdcbecf-65f4-4843-9b78-8660a3f5ac73,2025-12-25 06:27:57.638,2025-12-25 06:27:57.638
+179fbe38-9b8f-4f59-ac71-fca5215ea5e3,"74, Mashale Nagar, Vijapur Road, Solapur ","",Solapur ,Maharashtra,India,413004 ,bf0fd48b-4703-4986-953d-e91e02aef1e0,2025-12-25 06:19:14.38,2025-12-25 07:13:32.862
+9ee5dfc0-2ef2-41ec-b96d-c1f7eb97b7a9,196 SN,"",Text,Bihar,India,1234567,680f3b27-189e-45f3-ba5f-c9afc3c2f8f2,2025-12-25 06:34:44.792,2025-12-25 06:34:44.792
+553bca35-68d7-4058-8815-0e9041384244,"3 jagdish appartment near ishwar bhuvan , navrangpura","",ahmedabad,Gujarat,India,380009,85848d3b-5406-47d3-8433-0aa61cec6e47,2025-12-25 06:35:06.737,2025-12-25 06:35:19.121
+e176df64-fedb-4c4e-9be6-83d33e927d43,23 Marina Tower,"",Dubai,Dubai,United Arab Emirates,00000,15e86163-ea0e-4cd6-a214-0e0c5af888ce,2025-12-25 06:34:02.755,2025-12-25 06:35:23.875
+150b020d-83f4-4723-9c7e-598e0e5d1aa3,14 D Rudra Lane road,Rudra Lane Road,Hooghly,West Bengal,India,712502,0249d2b1-029e-42e2-b7f2-a7bc69145672,2025-12-25 06:35:59.729,2025-12-25 06:36:16.471
+05cdf717-b537-499a-84db-8f67122f4c4b,SRM Nagar,Abode valley ,Chennai,Tamil Nadu,India,603203,1eacc25f-b063-4230-b0bd-2ef388ed6707,2025-12-25 06:48:45.728,2025-12-25 06:48:45.728
+a4f057c9-8f90-4cc3-a60d-d515c1ddff9f,"F1905/06 whispering palms xxclusive, Lokhandwala complex, Kandivali East, Mumbai Maharashtra 400101 ","",mumbai,Maharashtra,India,400101,147f756b-155a-41fa-a863-9c24d6f3eb97,2025-12-25 06:37:19.097,2025-12-25 06:37:19.097
+d5b6eabb-0f48-4de5-9d99-de9e18672eef,FRIENDS COLONY,"",NAGPUR,Maharashtra,India,440013,50593a06-cc13-436a-919e-b57f5210f458,2025-12-25 06:37:39.942,2025-12-25 06:37:39.942
+8a1192df-9599-4d15-811e-3796aef88ad0,"Ambegaon BK, Pune","",Pune,Maharashtra,India,411041,ca2e035e-b762-46f0-8c1e-4c687f6b60bc,2025-12-25 07:02:33.65,2025-12-25 07:02:33.65
+d81ef4f4-9e5c-40a6-a6bf-72d6e578a6e2,Flat No. 303 Shri Krishna Apartment ,KT Nagar Nagpur,Nagpur,Maharashtra,India,440013,d8565ed1-7f4a-4587-94db-586b11e3ad2e,2025-12-25 06:35:04.304,2025-12-25 06:40:10.986
+7499b8a9-d357-44ec-ac62-93302bee55a6,Malad (east),"",Mumbai,Maharashtra,India,400097,7bc018ec-4443-4985-a1bb-fc23f2338af2,2025-12-25 06:40:17.383,2025-12-25 06:40:17.383
+b516795a-d604-4e76-938f-b9deb7ea02f0,HSR,"",Bangalore ,Karnataka,India,123456,a3c04cfe-71b3-48d9-8776-de54f4f34bd2,2025-12-25 07:14:22.232,2025-12-25 07:14:22.232
+89c93d69-39e6-4ba2-b1b6-7065b816aa7a,Dadar,"",Mumbai,Maharashtra,India,400028,55351cd9-49dd-4fd5-83c7-cde07f5fc796,2025-12-25 06:49:09.55,2025-12-25 06:49:09.55
+d8c391d5-c906-4083-9357-478beb261331,Bengaluru,"",Bengaluru,Karnataka,India,560038,1c13d848-d0de-425d-85bb-efae869a3efb,2025-12-25 06:59:16.194,2025-12-25 07:04:05.892
+5be9f14c-11f3-425a-98d9-661ad48e7d27,"Shalin Square, S.P Ring Road","",Ahmedabad,Gujarat,India,382445,5ca0dcdd-ee09-47df-aa3f-0944247fca90,2025-12-25 07:12:19.214,2025-12-25 07:12:19.214
+f1ee0c32-3dc1-4634-9344-8055848fb63b,Jatni,Bhubaneswar ,Bhubaneswar ,Odisha,India,752050,9c9f492c-a631-4d14-a609-c1eb0a1bde88,2025-12-25 06:51:44.527,2025-12-25 06:51:44.527
+abda48a0-7901-4ecb-956c-ddb943298e61,Bangalore,"",Bangalore,Karnataka,India,560064,062df58b-df9f-44f0-9766-830d7b043998,2025-12-25 06:53:13.839,2025-12-25 06:53:13.839
+d7d15eb1-e40d-4492-8a07-7826476420e7,Bangalore,"",Banaglore,Karnataka,India,560012,c2582436-8e40-46d4-88d3-57e047af15a8,2025-12-25 07:20:57.532,2025-12-25 07:21:44.514
+fff2fd47-e7c6-4223-87fc-12ca341e184e,"Devika tower, collector colony",Chembur easy,Mumbai ,Maharashtra,India,400073,8272c772-7bac-4fe7-867f-c30929087f44,2025-12-25 07:11:57.626,2025-12-25 07:12:32.056
+cc6bb441-17de-4f6a-b622-e000f00b8a11,102 Neto heights,Near Busy Bee School,Vasco,Goa,India,403802,3143fc93-c8eb-4c7a-93c7-16c60a3e2c7c,2025-12-25 06:47:06.173,2025-12-25 06:57:05.624
+d0a5e1d1-20cd-48f0-9d00-50f07284c5b8,x-93/14 ,godrej station side colony vikhroli east ,400079,Maharashtra,India,400079,cc9d088d-2028-44aa-8974-b970f87a7b23,2025-12-25 06:59:15.478,2025-12-25 06:59:15.478
+ab31f579-fe19-4016-8ab1-bdfb0e69a598,Airport Road,The address I2 wing flat 002,Daman,Dadra and Nagar Haveli and Daman and Diu,India,396210,74616ba5-6ca1-4d8b-99e7-26457164835c,2025-12-25 07:17:37.881,2025-12-26 05:48:32.514
+067ba1bf-434e-436a-8481-c2b0127575d6,"Noida, Sector 19 ","",Noida,Uttar Pradesh,India,201301,fe451b17-1813-46a2-9acd-b01ae3cc2c15,2025-12-25 07:09:06.401,2025-12-25 07:12:44.697
+dcb14d70-7c61-4749-98be-c0472d9f7ab3,"44, Aashirwad Enclave, Dakan Kotra","",Udaipur,Rajasthan,India,313001,b29c048a-8525-4ec3-88ac-59cc26574ea6,2025-12-25 06:38:36.594,2025-12-25 07:01:24.024
+0dff291d-8236-48c4-8f29-40db4782f9aa,"Cross Road 9 , Ambala cantt , Haryana","",Ambala Cantt,Haryana,India,133001,1910c118-4f0f-482a-b4d2-7d1bf5df5111,2025-12-25 07:01:32.581,2025-12-25 07:01:32.581
+d5637994-0b6f-49b0-a725-3b0b0926ec96,"A203,Seawoods Garden","Sector 17,Sanpada",Navi Mumbai,Maharashtra,India,400705,6d16d553-4c51-46ac-9eb5-ee66d2f022d1,2025-12-25 07:01:39.464,2025-12-25 07:01:39.464
+b9569e73-aeee-4e35-a5c3-6e17f2e6324b,Baihar,Baihar,Balaghat,Madhya Pradesh,India,481111,27969181-19a2-4750-9c3d-edb49ac6b063,2025-12-25 06:48:01.771,2025-12-25 07:16:04.228
+19ad66fc-15f2-4aeb-9c57-d9138eb08177,Ethereum,Front running MEV,Onchain,Delhi,India,110065,559ac988-d2cc-4da7-bdcb-91ede552a8f4,2025-12-25 07:18:09.26,2025-12-25 07:18:09.26
+10845a16-41af-473f-ada7-5717597a69ed,"Pali, Ratnagiri, Maharashtra","",Ratnagiri,Maharashtra,India,415803,d8e47bd3-e396-4d84-8885-44fc6923a309,2025-12-25 07:10:15.518,2025-12-25 07:10:15.518
+9318bf5f-d9d9-4c5b-afc4-16beb440b1cc,H41,Eknath nagar,Chhtrapati Sambhajinagar,Maharashtra,India,431001,236672d4-e7ef-46aa-b642-4990fbed79b1,2025-12-25 07:12:04.092,2025-12-25 07:12:04.092
+5df0b689-8bd0-4796-88d3-551a0e6d1a70,Room no 53 building no 3 MHB ,Colony Satpur ,Nashik ,Maharashtra,India,422007,e67dee13-230c-4d9e-9a13-cb9d6a689de9,2025-12-20 15:46:21.169,2025-12-25 07:18:22.52
+2d680a68-64fb-4539-a891-6a76bdfea88e,Sector 8 Kopar Khairane Road Sector 8 Kopar Khairane,"",Navi Mumbai,Maharashtra,India,400709,d1f8a663-a743-49d6-ad54-ccedd8828b35,2025-12-20 08:01:22.378,2025-12-25 07:19:57.699
+747de107-ca56-450a-8894-8c40003df5a4,141 New Anand Vihar ,Near Nanda nagar shubhkamna garden ,Mandsaur ,Madhya Pradesh,India,458001,df15d900-80e2-4a14-ad52-003973b81a54,2025-12-25 06:57:06.992,2025-12-25 07:22:33.309
+f464572f-952f-4786-b679-6412b34ab064,"24-C, Block B-11, Ashok Vihar Phase 3, extn., Gurugram","",Gurugram,Haryana,India,122001,bd775c27-50f0-4ee2-b8be-a5cd0af7dc54,2025-12-25 07:21:50.158,2025-12-25 07:21:50.158
+48c9259e-a060-46bd-afc7-c173a2db3a4e,"1107,11th Floor, Ratna Mahal Tower, Shri Sai Sahakar Ekta, Dr. Ambedkar Nagar SRA CHSL,Dr. Ambedkar Road, Matunga Labour Camp,PO: Matunga, District: Mumbai City, State: Maharashtra, PIN Code: 400019,","",Mumbai,Maharashtra,India,400019,c353d001-29aa-4d33-84ff-fbdc51505b76,2025-12-25 07:22:55.449,2025-12-25 07:22:55.449
+6412067f-0214-4067-936f-2dd3280f0720,253,"",Virar,Maharashtra,India,401303,1d52310a-6fe8-428e-b4a1-9dc2e7350eb7,2025-12-25 07:22:56.954,2025-12-25 07:23:19.502
+05a4e94b-dbbb-4a56-b327-fd44ed26b5c5,Sr no 648 ,Pavan nagar bibewadi,Pune,Maharashtra,India,411037,8f0e255c-8085-4d34-8abe-08bbe86fe6d8,2025-12-25 07:23:33.862,2025-12-25 07:23:33.862
+0aa642ee-b26a-42a2-b70e-d503fb85c41d,najfgarh,jharoda kalan,Delhi,Delhi,India,110072,8dcc57eb-4a31-497f-bf4b-f58a941b627e,2025-12-25 12:06:42.858,2025-12-25 12:06:58.798
+beccfd45-1600-496e-a445-157bcd99dccf,"jalandhar, punjab",Bh1,jalandhar,Rajasthan,India,144411,61519485-d188-4fd2-b7d5-3ac9a3256ece,2025-12-25 12:09:41.584,2025-12-25 12:09:41.584
+0da56d49-4c6c-43ec-981d-a7e13406997b,Flat no. 104 Grace City ,Meherban Singh ka purva ,Kanpur,Uttar Pradesh,India,209305,066c6dcf-7def-406a-afa2-d6738b2704e5,2025-12-25 07:28:07.344,2025-12-25 07:28:07.344
+2ba5d392-1403-4744-91a4-77b874a3872f,Dadar,"",Mumbai,Maharashtra,India,400028,fcbd1873-6e9a-4135-857b-b4783bf89cbf,2025-12-25 07:28:09.444,2025-12-25 07:28:09.444
+fe9a6b9c-c72b-4ea8-bfa3-788941c006e7,"10,soubhgya Nagar , ","",Ratlam,Madhya Pradesh,India,457001,083117fd-9909-4edb-860c-eeab571c3e26,2026-01-07 17:25:42.917,2026-01-07 17:25:42.917
+ed9e8822-6ef9-4788-87fb-c406de669192,Ajwa road,"",Vadodara,Gujarat,India,390019,0919b2a9-afdb-4b67-a6d8-8a6cfaed1073,2025-12-25 11:15:02.261,2025-12-25 18:55:16.261
+c08cca1f-b87c-458b-96e8-67ce064bb39f,Goregaon East,"",Mumbai,Maharashtra,India,400063,22d2c28c-b0ca-4eb7-9bce-1b2c2454a5d8,2026-01-09 06:39:49.103,2026-01-09 06:39:49.103
+00cd1595-dd8d-451a-ad5f-a01c402219a0,"363, Mettupalayam Road, The Summit Apts.,","Block-A, 1-E",Coimbatore,Tamil Nadu,India,641043,a1047cc4-9d57-4a2d-872a-2a98b3ce783b,2025-12-25 07:43:58.784,2025-12-25 07:43:58.784
+bffc9fba-4824-4d50-85e9-f0eb7b037638,Dadar,"",Mumbai,Maharashtra,India,400028,50f3054f-d9a2-4592-9612-a545454fa6f3,2025-12-25 07:51:24.919,2025-12-25 07:51:24.919
+04387e91-16cd-47b0-b2da-99e5ed671dd3,FSFZGFZVZDV,ZFVGVZVGZVGSDGVS,MUMBAI,Madhya Pradesh,India,400702,e6e2e871-a56b-4b20-b050-1925017e4309,2025-12-25 08:07:37.254,2025-12-25 08:12:06.776
+e42b8494-8863-43ed-a6ce-11c604abab0e,SRM Chennai,"",Chennai,Tamil Nadu,India,603203,e764ae49-059b-4731-9016-731d38619612,2025-12-25 09:23:32.397,2025-12-25 09:23:32.397
+3dd37477-f84e-4c6c-a241-4ddbbc173eef,327 boardwalk place,"",London,London Borough of Tower Hamlets,United Kingdom,E145sh,39834771-3301-4dd2-b1ad-247ce63689d8,2025-12-25 09:22:09.357,2025-12-25 09:23:34.046
+89ff7ebf-7eff-4448-86bd-f4e15776e381,"803A, Central Bazar Road",Achraj,Nagpur,Maharashtra,India,440008,fd0f777f-6e9d-4c5e-81f6-613a422a8bb4,2025-12-25 09:34:26.934,2025-12-25 09:34:26.934
+5f20647c-7148-4190-be65-f12415031a3f,New Ashok Nagar,"",New Delhi,Delhi,India,110096,4ee9a852-7b35-4612-ab11-9efdf251171d,2025-12-25 09:44:38.749,2025-12-25 09:44:38.749
+2748570a-f317-4f78-864b-eea7c9d1b658,Sion,"",Mumbai ,Maharashtra,India,400022,a27edb48-6c9d-4d4e-be0d-6439a6d4f72a,2025-12-25 13:12:40.815,2025-12-25 13:22:02.137
+ea3c7af1-f519-4c87-b763-a354b2d5f753,No 82/69 Pillayar Koil Street Kosavanpalaym Village6312023,எண் 82/69 பிள்ளையார் கோயில் தெரு கொசவன்பாளையம் கிராமம்6312023,TIRUVALLUR,Tamil Nadu,India,631203,a526f509-9dc8-4dfc-b3fa-c031f28dc77d,2025-12-25 14:11:15.892,2025-12-25 14:11:15.892
+58d04961-528f-48ac-9f0b-b5691c8e383f,Aura Grandeur Block A Lullanagar,"",Pune,Maharashtra,India,411040,ea25b5d0-fd65-4215-beb6-268d226d9743,2026-01-10 06:09:18.427,2026-01-10 06:14:48.426
+437f08f0-c147-4d58-a7f2-bbc3d6db4f09,najfgarh,jharoda kalan,Delhi,Delhi,India,110072,167fd067-4191-4d7c-a7ef-a42cf5ef59bb,2025-12-25 15:11:11.258,2025-12-25 15:15:18.397
+4a9c7255-39f7-43f4-881e-0e13c5824c7b,"Khela Mardi, Ward No. 47, Foodies Mood Kirana, Ram Krishna Nagar, Mopka","",Bilaspur,Chhattisgarh,India,495006,dc5c3850-4438-4d01-9b42-0cda3b3297eb,2025-12-25 15:15:50.444,2025-12-25 15:15:50.444
+e705ad95-b6c4-429d-9367-510630bdca96,"Flat no 204, Om Graha Housing Society",Near Circuit House,Kolhapur,Maharashtra,India,416003,43201c58-b29c-411a-b3c5-83aaa414774c,2025-12-25 15:36:27.124,2025-12-25 15:36:27.124
+ce7a0204-abc5-4ed0-b39d-57c27e0e4a15,"Flat no 204, Om Graha Housing Society",Near Circuit House ,Kolhapur,Maharashtra,India,416003,39249c6d-a746-4d50-a713-7444a0451ff2,2025-12-25 15:38:22.047,2025-12-25 15:39:38.21
+b3737956-1951-4305-af97-cd35d2e9d5ad,"B-127, 2nd floor ",Parsvnath Paradise Mohan Nagar,Ghaziabad,Uttar Pradesh,India,201007,67b74619-0330-4283-abaa-68aaf90fa1df,2026-01-10 20:20:20.213,2026-01-10 20:20:20.213
+b5716535-c61a-4aad-984a-a919aed34e6b,Chandrakali Residency,"",Chikkabanawara,Chandigarh,India,560090,320851b9-d784-412b-8ab1-7b4740a8e9b1,2026-01-12 11:00:11.99,2026-01-12 11:00:11.99
+8d2a9b24-946f-4cb4-a2b5-18b569186771,Wakad,"",Pune,Maharashtra,India,411057,a0eb7281-bbc6-4cb1-884c-3368109cb8e9,2025-12-25 10:34:41.787,2025-12-25 11:52:26.116
+31079a5a-7714-4fa7-ad80-d4a56a7a41c6,"#66 Anughraha ,3rd cross first floor ,vinayaka layout","Hebbal,Kempapura",Bangalore,Karnataka,India,560024,aa8bfbd6-6b08-4455-b09b-ffd1ade56cc2,2025-12-25 16:26:45.694,2025-12-25 16:50:32.028
+0af829ec-92f5-4961-b69d-a0e9091dc6fa,isha pg,near bmsit,Bengaluru,Karnataka,India,560064,7861c0b0-9d89-47ac-951e-5a550a40ba9e,2025-12-25 17:45:00.972,2025-12-25 17:45:00.972
+32294e7a-2fa8-43e3-87b3-04356df3c6fd,"Vrundavan Residency , Ravet , Pune",NA,Pune,Maharashtra,India,411044,d3ae166a-5c3a-488a-9871-66715a1bc939,2026-01-15 11:42:34.149,2026-01-15 11:50:38.486
+27fada93-1321-4893-8607-11207f2a4b52,"B-30, Dharmaveer Anand CHS, Jai Maharashtra Nagar","Rd no 7, Wagle Estate",Thane west,Maharashtra,India,400604,e17c7f2b-f105-46da-9bc7-9d5fd4f7351c,2025-12-28 19:35:16.718,2026-01-15 14:11:20.558
+136ba27d-6cd6-4c7f-90aa-b7c6adbc99bd,"hydrabad road , solapur","",solapur ,Maharashtra,India,413005,4dbc71b2-2ff6-4280-a16a-c90c63724e82,2026-01-14 15:33:49.505,2026-01-15 17:20:21.495
+d3b60aa0-ca15-494e-87c3-c7cb5fd1449a,Sector 21C,"",Faridabad,Haryana,India,121001,0684818c-7be7-4060-b59c-4595e2b98305,2026-01-16 07:19:05.93,2026-01-16 07:19:05.93
+2bbf8c96-2f5e-4f2a-ac21-1bacf7a6fe4f,"301, Shree jeevdani heights, ","Plot no 107, Sector 10",Kharghar,Maharashtra,India,410210,24bf5e9d-8cb2-484b-a864-73d4c9a5f5af,2026-01-16 09:30:48.073,2026-01-16 09:30:48.073
+c04a14c7-027d-49b4-958d-500a6b419865,Chembur,"",Mumbai,Maharashtra,India,400071,bf37dfa5-5db5-4996-ac8b-cb325f3d79fc,2026-01-16 09:29:43.836,2026-01-16 09:32:23.372
+a81fa92c-1731-44bf-b014-f2120ebf5567,"#68, Raksha Nikunj Zenith Layout",Meesaganahlli,Bangalore,Karnataka,India,562157,86b8349e-1440-42b7-b5c5-732df285d484,2026-01-15 11:45:25.934,2026-01-20 09:46:03.735
+21af2ad1-e610-485b-b800-dd82f3c1bb41,196 SN,"",Text,Chandigarh,India,1234567,4ac03e08-6527-434c-acae-b94238f1b37f,2026-01-14 20:11:37.477,2026-01-14 20:27:59.442
+92794906-d2fe-4ba4-a2a3-34f7f3e19e5c,Theeram House,"",Kottayam,Kerala,India,686604,5aa9d5ed-3757-4593-9f7b-cfff93b78ad9,2025-12-30 06:45:19.43,2026-01-23 07:42:28.62
+83342507-fcfd-47bf-ac33-898cebd1c677,DLF Phase 3,"",Gurgaon,Haryana,India,122022,57ec154a-408e-43f5-a2ae-bd66b8565dd3,2025-12-25 07:23:38.158,2026-01-17 07:40:20.821
+6a1c2255-fd35-4ce5-acbc-b1d23a9650af,Boisar,"",Mumbai,Maharashtra,India,401501,b80aa1dd-06a0-4ee0-af15-30f21c854bc0,2025-12-26 07:16:39.787,2026-02-06 14:26:04.698
+75593602-29b5-4385-9926-f08fb714db7d,"D2/109, vivekanand nagar, old mahada, vasant vihar, Thane West",Vivekanand Nagar,Thane,Maharashtra,India,400610,cefc13e6-a696-4560-8253-2528ce39162e,2025-12-27 17:44:51.204,2026-02-10 17:59:17.425
+3ae5764f-53bd-4bd9-b403-d976a21c89aa,Centurion University ,Jatni,Bhubaneswar ,Odisha,India,752050,fb0071e9-d3a1-49ed-913f-ab780051600f,2025-12-26 12:20:53.007,2026-02-14 14:59:20.593
+697c6c92-155e-433f-ba20-bccf094925e1,"204, Second Floor, Shrayanks Empire, Sri Ramnagar - Block B, Kondapur, Hyderabad, Telangana 500084","",Hyderabad City,Andhra Pradesh,India,500084,5558cb00-0f70-4169-8c23-d9db534dd308,2025-12-25 18:37:26.659,2025-12-25 18:37:26.659
+f5614e70-2569-4527-98ec-7324ec82bd57,"111H/1, Anna street, ","Bhavani Nagar,Melamaiyur Panchayat ",Chengalpattu ,Tamil Nadu,India,603002,24a98461-fb06-4878-9c70-fea2f7a9c4e0,2025-12-25 21:59:41.841,2025-12-25 21:59:41.841
+b105c8cf-a7e7-42af-81a9-4c6d67e1e42f,Basavanagudi ,"",Banglore ,Karnataka,India,560019,64a7dab6-01a9-4047-a7f4-1a9c0d286044,2025-12-29 14:36:29.32,2025-12-29 15:17:09.722
+ddfe1813-6b11-4940-a4f2-7fa943ba67a1,"B-103, IRIS CHS, UNNATHI GARDENS, DEVDAYA NAGAR, Thane","",THANE,Maharashtra,India,400606,e93334bf-ddd3-4496-9bd1-8b17298f8969,2025-12-29 16:13:58.455,2025-12-29 16:13:58.455
+f61449f4-dfca-4a28-a8cc-016fdc7fe9f4,wfwef,"",wfef,Maharashtra,India,400064,23fb788b-12e3-494d-85af-30020ae3a7d9,2025-12-29 17:32:00.379,2025-12-29 17:32:00.379
+387f5aae-bcde-4ee2-a60e-293be3d2b09d,"T5-1804, Joyville Gurugram ",Sector 102,Gurugram ,Haryana,India,122006,4955af86-7036-48a5-9f56-4f1e2b489938,2025-12-27 12:55:37.935,2025-12-27 12:58:53.784
+70806927-3e30-4077-8952-e1c153d2dc1a,Taramandal,"",Gorakhpur,Uttar Pradesh,India,273016,020738f2-bfab-4c51-9b64-93ca341118af,2025-12-26 04:40:26.183,2025-12-26 04:40:26.183
+ce9f873c-8001-4cde-927f-a0417a8803a0,Amrita Vishwa Vidyapeetham Amritapuri,"",Kollam,Kerala,India,690525,2eccbaf7-f49e-4138-96ae-6363c6747f15,2025-12-26 05:08:17.279,2025-12-26 05:08:17.279
+cf84ae6c-efec-4f62-99a6-78d695ecaa50,Residential Area IIT Bombay Powai,"",Mumbai,Maharashtra,India,400076,80a665f2-7d01-470b-a820-a190de83faaf,2025-12-26 10:16:41.288,2025-12-26 10:26:39.33
+e0945012-0617-4547-8a7c-e0564413e246,108 Mayapuri Colony Naika,Jhunsi Prayagraj,ALLAHABAD,Uttar Pradesh,India,211019,e528938c-0ea2-46eb-b894-a60ca9c4d43b,2025-12-26 03:55:03.56,2025-12-26 05:48:48.106
+cdccd7bc-79de-451c-b1d8-2882e0ce14f2,"B34,4488 street number 10 durga puri haibowal Kalan","",Ludhiana,Punjab,India,141001,f6e2b062-b667-4d90-aa73-6f02699a9bc8,2025-12-26 06:17:10.71,2025-12-26 06:17:10.71
+cd121905-95c6-4189-8e70-679c8f6cc022,Jupiter-Mercury CHS,"Poonam Sagar Complex, Mira Road-E",Thane,Maharashtra,India,401107,68a7f533-8c04-4deb-bf91-258e1f8325cf,2025-12-27 16:42:15.338,2025-12-27 16:46:39.119
+0db15aca-1af8-4ca7-b9a4-1cba9fda0992,Athagada,Kabisurya Nagar ,Athagada Patna,Odisha,India,761105,65761912-d0eb-4e59-a717-ad55b390fcb1,2025-12-26 09:19:45.631,2025-12-26 09:20:17.634
+96a95de9-9f25-4ab5-8f20-ae1c97ca84ff,"The next home pg,yalwande vasti, laxmi chowk,bhumkar das gurve rd, pune , maharashtra,411057","The next home pg,yalwande vasti, laxmi chowk,bhumkar das gurve rd, pune , maharashtra,411057",Pune,Maharashtra,India,411057,f3bc3142-c2d3-43b0-9464-3dd12854e515,2025-12-26 10:04:33.127,2025-12-26 10:04:33.127
+acc85d60-a8aa-4272-b5af-005b038322d3,Jabalpur,"",Jabalpur,Madhya Pradesh,India,482002,9f34820b-d483-46fd-a229-dbffc4b6cad5,2025-12-28 15:11:11.373,2025-12-28 15:11:11.373
+b078b6b6-df71-41b2-970c-3e4acf5f17fe,Paramount Symphony,Crossing Republic,Ghaziabad,Uttar Pradesh,India,201016,45bf534f-69d5-4d95-a1c5-3c19a4242083,2025-12-30 17:49:13.215,2025-12-30 18:00:55.501
+601d2429-1de9-42e8-9660-4858fe0d00ca,K2B303,Godrej Elements,Pune,Uttar Pradesh,India,411057,9f7635b1-d5d4-4cb1-bd52-1131618e2c65,2025-12-29 14:27:50.472,2025-12-29 14:27:50.472
+aea4bfe8-d210-4804-88c1-c005ed61d94f,"B34/4488 ,Street Number 10, Durga Puri , haibowal kalan","",Ludhiana,Punjab,India,141001,9d379f8b-398e-4c0e-a930-208943d9e902,2025-12-26 05:49:05.629,2025-12-26 10:35:55.299
+68dfd82d-e6d1-4879-ba7a-6593f0bff6d5,Dadar,"",Mumbai,Maharashtra,India,400028,fbedfc04-e40a-477a-a4d3-b11c27c173fd,2025-12-26 12:06:59.035,2025-12-26 12:06:59.035
+29180d08-d810-4b6d-bda2-5cef53b013dc,Centurion University ,Jatni,Bhubaneswar ,Odisha,India,752050,003b25d8-9336-4ce4-9bc6-203e35c772b5,2025-12-26 12:31:52.02,2025-12-26 12:31:52.02
+a701eee2-309f-4f2d-bdc7-e47f872dbe92,"Vrishti, D-102, Dosti Vihar",Vartak Nagar,Thane,Maharashtra,India,400606,f008cc1b-72ae-4e65-bc8a-46f2513b6c95,2025-12-26 14:32:24.157,2025-12-26 14:32:24.157
+a967c878-74b9-4943-b0ef-3043f679ef9a,"Moh Paibagh, Nanhey Miyan ki Jarat","",Najibabad,Uttar Pradesh,India,246763,02adaa7e-a1fa-4f8b-a736-88b4e7eb2f0c,2025-12-27 09:19:55.056,2025-12-27 09:19:55.056
+d027ab24-5f58-4315-a875-9f0ffe7efd2c,"Aquamarine Hostel, IIT Dhanbad ","",Dhanbad,Jharkhand,India,826004,f3329dd7-f829-41bc-9e6b-e757dc1b36ba,2025-12-29 19:13:06.818,2025-12-29 19:15:10.318
+3432be02-73d4-4442-b035-5fe1ccf83345,Keshvam Skycity ,PDPU,Gandhinagar ,Gujarat,India,382426,0221a46d-4f0b-4bd2-95ca-206c7003a439,2025-12-27 13:12:52.99,2025-12-30 14:02:04.288
+44781735-977f-414f-98c7-36e6f4042eb2,"A312 , Amber Hostel",IIT(ISM),Dhanbad,Jharkhand,India,826004,63dcc1cc-ae05-4de8-b3a8-a5b508a8ff26,2025-12-27 07:15:39.335,2025-12-30 15:52:39.241
+73321752-8b00-4cdf-99fb-8d0d8cff46b6,Karvenagar ,"",Pune,Maharashtra,India,4111052,dd0ff52c-8f5f-4e1b-982f-b0427c7da0b7,2025-12-31 11:40:29.038,2025-12-31 11:40:37.591
+1efc580e-454f-4e5a-9269-37f477dd7fec,"Jwalapur, Haridwar","",Haridwar,Uttarakhand,India,249407,d64a0788-8da6-487d-a6d0-9c31707167d2,2025-12-30 17:16:51.9,2025-12-30 17:17:03.407
+81513ead-cd4c-496c-ab7c-4a97383c5da5,"E-10-09, aquamrine hostel , iit dhanbad ","",dhanbad ,Jharkhand,India,826004,c24e2a70-d35e-42a0-858c-f55d401228be,2025-12-30 17:33:09.16,2025-12-30 17:33:09.16
+5ec5e2cb-81ca-4c92-86bf-f1e242e3f1d6,IIT ISM dhanbad,"",Dhanbad,Jharkhand,India,823004,cdfc9eee-eb9f-4d63-9b85-3b50ee4e37e2,2025-12-30 17:51:12.094,2025-12-30 17:51:12.094
+9750e4ec-19d0-447e-918a-baab45ae1321,Uniworld City,Newtown,Kolkata,West Bengal,India,700156,1e5c5ff9-ce11-42f8-9a93-a24b5396384a,2025-12-31 18:45:33.3,2025-12-31 18:45:33.3
+5ba69fef-fd69-4cbf-b336-51135f86a0c0,"1B 1403, Provident Park Square, Judicial Layout, Kanakapura Rd, Vakil Garden City","",Bengaluru,Karnataka,India,560062,a9c6d8a8-81cd-4e10-88bd-c22a08ef0d12,2025-12-31 19:43:34.162,2025-12-31 19:47:02.858
+97178e34-a322-4ab8-9b82-851de9493879,"House No. 634, Sector 10","",Panchkula,Haryana,India,134109,aaba0d20-0aa3-4741-a6c8-9526f8d3c16d,2026-01-01 18:38:23.207,2026-01-01 18:38:23.207
+fe0f8798-ac8e-4ebb-9af1-f1868e733182,LNMIIT Jaipur,"",Jaipur,Rajasthan,India,302031,a95a50b3-60d6-4c1a-a993-e6d3ba56fac1,2026-01-02 08:21:09.735,2026-01-02 08:21:09.735
+eed49a14-0581-494f-b43e-10157a6415d4,ASANSOL,assn,ASANSOL,West Bengal,India,713305,8dbc9242-1f51-4d65-af76-038581d3e1a7,2026-01-02 15:44:48.531,2026-01-02 15:44:48.531
+3410d229-837d-4823-9d68-f0659f169cd9,"Greenfield Co-op society, Kothrud","",Kothrud,Maharashtra,India,411038,4113158e-d555-4685-90de-8bad7928f595,2026-01-02 17:20:04.678,2026-01-02 17:20:04.678
+20b40812-bb90-441c-a249-4ff53f404b35,Forest Line,"",Adoni,Andhra Pradesh,India,518301,9ecae645-d500-47bc-8dbe-e4700368f9a2,2026-01-03 04:22:36.749,2026-01-03 04:22:36.749
+bab2c256-e02b-4f7f-827e-7bd532a2a5b1,196 SN,"",Text,Assam,India,1234567,9eb279cc-450b-4445-926d-00b62f2ce0d6,2026-01-16 18:40:33.635,2026-01-16 18:43:25.609
+6499a8be-8ba0-45c0-a0ca-b52464e3694e,Office NO. 1008 Tower 4,Assotech Business Cresterra Sector 135,Noida,Uttar Pradesh,India,201304,99f96139-19f1-48bc-abae-15cb60c98322,2026-01-08 10:59:37.191,2026-01-08 13:15:17.883
+c40f57fe-fccd-4460-8c5b-413fbf5106fc,"B-404, Meghdoot CHS",Mira Road,Thane,Maharashtra,India,401107,77d92318-315b-4dd4-a85e-ad1b8d621d48,2026-01-09 07:25:09.585,2026-01-09 07:26:25.156
+e7f3b4ff-70be-4583-846e-386da8c5d02a,"Auriga 602, Zircon Housing Society",Viman Nagar,Pune,Maharashtra,India,411014,9ed93164-413a-46c2-a965-14d713954b87,2026-01-10 08:01:51.882,2026-01-10 08:01:51.882
+71223ea9-b37c-4bb2-9f04-3726eb6f6678,Gaur Green Avenue,"",GHAZIABAD,Uttar Pradesh,India,201014,001873b2-3ca2-447c-8359-d9cd51ab2918,2026-01-10 08:05:59.727,2026-01-10 08:05:59.727
+a317f242-8f62-4362-b6ba-a206865ee639,Test,"",Test,Arunachal Pradesh,India,800567,14e0d86a-f978-4db0-8aa6-dca48a6199ff,2026-01-17 02:52:17.047,2026-01-17 02:52:29.482
+eae9a526-e5a4-429b-9636-b60c0b6d5955,Sai Madhav nagar,Naidu Thota,Visakhapatnam,Andhra Pradesh,India,530047,9fd06dff-983b-4e98-ba60-72ce0cdaeb30,2026-01-11 07:50:12.382,2026-01-11 11:58:51.974
+f288ab92-dce1-452a-b0a1-caef89c13944,Palazzo Apartments,Balewadi,Pune,Maharashtra,India,411045,9aacf82c-9e73-45c3-8c6a-0513a882f2fa,2026-01-15 03:53:52.264,2026-01-15 03:53:52.264
+07b8cfb2-75de-4b41-95ef-411edc04afc3,Chudasama Plot No 3 Near Amrapali Railway Crossing Raiya Road,'satyam',Rajkot,Gujarat,India,360007,381fd348-1793-4e06-9619-9af650417f8a,2026-01-15 12:09:13.634,2026-01-15 12:09:13.634
+9c680f8d-3014-43e2-ba63-9ac54ae0c3f2,vavavvvadvavdsdv,f eeiwfiw ,bhilwara,Rajasthan,India,302022,a1f28619-1c95-4009-bae5-1cf697a57603,2026-01-15 14:44:13.508,2026-01-15 14:44:13.508
+37689d8a-a618-4dd4-b8c7-450b022f830c,"E-401, Laura Building","Rosalie Complex, Near DMART",Kalyan,Maharashtra,India,421301,851b16e9-f577-4f73-8f15-1e56effa55a9,2026-01-16 10:10:30.335,2026-01-16 10:10:30.335
+3c746864-4ade-4e91-9b5b-ef39818b6ba2,"502, Hill Avenue","Ajinkiya Park, PAN Card Club Road",Pune,Maharashtra,India,411045,9ebc0b4c-86be-4b1c-9a82-edb2082a8d5f,2026-01-03 11:28:43.994,2026-01-03 11:28:43.994
+5e38061b-7929-41d1-95e7-39fa65bb7f6a,lav kush township ,"",anand,Gujarat,India,388345,646e463a-3ad8-4380-b644-05db0c0132a9,2026-01-03 18:48:37.036,2026-01-03 18:48:37.036
+d85fa70b-1966-40aa-a643-413c819c3173,Ahmedabad,"",Ahmedabad,Gujarat,India,380015,a3312a48-16e5-4ed0-8080-d3eea1bb224d,2026-01-03 05:10:46.527,2026-01-16 12:37:07.329
+4393148c-60ea-4a13-8680-4dcc32c2b5dd,Lifestyle Society Linkroad Chinchwad Pune 33 7276306320,"",Pune,Maharashtra,India,411033,aa98052e-cb47-4fe3-a06d-7b8d13653586,2026-01-16 15:42:31.326,2026-01-16 15:42:31.326
+194e7fae-2b75-48e8-a7af-b4846c2c1e25,F6 Etti Annal Illam Rion street ,Sankar Nagar Poonamallee,Chennai,Tamil Nadu,India,600056,40fb740d-14c9-45c8-95b6-efeeaaf939e3,2026-01-16 08:45:21.731,2026-01-16 16:27:06.768
+beb45296-e033-46c0-ab46-aee1e84a287e,Jagdusha Nagar.,Ghatkopar west,Mumbai,Maharashtra,India,400086,16d34a5f-da1b-4f37-a1ee-cb1d6c1fdbcc,2026-01-16 18:14:08.075,2026-01-16 18:15:39.786
+f95795dd-5cd6-4a03-9716-5be7365802ef,196 SN,"",Text,Assam,India,1234567,c7a531f4-7e5b-4a8d-b3e6-b8478a30bcac,2026-01-16 18:17:24.762,2026-01-16 18:18:27.722
+3190d166-728a-47f0-9110-389c150f1a45,"EA105, Scheme No. 94",Main Ring Road,Indore,Madhya Pradesh,India,452010,745d1692-15cd-4f23-bf22-c1410fbd8a1c,2026-01-17 06:18:12.541,2026-01-17 06:19:23.704
+65bea450-2b84-4968-8431-6bb88a0263fe,Twst,"",Test city,Bihar,India,800024,95ed4941-2b1a-4f56-9de0-1ef55a9afbc3,2026-01-17 13:39:08.524,2026-01-17 13:39:08.524
+35bd6e23-b2eb-43a1-a44b-f7ae2b84096e,"E-705, Destination Ankur, Chovisawadi, Charholi Budruk,",Viman Nagar,Pune,Maharashtra,India,412105,88754414-8f17-4a58-b70c-62aaa1008ec9,2025-12-24 09:17:57.207,2026-01-20 09:37:27.796
+60d33d6f-ff14-4f2d-83e5-6e865ff0d944,"1121, Block-1, Platina ",Mount Poonamallee Road,Chennai,Tamil Nadu,India,600116,912c46df-c994-4cb8-8b95-78e77bf326e9,2026-01-18 08:24:17.415,2026-01-18 08:26:55.152
+42d2bf06-e43a-4910-8f41-1026392f556f,Sadbhav apartment ,gurukul road,Ahmedabad ,Gujarat,India,380052,bd4307c6-f8d8-4a56-807b-fe2879e1b42f,2026-01-18 09:42:56.338,2026-01-18 09:42:56.338
+2a3c660d-39ba-42dd-a17a-f609d2a3a18e,196 SN,"",Text,Bihar,India,1234567,4d1255bd-03c7-4b23-8e78-4e4397c67212,2026-01-18 10:13:10.159,2026-01-18 10:13:17.046
+9bb47395-cae1-4ffc-bdb6-2fef033d47a0,123,"",123,Chhattisgarh,India,123,7331242d-cd70-422b-85b7-7491713a4f81,2026-01-18 10:18:44.905,2026-01-18 10:18:44.905
+346cad7b-5e39-49c9-88eb-04b37953bc19,Gwalior ,Bhitarwar ,Gwalior ,Madhya Pradesh,India,475220,91434a90-9931-4ed5-9f46-d8185b7b680d,2026-01-19 04:03:35.042,2026-01-19 04:03:35.042
+06a39715-1135-480e-a32b-f8369ab26d97,Bhitarwar ,Gwalior ,Gwalior ,Madhya Pradesh,India,475229,23ddcd38-7d61-4224-86a2-bb5509ab4c5b,2026-01-19 04:06:03.302,2026-01-19 04:06:03.302
+f159512d-9bc4-4d4e-81c7-1dc0b7d7e911,31/9 M. Ghat Road,North 24 Parganas,Naihati,West Bengal,India,743165,0d1b47c3-5ff7-4d3c-bd2c-328096f0a54a,2026-01-19 04:46:06.566,2026-01-19 04:46:20.264
+319cb1b3-de3d-454b-aff9-2bf29044e1f5,"Amrutnagar Street no 6, Chakkargadh road - Amreli -365601","",Amreli,Gujarat,India,365601,21cde521-d8ce-4c85-a1b0-b947a52f0e90,2026-01-19 09:20:54.751,2026-01-19 09:20:54.751
+56b28dbe-3b50-4136-9afa-d6f43fe56529,"C-52, Ananda Nagar","Nijigarh-Kurukhi, ",Jatni,Odisha,India,752050,5e866050-4aed-4dbb-994a-354d1dbe9110,2026-01-19 22:31:10.528,2026-01-19 22:31:10.528
+0f83d8d6-3809-4381-a717-79409d2d2c29,Mumbai,"",Mumbai,Maharashtra,India,400068,47c37f5e-5f6a-4a95-b4d9-417adaeee724,2026-01-20 09:35:59.027,2026-01-20 09:35:59.027
+9587b206-37fd-4e1d-87d2-cee0c4c08cb8,"B-80, South City",Raebareli Road,Lucknow,Uttar Pradesh,India,226025,f35c5a09-a754-473e-aa6c-1fdf3c2f2fb2,2026-01-22 09:50:01.916,2026-01-22 09:50:01.916
+4fe7ba6a-de92-49b4-a796-e01cf4cb93e8,Upper Sichey,IBP Road,Gangtok,Sikkim,India,737101,d43cd7cd-5acc-40b9-94df-3fe182718c9d,2026-01-22 11:21:05.66,2026-01-22 11:21:05.66
+e9723650-ced0-49b6-89e3-6527f1dee8ed,Govandi,"",Mumbai,Maharashtra,India,400088,2feb517b-543d-4427-a6c2-a6fe0e31b057,2026-01-21 08:42:31.29,2026-01-21 08:43:05.184
+6959692b-fd92-4d4f-99fb-d68dbbbac7f0,"2nd main 2nd cross bharti nagar, dharwad",dharwad,Dharwad,Karnataka,India,580001,5579aa17-8b86-4c9a-866a-b3f7b132e1f5,2026-01-21 11:49:52.557,2026-01-21 11:49:52.557
+b1252370-c371-490c-8a08-89c2c81c847d,"RAA-705 Purva Riviera, Marathahalli","",Bangalore,Karnataka,India,560037,8828c404-7e00-4f67-8f19-abb0c753a768,2026-01-08 11:24:40.052,2026-01-21 13:32:17.223
+2ae7ac09-3ac7-4a1e-adef-a20384736278,"D-101, Orchid Complex, Near Gundhecha School, Thakur Village, Kandivali East",D-101,Mumbai,Maharashtra,India,400101,6be2f47b-35f1-47b8-988d-cc3bd87aad00,2026-01-09 08:39:22.982,2026-01-22 14:16:18.993
+066662d3-7922-4282-9ba4-c42c4097d9d5,"B 202, Ananta Bldg","",Mumbai,Maharashtra,India,400076,3a4c73ad-e9bd-4a7f-8b2a-1e7b3b914cfd,2026-01-22 22:18:44.789,2026-01-22 22:18:44.789
+edab79ba-baad-4af5-9eb3-0ff030ec355a,"B-183 K Block, Yashoda nagar","",Kanpur,Uttar Pradesh,India,208011,f01918e3-ffe5-4803-a976-eeba52bbe14f,2026-01-19 11:34:21.534,2026-02-16 09:47:14.494
+87bd06e3-6792-4036-8382-ed9e7b3b2ec9,"Nadiad,gujarat","",Nadiad,Gujarat,India,387001,e566ad0b-2652-4639-b18f-8d8a4ebae1ea,2025-12-27 03:18:48.173,2026-01-24 19:09:06.277
+bcdb4873-487c-4096-9c4d-3e5ad1bdfc31,Rk puram ,"",Kota,Rajasthan,India,324010,55fb92d2-b3b1-445b-8bbe-437de70f045c,2026-01-23 16:15:21.899,2026-01-23 16:15:21.899
+a9013d05-d472-4a09-8c0e-4e9c54cf7c75,"Sector2,c20,401","201,D-12",Thane,Maharashtra,India,401107,af220e6e-25ae-46e8-9785-26ca41fb9fbd,2026-01-24 16:17:09.389,2026-01-24 16:17:09.389
+f8ae8a61-27e7-4c57-b9a9-1e975fc3b04d,Residential Area IIT Bombay Powai,"",Mumbai,Maharashtra,India,400076,9ad674f9-d12f-48a2-a3c9-3b12df6fe1fd,2026-01-25 09:00:02.331,2026-01-25 09:00:02.331
+907e69c6-12ef-49cd-8423-a97a4f7d30a3,shrayanks empire,"",hyderabad ,Telangana,India,500081,530d25d1-77cd-4a22-9815-06750502f067,2026-01-25 10:55:45.815,2026-01-25 10:55:45.815
+657a72b0-4baa-42e7-a314-4b28f3903920,T-405,Abode Valley ,Chennai ,Maharashtra,India,603203,0d66da2d-c604-433d-8150-4bf2aafa466e,2026-01-25 21:37:03.874,2026-01-25 21:37:03.874
+58b6b8aa-abdc-47d5-a94a-ea70d9b676bb,Lower Parel,"",Mumbai,Maharashtra,India,400013,b67f1eea-25f4-47a5-a72b-2c6e4664dd85,2026-01-26 04:12:58.851,2026-01-26 04:12:58.851
+44004472-35aa-41eb-96c3-95f414968c01,"Block 57, 57/5","",New Delhi,Delhi,India,110060,dcbe7e89-4c41-419f-a679-444f80ae2e2a,2026-01-27 03:03:25.789,2026-01-27 03:03:25.789
+09df1d12-ed39-4d0f-9ff6-20f1946ebc3e,India,India,Gurgaon,Haryana,India,122017,e773a9e6-9249-48b3-87f6-00ec9bfeb767,2026-01-27 10:35:49.73,2026-01-27 10:35:49.73
+f26b599d-9fc4-4fae-b5b3-6cdd4c94ccc2,plot no. 8-b shiv park colony near shiv mandir panchyawala,"",Male,Rajasthan,India,302034,f3ef013b-afd0-40fb-b689-df27d0719383,2026-01-27 13:15:26.721,2026-01-27 13:15:26.721
+b85011d9-cc81-45a4-8902-a72239a94f71,B-702 Kens Avlon Heights,"Opp Sadguru Vatika, MG Road, Nikol",Ahmedabad,Gujarat,India,380024,862c3403-b6c8-4535-ae2d-5ee6d4297e44,2026-01-27 18:54:00.074,2026-01-27 18:54:00.074
+ddebbaa2-bec0-4aa3-a52e-f7021d57e628,LNMIIT," Lnmiit, Rupa ki Nangal, Post-Sumel, Via, Jamdoli, ",Jaipur ,Rajasthan,India,302031 ,094d46fc-9c11-4a97-9028-a086abb4e868,2026-01-29 07:37:08.94,2026-01-29 07:37:08.94
+39511b90-e0ac-4d07-bc4b-0cbb38ade85d,Bopal,"",Ahmedabad,Gujarat,India,380058,b738d19c-5693-4ee4-a1ce-604771db5ae7,2026-01-30 12:53:31.066,2026-01-30 12:53:31.066
+dfbd7a62-a918-4919-bcb4-fd5bdf6d3310,196 SN,"",Text,Assam,India,1234567,3ec0209b-885a-489f-bba0-7191730cd12c,2026-01-30 14:38:27.639,2026-01-30 14:44:44.877
+862bb66c-e134-496d-8792-a2caa980ee9c,"Block T , T405","abode valley, potheri",Chennai,Tamil Nadu,India,603203,05b880d1-dc22-47ec-a49b-cf552790ec65,2026-01-30 18:25:22.436,2026-01-30 18:25:22.436
+b0dd3c52-30c8-4dca-8e12-b783fe512029,polyhouse foodcourte,ambegoan bk,pune,Maharashtra,India,411041,d4d73c8b-7b73-4873-91c8-79b892e62b74,2026-01-31 06:36:08.806,2026-01-31 06:36:08.806
+f8e9cee3-73f2-4b86-acba-cc394ef86c1e,11 a 24 Tilak nagar behind siddhi vinayak hospital,"",Bhilwara,Rajasthan,India,311001,482f6872-8933-4b5c-ba6d-4b3dd37d67a8,2026-01-31 13:38:56.725,2026-01-31 13:38:56.725
+045cced6-6b90-47e7-8a70-9d244edd810b,Mahmudpur Road,"",Melandaha,Jamalpur District,Bangladesh,2010,9f43d4d2-d7a4-497b-ab39-89949b6ee3fc,2026-01-31 15:32:23.032,2026-01-31 15:32:23.032
+a9c40223-bff7-4e72-9942-026674ef79a6,saidham residensy,"polyhouse foodcourte , vadgoan",pune,Maharashtra,India,411041,db6f5aff-1863-4b1a-a0ed-938e3cb58a7d,2026-02-01 17:36:52.144,2026-02-01 17:39:34.813
+9928747a-af7a-4671-b971-c28b231d5038,"Sahar Airport Rd, Ashok Nagar, Andheri East, Mumbai, Maharashtra 400099, India","",mumbai,Andaman and Nicobar Islands,India,341200,30f3d776-2d66-48f2-bee4-4f30020e5347,2026-02-02 03:31:30.838,2026-02-02 03:31:30.838
+64a5618a-922e-4668-ab07-28b156de88b8,"111 Somerset Road, 111 Somerset #09-33","",Singapore,Central Singapore Community Development Council,Singapore,238164,7931e1e8-3d1f-4a96-964b-3d3e546ad0c2,2026-02-02 09:20:09.006,2026-02-02 09:20:09.006
+e20ea22b-5a54-4fd0-a003-d223ee2bfb4c,"C-404 Jalandhar Heights-1 , Jalandhar , Punjab",B-0174,Jalandhar,Punjab,India,144020,1e9d84b8-0f39-470e-95ec-7194b2cfbc2f,2026-02-03 11:58:19.563,2026-02-03 11:58:19.563
+1fdff8ea-029b-4196-9cc7-92ee7b95ebd3,West mambalam,"",Chennai,Tamil Nadu,India,600033,b495849d-6cc0-4a0c-a397-141ceeb7089d,2026-02-03 13:47:07.929,2026-02-03 13:47:33.455
+be8b9189-3892-480b-996b-f12cf20c5df2,Jasmine apartment,"",new delhi,Delhi,India,110030,28bf8c01-b2e0-4e23-ac74-0e987975bc4e,2026-02-03 18:27:22.27,2026-02-03 18:27:22.27
+58232df7-c309-4b88-9017-155709f6ca7d,Near Primary School,Fudeda,Vijapur,Gujarat,India,382860,fbda6d79-7628-4455-b55e-e18931d6dd65,2026-02-04 10:46:22.598,2026-02-04 10:46:22.598
+f48d7a52-ed88-4a9f-b0ce-341df879636e,"Largo Dell’Olgiata 15, Isola 47b","",Roma,Metropolitan City of Rome,Italy,00123,0188149f-6db9-4e74-aa64-f9a5883ab9c2,2026-02-04 16:05:31.727,2026-02-04 16:05:38.348
+e0ba2cd0-55c7-4d4e-951c-72c6d15193a3,"Office No. 1008, Tower 4 Assotech Business Cresterra ",Sector 135,Noida,Uttar Pradesh,India,201304,4123ca59-189c-4a52-84c2-18930914d79c,2026-02-04 20:03:51.969,2026-02-04 20:03:51.969
+be84579a-3151-4a36-ab0a-37744ccfc53b,"Pashmina Waterfront, KR Puram","",Bengaluru,Karnataka,India,560049,45e3473e-edaa-4ad2-96c5-9b88103e22bf,2026-02-05 04:17:40.738,2026-02-05 04:17:40.738
+f189d3c2-8507-41ca-81b2-99c5251cb481,16054,kohinoor city b,mumbai,Maharashtra,India,400070,5483d432-7be3-481e-b062-22b5ab4c716f,2026-01-28 17:01:28.407,2026-03-09 16:06:36.455
+9a2a6eb9-7d79-40be-87fc-1c40de91804a,"",,"","","","",7bd76191-c2c3-4bca-bf99-77cf22f7f24c,2026-02-05 15:30:42.205,2026-02-05 15:30:42.205
+365069c5-0939-4f0d-9343-c34ff7d5fd42,"",,"","","","",2fadc205-6e42-445d-b345-ed0af8848a8b,2026-02-05 15:33:09.991,2026-02-05 15:33:09.991
+0bc92f87-ab07-44d8-9fe9-d6e8683f9b87,"",,"","","","",355cc083-ea0b-4dd0-b172-9457f43f53ef,2026-02-05 15:33:12.432,2026-02-05 15:33:12.432
+3748f57e-1e11-4f6d-b607-0d6f1e3e7188,"",,"","","","",0e2cf069-181b-42d8-bc7d-cd37c7eff918,2026-02-05 15:33:14.775,2026-02-05 15:33:14.775
+bf1057cc-ee5e-47f4-888f-a8b7e8668d8f,"",,"","","","",e74a113f-72e2-44ae-8b1b-6eb187f959e2,2026-02-05 15:33:17.196,2026-02-05 15:33:17.196
+ec3e07ad-0dca-40f9-aaf3-d6e522272044,"",,"","","","",7c4a7113-74fc-4b93-9e3f-cd5b839717d4,2026-02-05 15:33:20.233,2026-02-05 15:33:20.233
+cf19da86-a09c-4ff4-8777-b7e996b419c4,"",,"","","","",c82eba83-c102-43c4-ad0a-e92a6afdb5c4,2026-02-05 15:33:22.904,2026-02-05 15:33:22.904
+0485c1d4-f5ba-44c9-a631-a72a279b9be2,"",,"","","","",c05f480e-b309-47c8-8b16-2d4fffa4ae08,2026-02-05 15:33:25.807,2026-02-05 15:33:25.807
+c0536d7c-b6f8-44e8-9e21-f7a97cf24899,"",,"","","","",83c2fe3d-c72e-406a-bebe-c05c9023b128,2026-02-05 15:33:29.089,2026-02-05 15:33:29.089
+b78bcaad-4c55-4c30-aefb-9a1c84e7c023,"",,"","","","",1cd46b99-ff87-43d4-995d-7f18de9f0dab,2026-02-05 15:33:32.334,2026-02-05 15:33:32.334
+f61e4005-112a-4ec1-b3d4-d4cbbdd74693,"",,"","","","",ceed6a3e-0d19-4f28-9e1c-a3b79c95b108,2026-02-05 15:33:35.125,2026-02-05 15:33:35.125
+89a2ba6a-edd0-4cf1-b226-1cc3d76e37af,"",,"","","","",f5b25ed8-dfc6-420d-afd7-b44516d8f61a,2026-02-05 15:33:37.625,2026-02-05 15:33:37.625
+a86624e8-df08-470c-bb5a-9b9468c62931,"",,"","","","",a766e875-1050-4e4b-ba4b-def37b24ab84,2026-02-05 15:33:40.536,2026-02-05 15:33:40.536
+b70a9a1c-cb08-4af8-9221-b40140341b88,"",,"","","","",046c9877-d8ab-402d-998e-083da518393d,2026-02-05 15:33:43.205,2026-02-05 15:33:43.205
+ac19f6e1-9597-4454-9bef-b5e98405d69d,"",,"","","","",19755206-0825-4232-b08f-88c26d18ca2b,2026-02-05 15:33:45.757,2026-02-05 15:33:45.757
+04594628-a55d-492b-984e-2afdeff01cc9,"",,"","","","",d525883f-5ca2-497b-8d1c-09f6eb2dbc41,2026-02-05 15:33:48.772,2026-02-05 15:33:48.772
+bdc4ea6f-8090-4bb5-8285-86bccb3b0f51,"",,"","","","",64ea3a2e-6e02-4866-9340-3ef8ca09ad5b,2026-02-05 15:33:51.734,2026-02-05 15:33:51.734
+19ef752e-8e51-4d8d-aa5b-6445671ef006,"",,"","","","",c1fdc010-2388-4efb-9626-bd254324b126,2026-02-05 15:33:54.228,2026-02-05 15:33:54.228
+a49d2c2c-d593-4bcc-b553-4a916ea73742,"",,"","","","",67901f5c-2e22-4a2a-b186-5208abc44b65,2026-02-05 15:33:57.546,2026-02-05 15:33:57.546
+94bf8247-4bce-4d41-ba6e-1a392c9b9826,"",,"","","","",64305675-d21d-49e6-b7c1-96d0c10f52bb,2026-02-05 15:33:59.965,2026-02-05 15:33:59.965
+ae0ec65c-0386-4266-bcca-9902e2b02431,"",,"","","","",62dc8df4-10f8-4f71-b4a4-53c0234d79e5,2026-02-05 15:34:02.428,2026-02-05 15:34:02.428
+f7474d38-4a1d-4ddf-a293-87fa93e3cafd,"",,"","","","",563c9a6f-6d18-4966-832a-3e4cdef51501,2026-02-05 15:34:05.214,2026-02-05 15:34:05.214
+2664fa46-3c3c-4e2a-ae9b-5a84844e6ce6,"",,"","","","",f9b1e814-4677-4c14-b248-e9d1968bebe9,2026-02-05 15:34:08.495,2026-02-05 15:34:08.495
+210a5cf0-7fa6-4797-ac49-c9d09e8d9fb6,"",,"","","","",ade71592-c97b-4440-82fb-4e8dd3d4187b,2026-02-05 15:34:11.273,2026-02-05 15:34:11.273
+0d2f7145-ac59-4a07-a5fe-04c9d0bd0e30,"",,"","","","",83204f2d-cb2c-4639-8650-510a3974ff82,2026-02-05 15:34:13.832,2026-02-05 15:34:13.832
+4e5e3d63-0a08-4ee6-89f8-bbbba951cc8b,"",,"","","","",d5ff32d4-5f7a-411d-906c-db4bab75b56a,2026-02-05 15:34:16.435,2026-02-05 15:34:16.435
+efd2227a-b116-45b5-aefb-15c23bc488d8,"",,"","","","",71e0e887-9086-4e0f-bc35-549d887ce442,2026-02-05 15:34:19.415,2026-02-05 15:34:19.415
+d3ca06b5-b6b5-42d5-92c7-afa7a7ec5154,"",,"","","","",710c888a-1b02-4a17-91e4-76783b20468c,2026-02-05 15:34:21.649,2026-02-05 15:34:21.649
+f5c313bb-d8fd-456b-81b6-402b042b1b2e,"",,"","","","",8923f1ae-94e6-4b7a-8414-ddec145fb1e5,2026-02-05 15:34:24.532,2026-02-05 15:34:24.532
+fe7c9fc9-db31-428b-ae43-8395d126a6fc,"",,"","","","",24a47837-1f23-45df-ad30-211708bc257f,2026-02-05 15:34:27.36,2026-02-05 15:34:27.36
+df44a7a0-580f-4211-84fa-30afdff0d28c,"",,"","","","",9687006e-aa89-4e46-981a-3264d2807603,2026-02-05 15:34:29.925,2026-02-05 15:34:29.925
+b9be71fe-47f8-4264-b8eb-0726621e834e,"",,"","","","",63240c2c-6d03-4031-8bcb-eb5a864461e9,2026-02-05 15:34:32.317,2026-02-05 15:34:32.317
+5de1f16a-af90-4c2d-8772-a116ab081ae0,"",,"","","","",957af630-fdc8-437f-b623-efef57742a26,2026-02-05 15:34:35.006,2026-02-05 15:34:35.006
+fecf1a4a-1121-4190-b991-c853589de9d9,"",,"","","","",900946ed-109a-4b6b-bcbe-05563224707a,2026-02-05 15:34:37.504,2026-02-05 15:34:37.504
+8963fa8d-2dbe-4a3b-b390-538f78a3bd9f,"",,"","","","",2de527f0-6182-45e8-b0e0-7db19ddf6785,2026-02-05 15:34:40.539,2026-02-05 15:34:40.539
+7cfd9d71-9212-4265-83fa-158da6e163d5,"",,"","","","",8ab882fb-189c-457f-9258-56b01dba5de0,2026-02-05 15:34:43.129,2026-02-05 15:34:43.129
+e15edac7-610e-438d-9c50-6421d3207ee3,"",,"","","","",25ac1a3e-75b5-40b8-b188-2cfe7cb402b3,2026-02-05 15:34:45.457,2026-02-05 15:34:45.457
+300cadee-d26a-48c2-9f02-0148636a2a5a,"",,"","","","",bfdefed6-5f5a-4db1-ab82-5e868ff793eb,2026-02-05 15:34:47.885,2026-02-05 15:34:47.885
+3036a01f-e329-40fb-b48a-ef7f834f10e1,"",,"","","","",2bf5b79c-78ab-4d8f-bdf8-54e6ca0cb718,2026-02-05 15:34:50.529,2026-02-05 15:34:50.529
+8d8d266f-7dd8-421d-91b0-6b463ac8b1b3,"",,"","","","",b6c306d8-c5c0-4b36-aa39-c948385c6a96,2026-02-05 15:34:53.234,2026-02-05 15:34:53.234
+c0a34268-6463-42ed-82d5-508994761d22,"",,"","","","",22345534-56df-4223-92ce-8c9e2ed4c643,2026-02-05 15:34:55.839,2026-02-05 15:34:55.839
+5fce532f-de6f-44ac-8280-17d16f1e649e,"",,"","","","",b4c262a3-429e-4593-8fa7-3e71d186160c,2026-02-05 15:34:58.535,2026-02-05 15:34:58.535
+46fa6ce8-412c-4fcf-8bd4-a7c57b020e7b,"",,"","","","",63d61df6-6b54-41b5-9384-230a65a1eb86,2026-02-05 15:35:01.62,2026-02-05 15:35:01.62
+b655b557-f186-4084-9b45-42f1cef6f754,"",,"","","","",43cbf93b-54ed-4aae-8569-ec87e5733740,2026-02-05 15:35:04.462,2026-02-05 15:35:04.462
+0f179972-9061-4ea4-ba30-439488f53022,"",,"","","","",a11114f4-8e33-44a3-9bf8-d561921a9999,2026-02-05 15:35:07.721,2026-02-05 15:35:07.721
+33e7ec21-4895-4a10-86ce-bb53e4c8ec82,"",,"","","","",6dcb7998-87ea-45a8-b971-b20e9de964a4,2026-02-05 15:35:11.172,2026-02-05 15:35:11.172
+24b61775-4af4-4129-9dc4-750c3a2c94d6,"",,"","","","",b05f2f3a-9e8b-4757-be97-e1257f12d90f,2026-02-05 15:35:13.627,2026-02-05 15:35:13.627
+b36bdd46-5fc6-4e33-b962-f682bd285c1a,"",,"","","","",b08eb5de-2a05-42b0-a4bc-57e527eede13,2026-02-05 15:35:16.316,2026-02-05 15:35:16.316
+2a92078f-4bf2-425f-b585-54c0ca2fc690,"",,"","","","",9d9d61fe-c584-40ba-9147-c580a1e66820,2026-02-05 15:35:19.22,2026-02-05 15:35:19.22
+3d3102e7-daff-417d-9440-7aca60573208,"",,"","","","",11058296-aa44-45d3-b0f3-c739651e4561,2026-02-05 15:35:21.902,2026-02-05 15:35:21.902
+26568c82-58cc-47c1-a553-c2fec1039a2a,"",,"","","","",35022f17-e12c-4fbe-b3d9-5383863d1567,2026-02-05 15:35:24.6,2026-02-05 15:35:24.6
+91070f6d-ba1e-49e3-91e7-ab1b1c536e7a,"",,"","","","",507271af-e17f-4654-bd47-818bb96162c1,2026-02-05 15:35:27.417,2026-02-05 15:35:27.417
+88819ec5-90e4-40ee-9c70-284c45d46236,"",,"","","","",5e8547f8-a45f-495e-9912-3d900c20ff0d,2026-02-05 15:35:30.16,2026-02-05 15:35:30.16
+981ed22a-6dcb-4ec9-8c01-fdd7a7b20b96,"",,"","","","",41e999a2-87c4-4869-a0bd-148ada8d610e,2026-02-05 15:35:33.021,2026-02-05 15:35:33.021
+cf7eb685-f9fe-4aca-8c6a-2099abe4e16d,"",,"","","","",3e580b84-a5e4-4f68-a5c1-a6dc44792690,2026-02-05 15:35:35.629,2026-02-05 15:35:35.629
+8c0b39f5-7229-4a2a-b164-feb40e1bed43,"",,"","","","",74bea84f-5eed-4abb-b816-59a90ab9bb0e,2026-02-05 15:35:38.28,2026-02-05 15:35:38.28
+97fe104d-927e-420a-bacd-47e15507b2f4,"",,"","","","",7bef76d8-b6ce-4f02-bb91-49c716751317,2026-02-06 05:50:42.708,2026-02-06 05:50:42.708
+9be5486d-2eea-4ce3-8eed-c0486fc47cb6,626 6th A Main Road Hoysala Nagar Indiranagar,1st floor,Bengaluru,Karnataka,India,560038,047abd82-11c3-4d06-a8af-10ee5ec86be1,2026-02-06 07:54:45.972,2026-02-06 07:54:45.972
+bd107cdd-2920-4907-8ea3-838460f79044,New colony ,"",Sindhari,Rajasthan,India,344033,97263b45-6151-4896-9d5b-16e6efe026f3,2026-02-07 03:02:34.448,2026-02-07 03:02:34.448
+3bc8db59-d04a-4268-b8b6-34b62c22d64f,Line 1,"",City,Arunachal Pradesh,India,123456,97c485c2-907d-4c21-8dd8-2a8a6f17272d,2026-02-07 05:07:56.963,2026-02-07 05:07:56.963
+3ff2f8cf-3330-4cf4-bb71-28e2fc6aa888,Line 1,"",City,Assam,India,123456,de637ec6-bfa2-4b22-964c-a844ac390872,2026-02-07 05:11:45.686,2026-02-07 05:11:45.686
+6b6afa93-7e93-450d-94a0-a2cffbe41146,Line 1,"",City,Jammu and Kashmir,India,123456,ae45dc19-8650-444d-b6b5-ceefe3e1dc5c,2026-02-07 05:12:40.948,2026-02-07 05:12:40.948
+a34afa3e-619a-49ec-a042-3f83b75096d4,"Wagholi,Pune","",Pune,Maharashtra,India,412207,b465d719-2c78-4c58-8954-02ea7bdcac3a,2026-02-13 13:13:47.365,2026-02-13 13:13:56.597
+0f9ec766-0bc3-4ab0-bb00-42325823b8be,Line 1,"",City,Kerala,India,123456,f014933c-efc3-44bc-a0b4-37d0bf4698f3,2026-02-07 05:15:26.111,2026-02-07 05:27:34.882
+c0bc9c4d-140f-4697-adb6-ee2183dff57a,Line 1,"",City,Arunachal Pradesh,India,123456,3ef80083-f708-4c28-ada6-7d49a3d99bbc,2026-02-07 05:28:46.444,2026-02-07 05:28:46.444
+8451e286-4fad-4a59-9ee7-49e9f56df873,"",,"","","","",19b509ee-7747-4055-a717-2481a612da79,2026-02-07 12:43:52.945,2026-02-07 12:43:52.945
+3c655334-37a6-413d-9a3f-9c2bd113d5f1,"E - 607, Gulmohar Heritage",Near Funfiesta Cinema,Nalasopara West,Maharashtra,India,401203,b7bfab8b-43f0-420d-bc71-0dc9fe897b3e,2026-02-07 17:17:04.196,2026-02-07 17:17:04.196
+10283aff-7860-48f7-8676-65ec4d298c7f,Sonari,Charaideo,Sonari,Assam,India,785690,4dab629e-cda1-4214-a8d2-426284c4db61,2026-02-08 13:17:06.493,2026-02-08 13:17:06.493
+f139d0c5-153e-402a-a72d-8426ad1088fe,"W2, Lodha Amara",Kolseth Road,Thane,Maharashtra,India,400607,63cfbe20-3025-436c-9a5e-d97d569797dd,2026-02-09 05:19:27.991,2026-02-09 05:19:27.991
+05428571-95e2-45c4-b944-c4b498282660,Flat No - 402,"Putty's Advaya, APGOs Colony, Sarada Nagar, Hafeezpet",Hyderabad,Telangana,India,500049,82ec9cb5-857b-4ecf-9b8c-d6938cb3bb35,2026-02-10 06:03:22.521,2026-02-10 06:03:22.521
+47b1a6dd-bef0-49ba-833b-56c05d446bbc,6,Shastri Niketan Apartment,bhuj,Gujarat,India,370001,360ac69f-ece4-4df7-8d48-f62ca1a42854,2026-02-11 07:07:58.87,2026-02-11 07:07:58.87
+b66bcc7e-962f-47f5-9172-04d710370c48,MUMBIA,MUMBAI2,MUMBIA,Maharashtra,India,276867,878490ec-ee92-4fb3-950f-069d492f8192,2026-02-11 07:08:06.907,2026-02-11 07:08:06.907
+56ba295a-1d6e-4ed4-b3f1-ea3428fc6be0,6,Shastri Niketan  Apartment,Bhuj,Gujarat,India,370001,a9ed547c-c9dc-478a-9d10-5f168bb2cbf0,2026-02-11 07:22:34.109,2026-02-11 07:22:34.109
+cf181d4f-d248-4d7a-b326-d14f6b4ddfb7,6,Shastri Niketan,Bhuj,Gujarat,India,370001,72f2884e-b706-4fbd-a6af-0a4c8f8ec3fd,2026-02-11 07:24:07.772,2026-02-11 07:24:07.772
+fc83bb13-7f3a-4f10-8087-4266745ab03d,Manyata Tech Park,"",Bengaluru,Karnataka,India,560045,a2dfe15e-a629-4a16-a9ab-e68d88373062,2026-02-11 07:28:52.445,2026-02-11 07:28:52.445
+1451c6d2-11a1-4e2d-ae1e-6bedc7299eb8,173 Thirupathi Nagar,"",Krishnankovil,Tamil Nadu,India,626126,1c6ac7fa-3f2f-435e-adbf-94a0d77db234,2026-02-11 09:37:28.877,2026-02-11 09:37:28.877
+fff9f763-99fe-4e2b-a8ed-0b26a2377568,Street no.2,Mahaveer street,Jaitu,Punjab,India,151202,89fbb74d-b1c1-41ad-8efa-d89972b0315d,2026-02-11 11:48:07.057,2026-02-11 11:48:21.774
+10a56049-f465-411e-9603-22d44e032c56,"2/28, Gurusamy Street","Sembium, Perambur",Chennai,Tamil Nadu,India,600011,1e1a36d9-c305-43e2-92a3-10aaadfd6548,2026-02-11 15:07:48.768,2026-02-11 15:07:48.768
+0a353fe6-62f3-43bd-8910-8511aae1a9eb,asd,"",ada,Buenos Aires,Argentina,123,d0c5fa76-d107-43aa-8a69-e53f0b6a4465,2026-02-11 16:36:51.349,2026-02-11 16:36:56.141
+1c64034b-1646-4f1f-b41c-22a9a0c7b4f7,Santacruz ,East,Mumbai ,Maharashtra,India,400055,2f879ff3-ea02-48b2-ae5c-8e8f139013ac,2026-02-12 03:22:33.762,2026-02-12 03:22:33.762
+e12bd154-fcf0-4c8a-917f-030d6f3bb5a7,Mumbai,"",Mumbai,Maharashtra,India,400001,1a623f7d-9813-4ca2-913b-9c189a4523c1,2026-02-12 13:43:07.247,2026-02-12 13:43:07.247
+d56a02b9-9afa-48c5-8ba0-1489b23e1e91,"Gulshan, B-Juhu X Lane",Andheri West,Mumbai,Maharashtra,India,400058,77b6b716-524b-42e9-b6ae-92a198834cf4,2026-02-12 16:59:07.165,2026-02-12 16:59:07.165
+cbadef1d-66e5-40a4-8e79-748324d1a7d0,189/228 Anasiri Krungthep-Pathumthani,"Bang Khu Wat, Mueang Pathum Thani District",Thailand,Pathum Thani,Thailand,12000,13218fb2-ab19-4c4b-b9b0-68c4e73f15df,2026-02-12 17:06:06.484,2026-02-12 17:06:06.484
+69821c3d-e31d-4abf-8470-673edfa98049,2842 SHERIDAN AVENUE,"",MIAMI BEACH,Florida,United States,33140,0c2a9ce3-132d-432b-940e-695981dc991f,2026-02-12 17:45:35.402,2026-02-12 17:45:35.402
+08299566-14e1-4f37-8d06-535bcfbb178e,"G3, 470","",Bangalore,Karnataka,India,560102,6a30a417-741e-46e1-8f6e-0d6353b2ea82,2026-02-12 18:35:41.219,2026-02-12 18:35:41.219
+1dfdb9bc-ff4b-42c3-9a83-282c9700a01e,"H.no 20-105, Plot no. 201, Street no. 3 (west) Dayanand Nagar, Malkajgiri ","",Hyderabad,Telangana,India,500047,891e555e-e1e5-409e-b2b3-c8efb22bde2f,2026-02-12 18:51:24.032,2026-02-12 18:51:38.1
+91b87cbe-f443-4b49-88e6-29d968822adb,"Prem ganga chs,kasturba road,mulund west","",Mumbai,Maharashtra,India,400080,fa8c31f3-e902-48ad-8fef-d253470ed1ac,2026-02-13 04:32:00.47,2026-02-13 04:32:00.47
+c4a7636f-1f12-4bff-a5de-b353a6795bc0,"EMP phase 5, thakur village",Kandivali East,Maharashtra,Maharashtra,India,400101,aa262d81-eb2d-40f4-bbd4-fa729e539759,2026-02-13 15:45:19.887,2026-02-13 15:45:19.887
+ca54fc2a-4f77-436c-8b22-ddb9adcfdcd3,"56, Managalam Society",Arbudanagar Odhav,Ahmedabad,Gujarat,India,382415,c4bd3501-7b2f-494a-afbd-ae2e1495254c,2026-02-13 05:03:17.961,2026-02-13 05:03:53.978
+cfef74da-b102-4dcc-a0dd-2c3626507450,"C410, Maruti elite gated community ",Nizampet ,Hyderabad ,Telangana,India,500090,0c3da5cc-a013-49f6-ac53-953e7ea5fae4,2026-02-13 05:58:25.99,2026-02-13 05:58:25.99
+6ac05eec-985e-4b59-8534-8553c8ff82a8,"Yashwant Colony,House Number 1999,Shirur,Pune,-412210","",Shirur,Maharashtra,India,412210,1002b8f1-0d51-4ffe-9049-0c36d5ee8fed,2026-02-13 06:00:32.967,2026-02-13 06:00:32.967
+40b32f6c-4f75-4dd9-9586-17b655db98e6,H.NO 558 Vijay Park,Moujpur,Delhi,Delhi,India,110053,8d884e5b-cfc2-4ee4-8f7d-838f959ad81b,2026-02-13 10:34:13.16,2026-02-13 10:34:13.16
+94f7d430-da3e-4b16-9603-9de562c1fd48,Karachi Citizens Soc,"Juhu Versova Link Road, Andheri West",Mumbai,Maharashtra,India,400053,bde36362-9434-41dd-ae54-50b849d8c576,2026-02-13 10:34:51.262,2026-02-13 10:34:51.262
+3cf77bf6-d57c-4043-8e5c-32dffceaade3,Sparklet Megapolis ,"",Pune,Maharashtra,India,411057,4784589d-df7a-450b-aca0-d46bc4138396,2026-02-13 21:35:20.592,2026-02-14 03:08:27.714
+a9f3377f-8f69-4b25-9914-7829e50db0cd,Sanjiv Nagar ,Police colony sanjiv nagar ,Bhopal,Madhya Pradesh,India,462038,1eeff906-31f6-4196-bfb8-c5b6e39c37a3,2026-02-14 04:26:03.375,2026-02-14 04:26:03.375
+85693f51-d804-4146-8c16-97e1380c9aaa,jp synergy b2,111,mumbai,Maharashtra,India,421501,21dc2b04-d5a2-4f15-9216-38d1541c1c22,2026-02-14 07:48:46.352,2026-02-14 07:48:46.352
+0a2503c4-a718-47e8-af2a-1fedf5579529,"Desaivadi ,near Samnath Temple",Junagadh Road,Jetpur,Gujarat,India,360370,7b288f3d-be62-473e-8961-a1cf679d3e41,2025-12-23 07:56:35.291,2026-02-14 11:35:03.16
+d2dde753-e846-4b4c-aeef-1861edadc4d2,House No 633 Top Floor,Sector 20A Chandigarh,Chandigarh,Chandigarh,India,160020,c0bfa491-9ca8-493f-a32c-8055c495e047,2026-02-14 16:41:09.277,2026-02-14 16:41:09.277
+c63ca34e-0431-4dd9-ba47-b4f3d84599fc,Aaradya bunglow devisha road opposite OM SAI 2,Vajlipada,Palghar,Maharashtra,India,401404,daefd7fb-2aab-4414-a169-66e586c01189,2026-02-14 17:07:39.382,2026-02-14 17:07:39.382
+7130a905-4f76-464a-b57a-085050587880,"GYANESH KUMAR,VIKAS NAGAR,KOTHIYAN,KURJI,R","",PATNA,Dadra and Nagar Haveli and Daman and Diu,India,800010,a2035c9d-968e-45c5-85f6-450fe337f01c,2025-12-20 14:11:45.755,2026-02-14 17:29:48.661
+21f640dd-dd2e-40cc-8084-a2a61c939e50,EEEE,EEE,Bangalore,Karnataka,India,560022,17faa7b3-1ab0-4768-a336-22407cf1f9e4,2026-02-14 18:51:11.067,2026-02-14 19:03:02.816
+7aeccfde-3880-46e8-ae1d-8be43ecdb7bf,Dadar,"",Mumbai,Maharashtra,India,400028,56017dd5-1505-4145-bf9e-e103d8f906d2,2026-02-14 21:08:24.195,2026-02-14 21:08:24.195
+9b8f0022-df14-44fb-901d-d6897ffb5086,Dadar,"",Mumbai,Maharashtra,India,400028,1625c2e0-5267-4798-807a-364dfa3abcea,2026-02-14 21:10:16.454,2026-02-14 21:10:16.454
+c8e49311-41ad-4098-ac46-17f17610076c,"60, Rushi Bungalows",Behind Old Bombay Market,Surat,Gujarat,India,395010,9b178057-6a29-4131-a08e-9b68e032a374,2026-02-15 05:26:50.936,2026-02-15 05:26:50.936
+20acb7ef-fa3f-41b1-97b0-52c48be4b54b,"F/75, Mahindra Park","",Mumbai,Maharashtra,India,400086,31ac3e21-77aa-4e4d-9f22-c8c615c90b9c,2026-02-15 17:59:06.635,2026-02-15 17:59:06.635
+d76fcc3a-40d6-43c7-920c-f4597696812e,"Poonam Gardans, Mira Road East","",THANE,Maharashtra,India,401107,d6a0ba43-70c5-4017-986e-f44ee69dfe0b,2026-02-15 18:48:32.292,2026-02-15 18:48:32.292
+ca37ec12-a667-4db4-b8d2-fdfb9df2e3fa,Gartenstrasse 6,"",Zug,Zug,Switzerland,6300,040b26ef-6560-4cd6-925e-7a68d86d2a03,2026-02-16 08:33:38.741,2026-02-16 08:33:54.277
+189ce0aa-dfaa-453c-a191-ff33f3b384cf,"362/81 Nguyễn Dinh Chiều Street, Ward 4, District 3,","",Ho Chi Minh City,Hồ Chí Minh,Vietnam,70000,0bad63d2-713b-44ad-b4d2-b2caeaa75264,2026-02-16 10:37:04.979,2026-02-16 10:37:04.979
+1ca5b298-2176-4837-8a47-3dc7c9323120,C703 Rustomjee Acura,"",Thane,Maharashtra,India,400601,f13c1883-3bdd-4825-80cb-f40133fbc550,2026-02-16 15:07:13.229,2026-02-16 15:07:13.229
+51a586df-1175-4901-8248-d86120e6bed8,"805, Hubtown Solaris, Ns Phadke Road, Andheri East",N S Phadke Road Saiwadi Andheri East,Mumbai,Maharashtra,India,400069,94cc393a-1fe1-4baf-927a-234a47332c4c,2026-02-18 11:04:37.261,2026-02-18 11:04:37.261
+882f7b91-1460-4fd5-8e47-845a7a2150ed,baner road vrindawan bungalow union bank atm pancard club road,cafe peter good flipping burgers,pune,Andaman and Nicobar Islands,India,411045,08f995f0-ab4b-46f3-b4ea-488c0a575963,2026-02-19 08:52:54.295,2026-02-19 08:52:54.295
+6b1c045d-861b-437d-8430-ed02441ce99e,C-301 Meera Towers,"Oshiwara, Andheri West",Mumbai ,Maharashtra,India,400102,4321fd31-1036-49b8-b7c3-8992135f3b29,2026-02-19 10:30:05.319,2026-02-19 10:30:05.319
+d2bb367b-ab63-43bc-99a1-3bc29bb4621f,Hubtown Solaris ,"805, B-wing ",Mumbai,Maharashtra,India,400069,178c362a-c504-4a52-9c3c-246b97c3697d,2026-02-19 13:04:40.072,2026-02-19 13:04:40.072
+b8aa507a-f19a-4c9e-9c80-da49cd0a3add,Ahmedabad,"",Ahmedabad,Gujarat,India,380052,93daf73a-63f1-4373-ae1e-173e020702ad,2026-02-19 14:24:03.606,2026-02-19 14:24:03.606
+4a54d18a-3458-4344-a3fc-8f5b1056f60d,"",,"","","","",b58a79e8-d208-41f6-b3ec-78ae9301c72c,2026-02-19 17:07:43.579,2026-02-19 17:07:43.579
+ce20ead3-175b-45ee-8a22-3a9b457c0e14,"",,"","","","",4966533e-e049-44b3-987e-2c7a639d5305,2026-02-19 17:08:03.937,2026-02-19 17:08:03.937
+a6ab1ea8-38a6-46b0-bc45-3a448c5a8501,"",,"","","","",4f64f905-94dc-42d1-be8b-7ff766a2faf4,2026-02-19 17:08:16.835,2026-02-19 17:08:16.835
+38c88cae-e842-4534-866d-d8a0b388c315,"",,"","","","",0874af80-b423-48a5-9dc5-2131b3df3452,2026-02-19 17:08:31.563,2026-02-19 17:08:31.563
+0b3e594b-356b-46bc-ba42-2f435dc0c7d6,"",,"","","","",c87f7f00-a8c2-4de1-88b4-7946cb7abc66,2026-02-19 17:12:45.399,2026-02-19 17:12:45.399
+cb9a0078-f698-43ef-8fac-80fd601b6cfb,"",,"","","","",938a2fda-7e1d-4ab0-896e-7ab995c1cf0b,2026-02-19 17:16:15.324,2026-02-19 17:16:15.324
+cd0fa14f-c68c-426c-86b5-25c839483b1a,"",,"","","","",25b52f8f-fab3-4c0f-8158-85c588e2f4bc,2026-02-19 17:16:35.514,2026-02-19 17:16:35.514
+cae5717a-c8bc-43f2-ba8b-27004eda6593,"",,"","","","",df9c5f36-8af2-407e-8a4a-bd3c12e15168,2026-02-19 17:16:48.72,2026-02-19 17:16:48.72
+0454664d-a9ac-4cce-b5f1-85e67c863d28,"",,"","","","",3144d06c-7205-4077-afd6-79abdde8323d,2026-02-19 17:17:01.604,2026-02-19 17:17:01.604
+6e2b76e9-a29d-4290-9455-5c5dee14b272,"",,"","","","",04410fe7-74ea-4d32-87a0-21c3f2a1aa8e,2026-02-19 17:18:44.948,2026-02-19 17:18:44.948
+662e6e42-dc1f-41a2-a3f8-a34b077406e1,"",,"","","","",a95048c5-dba3-4ad3-83ee-ef9b42be5bd7,2026-02-19 17:19:05.364,2026-02-19 17:19:05.364
+becbde3b-4d3d-46de-9896-fa7864386db2,"",,"","","","",7b0e265e-a355-4b3e-987f-2db9d528e578,2026-02-19 17:19:19.53,2026-02-19 17:19:19.53
+7b28b7c9-6fa8-4ff5-934d-e2b76c9b0c8c,"",,"","","","",2a5edd18-afba-4f11-bba3-13df87ad8a7e,2026-02-19 17:19:31.318,2026-02-19 17:19:31.318
+c30cfd9c-6ea0-4683-a5f6-752a97ae40f8,"",,"","","","",9dd80687-03dc-49c9-99bb-635f3e200fb5,2026-02-19 17:19:42.757,2026-02-19 17:19:42.757
+82bec06b-446d-4164-b71c-a1e9be8935ff,"",,"","","","",02f7404a-9db2-44a5-ae41-63be35e12b38,2026-02-19 17:19:54.035,2026-02-19 17:19:54.035
+f9933599-5676-4a58-95c2-66e7621e3405,"",,"","","","",338a5e13-3ad0-4d4e-9983-cb87bbe1715e,2026-02-19 17:20:04.937,2026-02-19 17:20:04.937
+9a17179c-0acd-4887-b122-3a3491d7fec9,"",,"","","","",b71ec223-d162-4a6f-9b81-7ec95851fe38,2026-02-19 17:20:17.407,2026-02-19 17:20:17.407
+e57e82af-8408-4f1d-a78c-23b09302592f,"",,"","","","",872b12da-0c63-47f0-8fe1-ca15358251db,2026-02-19 17:20:29.059,2026-02-19 17:20:29.059
+357dd78a-833f-43eb-aef8-4761c28cea52,"",,"","","","",9b0067dd-61ad-4354-b8e7-beb5859166c4,2026-02-19 17:20:40.361,2026-02-19 17:20:40.361
+730c2e13-8801-4044-a56d-a555c2e9850c,"",,"","","","",64769a32-53c7-400e-b400-4d3bdb762172,2026-02-19 17:20:51.584,2026-02-19 17:20:51.584
+24067a8a-783a-43ad-8729-ebf531a6ab0a,"",,"","","","",87d0d9ce-27d4-41f0-ba1d-25e82e808cca,2026-02-19 17:21:02.487,2026-02-19 17:21:02.487
+234fc431-3ef3-4226-a5f3-e68fd3eb1569,"",,"","","","",a35f176f-a59e-41dd-9c0f-4bde083c2f59,2026-02-19 17:21:14.618,2026-02-19 17:21:14.618
+203fd0cc-45ce-4b42-a233-41c72f3396d2,"",,"","","","",4f97694d-5e5c-4ade-b9b2-6352c085f1c2,2026-02-19 17:21:26.576,2026-02-19 17:21:26.576
+5b124ee9-3d48-4227-9028-8e7ae41587e1,"",,"","","","",b7f9e502-d112-4ef2-846c-60004cf51559,2026-02-19 17:21:39.121,2026-02-19 17:21:39.121
+6a2f4c51-21d1-40ce-a262-22b65e049f73,"",,"","","","",467176a3-db09-4b94-8177-6d09950ae98d,2026-02-19 17:21:53.85,2026-02-19 17:21:53.85
+96807c41-fbee-48a1-aa19-fa5a8216af4e,"",,"","","","",6d648ece-09f6-4d1b-9280-57c7cb9833c2,2026-02-19 17:22:05.49,2026-02-19 17:22:05.49
+8cc184ac-420a-4461-98bb-40130703aff1,"",,"","","","",48aa2752-ffdc-44ee-801d-736d236188d5,2026-02-19 17:22:16.523,2026-02-19 17:22:16.523
+12fa9186-fd8e-49f1-9561-474184516dff,"",,"","","","",9e0e07f6-d2c7-4520-8323-e4fd8bc98dbb,2026-02-19 17:22:27.949,2026-02-19 17:22:27.949
+aa964964-b4d2-40e6-9bf1-16b392b059ab,"",,"","","","",719deb06-1731-467c-949e-bbe63c92a0c5,2026-02-19 17:22:38.917,2026-02-19 17:22:38.917
+ab6b289a-72cc-4e9c-837a-6ae042457b46,"",,"","","","",049f7c7e-963c-40f4-bc94-2b1d7012a2dd,2026-02-19 17:22:51.447,2026-02-19 17:22:51.447
+bade868c-470d-47a9-9832-18b2488a4c91,"",,"","","","",3526bb1f-f03a-4e7d-8a46-7c6b2c44f364,2026-02-19 17:23:02.048,2026-02-19 17:23:02.048
+5c0d1a08-6b28-4bb4-b202-05636df303a4,"B302, ND Passion ELITE","Haralur Main Road, Kudlu",BANGALORE,Karnataka,India,560068,f6805cd0-4bd3-40de-9d0d-7407a1aa2e94,2026-02-19 18:17:32.741,2026-02-19 18:17:32.741
+8a8e14ec-f470-47d2-b772-8590b1beac98,"32/4 Ramachandran Street, Perambur, Chennai 600 011","",Chennai ,Tamil Nadu,India,600 011,bacb1743-0b09-4f5d-8072-bad1d07653ee,2026-02-20 16:11:05.486,2026-02-20 16:11:58.536
+75c6b379-0f57-4c56-ac5b-8e6ca6fb3c5d,"1st Floor Suite 17,Q Hub,Sasi Icon, Sanvi Builders","Jubliee Hills Road No. 36 & 37,Beside Madhapur Metro Station",Hyderabad,Telangana,India,500033,a68fe211-718d-4261-adab-89b1814f0276,2026-02-23 11:46:47.02,2026-02-23 11:46:47.02
+59a3d1d0-ae3a-4945-8b7a-a23d0537ef60,"A-804, Royal Rejoice - 2","Indian Oil Petrol Pump, B/h, Sardar Patel Ring Rd, nr. Dastan Circle, Hanspura, Ahmedabad, Gujarat 382330",Ahmedabad,Gujarat,India,382330,b9a04232-c525-4f80-9132-9d6e6c794801,2026-02-23 15:37:48.805,2026-02-23 15:37:48.805
+6475e00d-62ba-4d65-acf3-47bd79d5290c,wefwefwfwf,wefwefew,sfasdfasfs,Andhra Pradesh,India,12321,fd88af36-1ac1-48f5-a3ff-895b87603074,2026-02-23 22:48:03.394,2026-02-23 22:48:09.344
+6e5ec74c-7379-49e6-a5e2-758ab1ef1163,"28 b Indrapuri Sethi Nagar, M.P. Ujjain",M.P. Ujjain,Ujjain,Madhya Pradesh,India,456010,fe324954-2dbb-4284-a367-93ced5d75388,2026-02-23 12:06:26.851,2026-02-27 15:52:09.702
+d642b420-a501-4821-95d4-f85b311d7da3,"201, Hilltop Appartement, christ college road, munjka, Rajkot-360005","",Rajkot,Gujarat,India,360005,7cf6115a-c1a2-417e-b210-615f6c0bbc8d,2026-02-23 06:33:03.798,2026-03-06 10:29:40.129
+7f8b3873-814d-4ff4-8dc4-4ec0dce242ab,110 Shrothrabhiram 6 Cross 2 Main,RMV II Stage,Bangalore,Karnataka,India,560094,e1dea4d6-b568-4731-9290-7861ea88ebe2,2026-02-24 04:14:55.809,2026-02-24 04:14:55.809
+628a8ea4-7b30-4ae6-96e1-8d84eaa05f37,"archana nilaya 2435/c flat 101 sector 1, 15th cross hsr","",bengaluru,Karnataka,India,560102,a8478e96-5df7-47b8-bfee-1036cf203a83,2026-01-23 13:42:13.805,2026-02-24 08:40:25.624
+9aff957d-d323-492f-8c74-8b6b762111e2,204 Asteria A,The Courtyard,Thane,Maharashtra,India,400610,52b14701-49e9-4759-ae34-127b5649cc66,2026-02-25 06:48:15.385,2026-02-25 06:48:15.385
+c7ffa1fb-526f-431c-a077-5a41d592efad,"30, D-wing, 2nd floor","Singh estate, Dadasaheb Phalke Road, Dadar East",Mumbai,Maharashtra,India,400014,29c47d8a-97e1-47ea-8096-69b0b2242707,2026-02-25 07:49:00.432,2026-02-25 07:49:00.432
+81d9973c-283c-4537-ae54-46c1076310c1,"48,Vellala Street,1st Floor",Pursaiwalakam,Chennai,Tamil Nadu,India,600084,fd971337-dd6f-486f-a5c6-a79d8175bb6f,2026-02-25 10:41:52.225,2026-02-25 10:41:52.225
+99a1835d-c97e-47c9-b409-d3c88c222243,sedsde,"",sedsed,Andhra Pradesh,India,123123,19c5e3ab-03cb-49c1-b753-f2806b9371ac,2026-02-25 13:50:36.887,2026-02-25 13:50:36.887
+f8e93863-ce93-4e14-bb60-f8d9c9c9cd71,sedsde,"",sedsed,Andhra Pradesh,India,123123,9301ae66-2815-4f07-b2a4-6bbfc3e2c4b7,2026-02-25 13:52:41.265,2026-02-25 13:52:41.265
+bc0c6c6d-00db-49c2-9d02-bbb3fface4d6,Vaibhavshree appartment,Shankar nagar,Nagpur,Maharashtra,India,440010,701733ad-572f-4017-97a7-60aaff66e94b,2026-02-26 07:25:29.766,2026-02-26 07:25:29.766
+cdfe152d-a4eb-4105-aec4-2f691ea7442e,"103, Sai vihar apt","",Bangalore,Karnataka,India,560100,ffd8d1ae-20c6-4da8-afb0-71f9bd7bd2d0,2026-02-26 07:32:16.7,2026-02-26 07:33:16.503
+2a9bd601-f030-4eba-8932-b95e8b1ab8b4,Shweta Apartment ,"",Pune,Maharashtra,India,411037,cbf59d29-7e45-46b7-b7cb-1df7caad61d9,2026-02-26 18:48:56.828,2026-02-26 18:48:56.828
+33118c5b-e482-4e91-8ea6-1a34af997208,Pune,"",Pune,Maharashtra,India,411015,50e73bb1-093a-4fda-b11b-2535959b4442,2026-02-26 22:31:03.07,2026-02-26 22:31:21.53
+3dc09678-3d6e-4577-8fd6-eb8775bcdd68,78 W Cedar St,"",Livingston,New Jersey,United States,07039,be64a152-1521-4b3c-9461-2a61bf62d67a,2026-02-26 21:09:27.003,2026-02-27 01:26:39.677
+e4805a51-ab8b-416d-873a-87288d79ea75,Ashutosh B-14,Neels green avenue,Rajkot,Gujarat,India,360005,2c7539f3-0d7d-4707-80c5-0de446fa5388,2026-02-27 10:00:15.755,2026-02-27 10:00:15.755
+6593e507-e85a-40de-90e4-5541f93a40c2,Chandan Nagar,"",Pune,Maharashtra,India,411014,f5530011-5b42-4e6c-8004-bf5a2e803265,2026-02-27 12:42:04.998,2026-02-27 12:42:04.998
+77813c18-ee9c-4c3c-b70e-fe038e0153b6,"Kamla Nehru Nagar, Ext-1","",Jodhpur,Rajasthan,India,342004,3e1130c9-bda6-4e72-b0ba-6454889637e4,2026-02-27 16:28:04.692,2026-02-27 16:28:45.183
+17d603ac-e061-47ae-a38e-3bafde21090a,"B401, Eternia Hiranandani Gardens, Powai","",Mumbai,Maharashtra,India,400076,a35c95c5-9ce2-4c20-b32b-36e111ded3a6,2026-02-28 05:52:19.26,2026-02-28 05:52:20.53
+b20bc7fd-f461-4fbf-bb48-63294e10944f,"A401 Gokul, Haridas Nagar",Shimpoli Borivali West,Mumbai,Maharashtra,India,400092,eda568e9-ed58-4a3e-9478-4e682c2a19ee,2026-02-28 08:12:23.588,2026-02-28 08:12:23.588
+ca3a9cdf-3a50-4986-9461-cc628e78e8b9,Lower Parel ,"",Mumbai ,Maharashtra,India,400011,e6d65091-1a72-4d25-aa7e-4aee36399e09,2026-02-28 12:01:06.388,2026-02-28 12:01:06.388
+37a036d7-7632-482f-b03a-564f8242f225,Thekampattu BO,Karumandurai SO,SALEM,Tamil Nadu,India,636138,16029589-8525-4b1b-9b5a-e22f06fe382e,2026-02-28 15:34:43.663,2026-02-28 15:34:43.663
+1ae9a410-2cac-4132-8a1c-00ecc4a58c09,Thekampattu BO,Karumandurai SO,SALEM,Tamil Nadu,India,636138,1e0467a4-41ff-46ed-a29b-a7d6cb7001c3,2026-02-28 15:36:07.056,2026-02-28 15:36:07.056
+d17c2651-eaba-4704-9c4d-7edae597ccce,Ramdas swami nagar Road lane no.1,Gandhi nagar upnagar,Nashik,Maharashtra,India,422006,4a0b5d34-c548-43e7-9bca-e3b9823f5086,2026-02-28 16:34:05.188,2026-02-28 16:34:05.188
+61590eca-1e31-4f2d-9fb5-174a4510a08e,A/16 Gokul Nagar CHS,Ambika Nagar,Dombivli,Maharashtra,India,421201,9052125d-64db-4e1c-ad2c-30ddbce4a097,2026-03-02 03:51:25.671,2026-03-02 03:51:25.671
+703362bd-bec6-4b20-85e6-4f15c12f63f6,"",,"","","","",68641e34-cd63-4d7f-9bca-ce8b810f029f,2026-03-03 15:37:39.086,2026-03-03 15:37:39.086
+82042e85-12cf-4b99-aaa0-ca99d3d700eb,"",,"","","","",db8f6b9d-d46b-4fcb-a183-56f2bc695662,2026-03-03 15:38:01.379,2026-03-03 15:38:01.379
+114edf70-ef60-4cad-9354-2c1f613014b0,"",,"","","","",3ef5c7ea-f3cd-48f2-a2b0-78d52b78668d,2026-03-03 15:38:12.207,2026-03-03 15:38:12.207
+fe5e8715-fef0-47dc-940b-74a54a7aba14,"",,"","","","",0c36d48e-baaa-495c-a7ff-6ed0bb2728c0,2026-03-03 15:38:22.848,2026-03-03 15:38:22.848
+bee7742a-f1ea-4740-bf6a-f85931a26b66,"",,"","","","",cc3bf594-1aeb-44b6-9ffa-4b9854bc5ce9,2026-03-03 15:38:34.481,2026-03-03 15:38:34.481
+9063350c-bbe2-4e43-b485-75df179571e4,"",,"","","","",2b508f08-1fbe-4099-9e35-ca72c367f952,2026-03-03 15:38:45.238,2026-03-03 15:38:45.238
+1c101f24-07d4-4c30-bde2-015daf1b24b8,"",,"","","","",f56c21a2-3a3c-4b9c-8bfc-982e974f85d4,2026-03-03 15:38:55.759,2026-03-03 15:38:55.759
+c0b7a818-077e-4839-95c7-eb80ac15957e,"",,"","","","",618d169d-4ef7-46f4-9071-bb6b3ed4e468,2026-03-03 15:39:07.481,2026-03-03 15:39:07.481
+3346185f-1298-406f-b41b-1db04d2a8e90,"",,"","","","",a9f58b85-b6ad-48a2-aca9-365c31f75e8c,2026-03-03 15:39:20.126,2026-03-03 15:39:20.126
+6229bd9a-3b94-4ff8-9788-b1bc53553103,"",,"","","","",0847c2aa-c614-4166-9384-28a28e557e60,2026-03-03 15:39:31.859,2026-03-03 15:39:31.859
+a1988d87-8613-4fb6-851c-c06022466fb6,"",,"","","","",69166938-171a-4fe1-8fd6-00832b6b6877,2026-03-03 15:39:42.819,2026-03-03 15:39:42.819
+0d7c5ddd-677c-4540-82cf-0e81069b55c1,"",,"","","","",cab6232f-9f48-448d-8143-073655c39a84,2026-03-03 15:41:22.124,2026-03-03 15:41:22.124
+c1128bf0-d0ce-4205-b212-0ac537c30cfd,"",,"","","","",2cc88a6f-869a-4ac7-a6aa-25f9de069935,2026-03-03 15:41:42.359,2026-03-03 15:41:42.359
+2961b94f-1538-4565-b72c-ffc03084e4d2,"",,"","","","",bdd91e19-924c-4bce-93df-78d20a7d5931,2026-03-03 15:41:54.837,2026-03-03 15:41:54.837
+7412085a-ec89-4654-91e3-aebee14ef901,"",,"","","","",6f9fe123-58d3-4847-81f4-bb530af54bf0,2026-03-03 15:42:05.854,2026-03-03 15:42:05.854
+8ef5c46b-de98-4b99-beaf-b9ef17224a13,"",,"","","","",f8e1ac84-85d6-4bc9-9e50-f8c928dc1f79,2026-03-03 15:42:16.958,2026-03-03 15:42:16.958
+21ec5b44-b58d-4f5e-9de8-c53c08cbd79b,"",,"","","","",bb566e87-547a-47b7-93e8-645dd41187d6,2026-03-03 15:42:28.796,2026-03-03 15:42:28.796
+4ae28e4d-c0d7-4ec0-be3c-62698d1ea009,"",,"","","","",fad09353-280a-4819-9446-ab7f10037203,2026-03-03 15:43:48.008,2026-03-03 15:43:48.008
+edfc6539-060c-41fc-98ea-63e6acf42aba,"",,"","","","",e1d43ad3-f3fe-43ef-bdfe-68b5b83bd534,2026-03-03 15:44:07.521,2026-03-03 15:44:07.521
+4e8c710b-bcfe-442b-847f-e1b05011e44e,"",,"","","","",b62476f4-0663-4053-85d1-c0f25217644d,2026-03-03 15:44:18.742,2026-03-03 15:44:18.742
+b314da3b-681c-4720-916f-49b4377c25a7,"",,"","","","",dec66d43-9447-4842-9e5c-2b88ce7104fe,2026-03-03 15:44:30.874,2026-03-03 15:44:30.874
+54428b42-c6d0-4ae1-9d1b-f8197a2a4e23,"",,"","","","",c9fcdd08-5d27-4ec5-8440-65e1845a1053,2026-03-03 15:44:42.763,2026-03-03 15:44:42.763
+3e1c3650-f102-470a-a4e8-2f6213b78073,"",,"","","","",d707f82e-23ae-497c-80b7-66ba52ebacd5,2026-03-03 15:44:55.003,2026-03-03 15:44:55.003
+fd296f8e-5922-43a4-b0c6-8562f24a2a6b,"",,"","","","",d23d5801-7064-4b50-8178-aec52c3294bf,2026-03-03 15:45:06.996,2026-03-03 15:45:06.996
+d9f91a34-2259-42fa-a2f4-43b13f023458,Room no 5 shivaji nagar darabshah lane nepeansea Road Mumbai,"",Mumbai City,Maharashtra,India,400026,1137be70-b82c-411d-a664-2cb30f0047b7,2026-02-25 11:14:12.843,2026-03-09 11:14:06.146
+e1267eab-09d4-449d-9c97-37def699f9f9,"No.9, VLK Garden Extension,","Kalapatti Road, Opp NGP College",Coimbatore,Tamil Nadu,India,641048,578af984-436b-477e-a1b5-a03c60bbe41c,2026-02-28 13:24:39.457,2026-03-09 15:58:37.04
+8081fc7f-45d2-4103-8511-56d97b26a0b9,"",,"","","","",f96f4b01-66e0-4dec-b332-5538393b4cd3,2026-03-03 15:45:18.096,2026-03-03 15:45:18.096
+57f4a4c0-de9f-4f99-9307-cd5e731aaedd,"",,"","","","",f5f0d020-1921-4bea-bf3b-531638c2173f,2026-03-03 15:45:33.608,2026-03-03 15:45:33.608
+cedc0dce-4cf3-4b0c-9423-4a6029d14f08,"",,"","","","",7795ed89-66e1-43da-a68d-bcbc6de73f33,2026-03-03 15:45:44.733,2026-03-03 15:45:44.733
+63060008-e931-406c-905f-e2a0f69fe036,"",,"","","","",39aba3ef-6316-48f1-971b-8dfc93a256f7,2026-03-03 15:45:56.28,2026-03-03 15:45:56.28
+c8a4f38b-ba85-491e-8dfd-e3acecb7a47e,"",,"","","","",b7830b5c-1748-4e8a-968a-c8c2f1a0da24,2026-03-03 15:46:07.645,2026-03-03 15:46:07.645
+5a2ed195-fd57-4003-866b-6a51df245883,"",,"","","","",3f6ceb22-8e41-466d-82b7-a5acbd693aa0,2026-03-03 15:46:19.494,2026-03-03 15:46:19.494
+1193417f-8325-400f-87b8-1a5d156ad4de,"",,"","","","",65335e9a-c26d-471a-96ce-71f9435635ec,2026-03-03 15:46:32.531,2026-03-03 15:46:32.531
+a04e84ee-80c1-4a19-bd43-1b6cf99f9b1b,"",,"","","","",2dd0c727-bb66-440c-acc9-3bd1c38454b1,2026-03-03 15:46:44.642,2026-03-03 15:46:44.642
+3104ee6d-6eef-4386-9454-7518a762bbd0,"",,"","","","",63c50ef6-7e20-42d0-ac56-8b4bf4e39887,2026-03-03 15:46:56.715,2026-03-03 15:46:56.715
+b904ad2d-690b-4818-80f0-4b1c20c5c983,"",,"","","","",b758f1e3-2651-470d-8d35-a21dbd7ef07c,2026-03-03 15:47:09.098,2026-03-03 15:47:09.098
+68f548bf-163d-48ca-9948-9ba77b3769e9,"",,"","","","",d1f84302-01ed-4819-9909-768dc81a18c1,2026-03-03 15:47:22.249,2026-03-03 15:47:22.249
+d84bfb43-838f-4c58-a105-9d47b240b73c,"",,"","","","",294482c1-70cd-4877-a245-024b8b708f1b,2026-03-03 15:47:34.269,2026-03-03 15:47:34.269
+5e98579b-0df7-4ec7-ab85-c13a169f62e7,"",,"","","","",c4bfc430-a37c-4cc2-83a4-a13d5dfcb947,2026-03-03 15:49:10.604,2026-03-03 15:49:10.604
+fc622214-4468-4910-b6e3-9a713cc7e8c6,"",,"","","","",d86c1907-a156-4143-ab8b-9810412ae56d,2026-03-03 15:49:30.288,2026-03-03 15:49:30.288
+edcd3873-f6de-41d6-84f1-63a407640a62,"1601, Varun CHS, Samaj Mandir Hall","AS Gawde Marg, Pant Nagar",Mumbai,Maharashtra,India,400075,fb29eabb-d961-4489-8f4c-75729fe517b0,2026-03-08 15:58:39.806,2026-03-08 15:58:39.806
+fe84f154-5d57-4325-b29f-e9286ad3e866,Below Singamari T.O.P,"",Darjeeling,West Bengal,India,734104,831cb8ee-23e8-4253-93fb-e54477ac0ec4,2026-03-03 16:42:12.518,2026-03-03 16:42:12.518
+7d944f98-19ea-442e-9c53-5981812e9ddf,95 TF-1 Adishree Apts Dodabommasandra,Nr Krishna Temple  Vidyaranyapura,Bangalore,Karnataka,India,560097,ab26ed3d-c1da-4d9f-bceb-82ba2bf8e1a5,2026-03-03 16:40:13.479,2026-03-03 16:44:14.368
+6a400698-18d3-4f22-ac38-7a4e636a98d2,OM Tower,Part Street,Kolkata,West Bengal,India,700071,b5f6f2b7-7a2a-4bdd-81e4-cdce56d5b6c4,2026-03-03 18:36:59.76,2026-03-03 18:36:59.76
+995775b5-a455-4b76-8c05-10acccdc581c,"H. No. 230, Sector 2",Channi Himmat,Jammu,Jammu and Kashmir,India,180015,31ad41f3-a136-4c31-9a72-9d2f84c8fd50,2026-03-09 11:03:11.883,2026-03-09 11:03:11.883
+277257bd-e822-41bf-95a7-422b6dc063b2,B5 Vardhman Nagar,Main Mandia Toad,Pali,Rajasthan,India,306401,e082e664-b758-4b39-a77b-83ec0aad3b9b,2026-03-05 10:53:28.898,2026-03-05 10:54:06.474
+aefec921-9d4f-441c-bdbf-efeb929926ae,aman,aman,thane,Maharashtra,India,400602,4dbc325a-41c7-478e-9463-43a5dd5c31f8,2026-03-06 05:07:50.996,2026-03-06 05:07:50.996
+95530558-9568-4daf-b136-f4f92ef1bc77,"Mangolpuri, delhi","",Delhi,Delhi,India,110083,7839b4e4-7ed3-4a4e-b237-506aa39527a4,2026-03-06 06:52:46.633,2026-03-06 06:52:46.633
+c9d13d82-ed1e-40b5-8dfa-88dc3c205aca,18 new pushpa vihar,"",mumbai,Maharashtra,India,400005,7a18a857-7d0a-47b7-bdb9-5d608b25f3cd,2026-03-06 13:14:49.474,2026-03-06 13:17:59.616
+40370b79-3057-4392-9fa2-8964ae6f5f33,"Plot no.36 Shahaji Raje Society,","Near Royal Enrich,Hadapsar",Pune,Maharashtra,India,411028,495c1c99-e47b-4335-83f7-ecf696d6509c,2026-03-06 13:59:47.75,2026-03-06 14:05:30.179
+dae600ad-e093-479c-8a13-00bd54ca3676,KMS Homes,"",Bengaluru,Karnataka,India,560029,4063bdc8-927e-43b1-9ba8-216ef2bea4a9,2026-03-07 08:03:11.163,2026-03-07 08:03:11.163
+58687e03-61fb-4851-a10f-06f90437704a,Kandivali East,"",Mumbai,Maharashtra,India,400101,9935f9fa-8c01-4745-b4dc-1c031c4c37be,2026-03-07 09:08:58.794,2026-03-07 09:08:58.794
+ea9cbab7-b339-4bd2-af32-60edf730271f,"RZ-17, K-Block, Gopal Nagar","",Delhi,Delhi,India,110043,ac90eae5-02ab-415f-a9b1-6fdfbb5b209a,2026-03-07 11:03:09.625,2026-03-07 11:03:09.625
+00e3050f-79fe-4fdc-a548-f4fd9b6d5a3c,"102, Suman Apartments, Panch Marg"," Versova, Andheri West",Mumbai ,Maharashtra,India,400061,28c4d016-827a-40ba-a9fc-c23abb087225,2026-03-07 11:20:18.173,2026-03-07 11:20:18.173
+a35a18b9-68c4-4607-89a6-aec25c8de33f,"B-251, Ras Township, Babra (Pali)","",Jaitaran,Rajasthan,India,306101,a9cf8cd5-61c3-475b-8e06-ef87fc3278ab,2026-03-07 14:02:56.128,2026-03-07 14:02:56.128
+15d9ce31-df7c-4c38-a718-737ff14eafb6,Latur,"",Latur,Maharashtra,India,413513,b9349519-8602-4c96-a6ba-870ffb489681,2026-03-07 14:36:48.682,2026-03-07 14:36:48.682
+0149a1f9-54e4-426e-a22f-fb8ff69f3626,470k kolgaon,Sawantwadi,Sindhudurg,Maharashtra,India,416510,5e210a43-9ce1-4921-992e-d5a85c6909c6,2026-03-07 14:38:26.543,2026-03-07 14:40:01.042
+46f217fd-8510-431c-8945-388318020ca7,Kalamboli,"",Navi Mumbai,Maharashtra,India,410218,2b4e5029-67f5-4bcd-873c-dfb753af359d,2026-03-07 18:32:52.774,2026-03-07 18:32:52.774
+cd103267-cb1f-4b87-a6d1-2bc7d1589e1c,Malad,"",Mumbai,Maharashtra,India,400097,39ca56ea-98f4-4827-95f7-0fbfa3dd45e7,2026-03-07 20:47:17.867,2026-03-07 22:01:13.879
+ade470a5-e353-4060-9d5e-c6e1491bf798,"Sector-24, Rohini","",Delhi,Delhi,India,110085,ffc49666-3462-461c-8078-95eccece92f3,2026-03-08 05:43:08.06,2026-03-08 05:43:08.06
+40719c37-b89e-4fbe-bc91-c5545bcb7297,"First Floor, Scalex Loop, Vaswani Augusta Lane,","Embassy Golf Links Road,",Bengaluru,Karnataka,India,560071,0ad99a9e-0609-49c8-9f05-1d3d473f60bd,2026-03-08 07:09:33.215,2026-03-08 07:09:33.215
+3c411b55-be1d-4dad-a409-20e7b4819db7,Neelkanth Heights,Girija,Thane,Maharashtra,India,400606,a44f7227-8dbd-48cc-8c47-14a5fc792297,2026-03-08 11:40:20.848,2026-03-08 11:40:20.848
+1aff7df6-87c1-4c75-9cce-b4c6d286fac7,1602 Corporate Annex,"",Mumbai,Maharashtra,India,400063,12e08bf9-e7f2-44f7-a63e-a93ac3d1d0e5,2026-03-08 14:27:55.577,2026-03-08 14:27:55.577
+167224fd-df4f-4412-ae2b-5f7984fdeb16,"Flat no. 22, Narmada Building, IIM Mumbai",Powai,Mumbai,Maharashtra,India,400087,ccac3094-36bb-4968-83b9-5576c064c71a,2026-03-02 04:48:24.817,2026-03-08 16:14:57.826
+3639680d-d37a-4211-a4bb-ba58a504eef4,Flat No 306,"",Gurgaon,Delhi,India,122011,d3d2eedb-52a7-426d-9fba-e5ad2e021298,2026-03-09 08:17:15.059,2026-03-09 08:17:15.059
+1627b4d6-e6d6-4202-8aa7-5c6d63ad9ebf,dbsgtr,"",karnataka,Andhra Pradesh,India,352536,2c747310-0c66-479a-8620-ecbd3cad6d5a,2026-03-09 08:31:33.564,2026-03-09 08:31:33.564
+e418bb14-d39c-447e-8c92-70e4c67fd376,Parul University Campus,"Waghodiya road, P.O Limda, Vadodara",Vadodara,Gujarat,India,391760,d338e1e1-f949-4df9-8487-e002613f09e2,2026-03-09 09:09:17.711,2026-03-09 09:09:17.711
+9e9ce9fa-3fe0-4411-8e6b-d1d53a98dc88,1601 Corporate Annex,"",mumbai,Maharashtra,India,400063,25515d29-3359-4171-a258-1307b1aec9a0,2026-03-09 10:46:14.63,2026-03-09 10:51:44.346
+af16069f-9107-4570-9666-107bff63c8be,8 Shree Nagar Main,Nupur Apartment,Indore,Madhya Pradesh,India,450218,123f8168-7eee-42f9-a5ac-e1f0eaf59c60,2026-03-09 11:34:37.108,2026-03-09 11:34:37.108
+6527ced1-e7b6-4351-bc64-257d20cd0266,Marathon Nextgen,Lower Parel,Mumbai,Maharashtra,India,400025,4b1550bf-c71c-461c-bc28-ba96064617a6,2026-03-09 11:43:01.405,2026-03-09 11:43:01.405
+dc3f11cb-29af-4cf2-abbe-ed4cf1f4ddb0,"Phase VIII B,, F 273, Industrial Focal Point, SAS Nagar","",MOHALI,Punjab,India,160055,6c0e9267-417a-41ae-ab01-5b997deae651,2026-03-09 11:46:57.197,2026-03-09 11:46:57.197
+5e66f5f9-a3fc-4b38-ad38-e862b48e202f,Ram,Amam,Mumbai,Madhya Pradesh,India,400064,16322cdf-8ff5-4c66-8198-456d0623ebc6,2026-03-09 12:21:57.459,2026-03-09 12:21:57.459
+3d38e923-4259-4471-aac1-49d23b082f81,KP COURTYARD Gokuldham society ,Bopal ,Ahmedabad,Gujarat,India,382210,ac878c91-a67c-4c3e-80ac-346d9463e045,2026-03-09 12:37:22.853,2026-03-09 12:38:35.95
+98d6acab-ed37-482a-89d7-ea6e3ac6de49,2245,Wtc,Bangalore ,Karnataka,India,560055,70eba100-61cf-4c23-9534-6e2719f8132d,2026-03-09 13:52:22.427,2026-03-09 13:52:22.427
+1dc2149a-2bb4-4905-8f6d-f44f6216d061,"AKR Building, BTR Gardens",kudlu gate,Bangalore,Karnataka,India,560100,46381d3b-de54-495f-8c38-423b70dcf323,2026-03-09 14:09:46.08,2026-03-09 14:09:46.08
+8d70ece1-f5df-4b49-82b8-3d0bbf40db90,A-31 Krishna Bungalows 1,"Opposite Gharwakri Furniture Showroom, Motera, Sabarmati",Ahmedabad,Gujarat,India,380005,9df73fd9-82c0-4363-b631-cdc3e15b6d85,2026-03-09 15:58:55.738,2026-03-09 15:58:55.738
+1999f276-07eb-4713-828e-3a8946f18990,"STPI – 2nd Floor (FinBlue),","No. 5, Rajiv Gandhi Salai, Tharamani,",Chennai,Tamil Nadu,India,600113,03fcc572-05d3-4e11-acaf-9017bcc9efe9,2026-03-09 17:26:57.23,2026-03-09 17:26:57.23
+67e371df-70eb-465a-9f1e-7d3d1c1e336d,"A/108, DGS Sheetal Regalia, Shri Krishna Nagar, Borivali East","",Mumbai,Maharashtra,India,400066,20274567-1634-402c-97de-f1054e18576c,2026-03-09 19:29:33.993,2026-03-09 19:29:33.993
+8bf2cf41-c712-4150-b3c3-a45a33c1b00b,"krishna pg, chipyana bujurg",jaat chawk,Ghaziabad,Uttar Pradesh,India,201009,c6e6219b-37fd-46b7-bc10-a57387c54a1f,2026-03-10 04:11:18.418,2026-03-10 04:11:18.418
+3f082302-4c6c-4931-89fd-f1bc0d5a52df,B-403,"",Ghatkopar,Maharashtra,India,400077,ed644e59-cd8f-482b-8ebc-e6236bc2ae5a,2026-03-10 05:32:39.908,2026-03-10 05:32:39.908
+f42b604a-a7ba-4bd4-9736-691d23962999,"6TH FLOOR, WE WORKS","HIRANANDANI LIGHTBRIDGE, TUNGA VILLAGE",MUMBAI,Maharashtra,India,400076,3e69c840-9ae3-4e2b-aa4f-8e316b24dd16,2026-03-10 06:37:40.567,2026-03-10 06:37:40.567
+9612a460-eaad-4424-9f75-5455cf3dd393,1601 Corporate Annex,"",mumbai,Maharashtra,India,400063,a9315e2a-8b9b-4704-8c44-8f17484e689b,2026-03-10 07:09:21.186,2026-03-10 07:09:21.186
+0ff9d3a3-bc5f-4070-89fd-56a15a2dc0b4,"1, Parishram Heights, Chetna Nagar, Nashik","",Nashik,Maharashtra,India,422009,56a55866-e208-4115-a410-ccda5d351fa5,2026-03-10 07:35:59.748,2026-03-10 07:35:59.748
+c6e98b82-30c4-4d72-83a3-6edef66f55f8,"Plot no. 19, Radha bai nagar, Nandurbar","Ganesh Nagar, Mohida Road,",Nandurbar,Maharashtra,India,425412,e2c3412f-ae8a-4172-8d74-2092f3d513da,2026-03-10 08:50:38.734,2026-03-10 08:50:38.734
+9838561b-5a8f-4552-86c1-bd075e43086f,501 Woodbine / Everest World,Kolshet road,Thane,Maharashtra,India,400607,65627203-2ea3-4577-94cf-05b8959a1f71,2026-03-10 08:55:22.649,2026-03-10 08:55:22.649
+4305c505-c85c-4352-a512-639dbbbd860e,Andheri East,"",Mumbai,Maharashtra,India,400069,2b3d388d-b05f-41e1-b008-deafe244024a,2026-03-10 09:20:22.562,2026-03-10 09:20:22.562
+aebd3311-8886-40e7-9de7-ca7b66572a44,Motilal Nehru nagar gtb nagar,"",Mumbai City,Maharashtra,India,400037,0ec942d3-599c-4d33-92aa-8782914f61fb,2026-03-10 10:26:45.462,2026-03-10 10:26:45.462
+2a30c6d2-d81a-4a88-a5c7-43b81642c06c,Mira Road,"",Thane,Maharashtra,India,401107,396bd089-b360-4778-baab-e0d872178cfa,2026-03-10 09:40:32.718,2026-03-10 09:40:32.718
+b68941fa-8f88-43b8-ab93-9fcff3c9042a,"",,"","","","",6e34fad3-da84-4b7c-bd45-df77a59a3008,2026-03-10 11:05:04.432,2026-03-10 11:05:04.432
+b212e62f-605e-4e6a-9183-3fe82335c54c,"",,"","","","",6026cf75-3127-4215-bf8b-36e81b9c33fc,2026-03-10 11:07:41.747,2026-03-10 11:07:41.747
+195918e6-50ef-42f3-b197-41411f95e6c8,Kalka,"",Kalka,Chandigarh,India,133302,7ca81b41-2a79-4fce-8f96-edece43afa58,2026-03-10 09:26:13.007,2026-03-10 09:53:33.157
+26500896-965c-4ac7-ad73-d4932a50ec91,Bethany CHSL,Mahim West,Mumbai,Maharashtra,India,400016,358eaf05-218d-4a94-a07a-894b8838b218,2026-03-10 09:59:27.547,2026-03-10 09:59:27.547
+1c57338b-c0a9-40f9-852b-a35bff5ea1b7,"B 404, Sinchan CHS, veera desai",Andheri west,Mumbai,Maharashtra,India,400053,d2f1274f-901a-4006-b216-6771854a8e77,2026-03-10 09:59:31.87,2026-03-10 09:59:31.87
+d2077148-060c-4149-a31d-a340946fa822,Balewadi,"sri venkata sai pg, balewadi phata",Pune,Maharashtra,India,411045,1d0bb3b7-0555-4676-88fd-57900362c8e2,2026-03-10 10:02:25.427,2026-03-10 10:02:25.427
+69438b64-4296-4cb6-85b2-a5c854eba778,"",,"","","","",ebd37d75-bb19-4e7a-a44e-2fb21de9f6ad,2026-03-10 11:07:56.548,2026-03-10 11:07:56.548
+52de5796-f3d8-4f90-ad12-0210525c5cf4,"",,"","","","",2302d717-3f1f-41af-946e-0e8d8184b782,2026-03-10 11:08:05.711,2026-03-10 11:08:05.711
+554d139a-46c1-48c9-8fb9-c24156d2af32,"",,"","","","",a673db1c-726d-4c62-a726-f78e412201e6,2026-03-10 11:08:14.549,2026-03-10 11:08:14.549
+7a4c12aa-1118-42d7-9ea9-9d07c435ec40,"",,"","","","",415f9d08-3b16-4862-a495-04e5e299767c,2026-03-10 11:08:23.869,2026-03-10 11:08:23.869
+a43445de-7db9-48f1-9b30-fc295a5a1b4f,"",,"","","","",bb0b3ad3-7236-48e1-8a8d-7c910e11d10a,2026-03-10 11:08:32.674,2026-03-10 11:08:32.674
+f66dafff-8873-430d-939a-615cd0934b54,"",,"","","","",5f316e5a-8b10-4328-86ed-857ed7f16c1a,2026-03-10 11:08:41.277,2026-03-10 11:08:41.277
+6f8be50a-c250-4af0-bf4f-54d66e7fdb76,"",,"","","","",25dd7178-40ed-405b-bd21-92438527aad0,2026-03-10 11:08:50.092,2026-03-10 11:08:50.092
+61c2ae36-dadc-4b18-a684-5f0eebe82bd5,"",,"","","","",89c64172-e1e9-42e8-84f4-a999f0dc43f0,2026-03-10 11:08:59.916,2026-03-10 11:08:59.916
+96b295f1-ff01-4086-b691-d042bc2d1332,"",,"","","","",81ef408c-e46f-4ce7-8c8b-c67ac690d085,2026-03-10 11:09:08.988,2026-03-10 11:09:08.988
+03b3f9a4-8c1c-41b4-9fc7-1d5db0999d2f,"",,"","","","",874c2b11-73dc-4e34-ad4e-80e81acae0c2,2026-03-10 11:09:18.126,2026-03-10 11:09:18.126
+e810d5e7-bc1d-44cf-b972-886b3fd8fa4f,"",,"","","","",ae2c7d89-853d-4e10-8dba-28a340541665,2026-03-10 11:09:27.059,2026-03-10 11:09:27.059
+030dbe37-977d-447d-baab-405d4e36f13d,"",,"","","","",1fe61b7d-864e-425f-9c5b-2c97c13f4ed8,2026-03-10 11:09:36.78,2026-03-10 11:09:36.78
+e13731f7-2357-46a6-896d-89dbf221fa12,"",,"","","","",90d63e1d-6663-45bf-a8e1-da94e6a96d16,2026-03-10 11:09:46.336,2026-03-10 11:09:46.336
+36dd17f5-57e5-40ca-8f30-e1f635431165,"",,"","","","",7142b76e-7e05-42f9-b39f-39e7f755c375,2026-03-10 11:09:54.53,2026-03-10 11:09:54.53
+2c45bf5f-1708-4a0f-a14b-27aa266ac9a6,"",,"","","","",de25cd78-7bd0-4c39-a7b5-951ae4b4f204,2026-03-10 11:10:03.926,2026-03-10 11:10:03.926
+5eb25a58-60a1-457b-979c-311ebbda9ca3,"",,"","","","",03f8466d-d29d-442d-b7f6-0ff294ff953e,2026-03-10 11:10:12.838,2026-03-10 11:10:12.838
+7b7feccf-27be-4a27-9df9-551458435b6f,"",,"","","","",d65d106b-d920-4cbf-a3a0-fb8b8ba59093,2026-03-10 11:10:22.309,2026-03-10 11:10:22.309
+938a9184-e21f-4466-8d39-2e711e230f9c,Kharghar ,"",Navi Mumbai,Maharashtra,India,410210,ebab98d1-5e6e-4240-bdb3-8ca41ddbf7a9,2026-03-10 11:11:17.623,2026-03-10 11:11:17.623
+fc4b7a4d-200c-431c-b48b-d7ad54871ffa,"",,"","","","",fb4561f4-4d8c-4234-ae19-8db85bc35ccb,2026-03-10 11:19:39.821,2026-03-10 11:19:39.821
+a7abd28e-4da8-4aa8-8881-081df8291771,"",,"","","","",65e8d9ab-ff9b-422e-9cd5-96096aca7aa0,2026-03-10 11:19:54.875,2026-03-10 11:19:54.875
+cead46b6-fa09-496c-ace2-4c733e8058d9,"",,"","","","",d0ba0a07-dff1-4539-9316-69e07c01c71d,2026-03-10 11:20:03.808,2026-03-10 11:20:03.808
+89c8c3f5-a18f-4248-9c4d-8a17daeddae4,"A-301 ,Kapil abhijat society, dahanukar colony ","kothrud, Pune ,Maharashtra ",Pune,Maharashtra,India,411038,d0c71089-c52e-4a5d-a23a-ab85cec7f509,2026-03-10 11:55:17.615,2026-03-10 11:55:17.615
+3dbac03f-0417-49cc-b593-f909c9d7d5de,Malad,"",Mumbai,Maharashtra,India,400097,3397a06c-63da-4247-b153-5e1887c27574,2026-03-10 17:56:13.85,2026-03-10 17:56:16.39
+b8ffb5fe-3db7-4ce8-9638-b0cbd8f480ef,Room No 106 Airoli,Sector 1,Mumbai,Maharashtra,India,400708,d6cbd1b0-19c8-440a-9658-d5ec20f8069f,2026-03-10 06:41:23.589,2026-03-11 03:57:03.654
+8fd5c1fe-1940-4673-9a6b-851aba7332ac,1601 corporate Annex ,"",Mumbai ,Maharashtra,India,400063,72095e11-7d38-43f2-bd27-81e866d65f8c,2026-03-11 04:59:35.405,2026-03-11 04:59:35.405
+a7236093-2b13-4980-abab-07104d1586c9,Marathon building ,"",Mumbai,Maharashtra,India,400004,64cd6f3f-a2a1-4f98-a2bc-d53ac0769aa6,2026-03-11 05:59:00.474,2026-03-11 05:59:00.474
+ed0f33b7-6fc7-47d1-82e1-3786a16b0acd,102,"Bay Square, Business Bay",Bubai,Dubai,United Arab Emirates,000000,09b69d57-d889-469e-ac6f-7194bfe4e1a0,2026-03-11 06:08:38.888,2026-03-11 06:29:04.559
+9c789304-cb0b-4937-9e7c-3bdb3296c800,"Harmony Homes, Sharda Colony, Pimple Nilakh, Pune","",PUNE,Maharashtra,India,411027,c34f612c-d867-4c1c-bf04-d2e245cb18e7,2026-03-10 14:52:03.365,2026-03-11 07:14:19.377
+08cbc872-8e36-4bdf-9727-043c1c610d7c,406 ,Jawad Ayaz,Ekm,Kerala,India,683522,642064f2-5cbf-4ec6-808e-2f27a4a54200,2026-03-11 08:07:32.565,2026-03-11 08:07:32.565
+bfeb2481-02bd-47d9-a55d-398140a7e629,"1601, Corporate Annexe, Sonawala Road, Goregaon East","",Mumbai,Maharashtra,India,400063,ecd16bee-fe23-48e1-9e02-184348c7168e,2026-03-11 08:41:42.546,2026-03-11 08:41:42.546
+200c3b28-b7ac-45e8-a2ad-73d4299a31a5,Mumbai,"",Mumbai,Maharashtra,India,400099,3037af14-6bdc-4c7c-b05d-e02648368eb6,2026-03-11 09:41:10.884,2026-03-11 09:41:10.884
+223e9d96-0910-41ea-b020-f87b950c5589,41 sukhshanti building1,19pedder road,Mumbai,Maharashtra,India,400026,55ee4533-a4ce-49dd-9151-ee2e6bfddf15,2026-03-11 10:23:30.507,2026-03-11 10:23:30.507

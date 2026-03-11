@@ -12,6 +12,7 @@ async function bootstrap() {
       'http://localhost:3000',
       'https://www.ethmumbai.in',
       'https://ethmumbai-2026-dec-ui-git-earlybird-ethmumbais-projects.vercel.app',
+      'https://ethmumbai-conf-checkin.vercel.app'
     ], // your Vite dev server
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
     allowedHeaders: [
