@@ -322,11 +322,7 @@ export class TicketsController {
     res.send(pdfBuffer);
   }
 
-   @Get('/details/:input')
-  async getTicketDetails(@Param('input') input: string){
-    console.log('🎯 Controller hit with input:', input);
-    return await this.ticketService.getTicketDetails(input);
-  }
+
 
    @Get('/details/:input')
   async getTicketDetails(@Param('input') input: string){
