@@ -965,7 +965,36 @@ export class TicketsService {
     merchReceived: ticket.merchReceived,
   };
 }
+async markParty(token:string){
+  const ticket =  await this.prisma.generatedTicket.findFirst({
+      where: { ticketCode: token },
+      select: { afterPartyCheckIn: true, participant: { select: { firstName: true } } }
+    });
 
+  if (ticket?.afterPartyCheckIn) {
+      return { ok: true, reason: 'checkedIn', participantName: ticket.participant.firstName };
+    }
+
+   const result = await this.prisma.generatedTicket.update({
+  where: { ticketCode: token },
+  data: { afterPartyCheckIn: true },
+  include: {
+    participant: {
+      select: {
+        firstName: true,
+      },
+    },
+  },
+});
+  
+
+    return {
+      participantName: result.participant.firstName,
+      afterPartyCheckIn: result.afterPartyCheckIn,
+      
+    }
+
+}
 
   async downloadSentRazorpayInvoices(): Promise<Buffer> {
     const orders = await this.prisma.order.findMany({

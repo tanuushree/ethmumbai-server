@@ -195,6 +195,26 @@ async verifyMerch(
   return {ok:true, message: 'Merch marked as received for ticket code: ' + token};
 }
 
+ @UseGuards(ApiKeyGuard)
+  @Get('party/:token')
+  async partyQRCheckIn(@Param('token') token: string) {
+    //show the participant details if the token is valid
+    //have a seperate call for verifying ticket
+     console.log('🎯 Party check-in request for token:', token);
+    const resp = await this.ticketService.markParty(token);
 
+const isAlreadyCheckedIn = resp?.ok === true && resp?.reason === "checkedIn";
+
+return {
+  ok: true,
+  reason: isAlreadyCheckedIn ? resp.reason : undefined,
+  message: isAlreadyCheckedIn
+    ? `Hi ${resp?.participantName}, you are already checked in for the party!`
+    : `Hi ${resp?.participantName}, Welcome to ETHMumbai AfterParty!`,
+  participantName: resp?.participantName,
+  ticketCode: token,
+  partyCheckedIn: resp.afterPartyCheckIn,
+};
+  }
  
 }
