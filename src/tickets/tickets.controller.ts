@@ -353,6 +353,15 @@ return {
 };
   }
 
+   @Post('send-devcon')
+  async sendDevconEmails() {
+    await this.mailService.sendEmails();
+
+    return {
+      success: true,
+      message: 'Devcon emails sending started',
+    };
+  }
   @UseGuards(ApiKeyGuard)
   @Post('merch/:token')
 async verifyMerch(
