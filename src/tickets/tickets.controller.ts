@@ -341,4 +341,14 @@ export class TicketsController {
       resp?.buyerName
     );
   }
+
+   @Post('send-devcon')
+  async sendDevconEmails() {
+    await this.mailService.sendEmails();
+
+    return {
+      success: true,
+      message: 'Devcon emails sending started',
+    };
+  }
 }

@@ -14,7 +14,7 @@ export class MailService {
     private prisma: PrismaService,
     private loops: LoopsService,
     // private ticketService: TicketsService,
-  ) {}
+  ) { }
 
   // ---------------------------------------------
   // BUYER CONFIRMATION EMAIL
@@ -55,7 +55,7 @@ export class MailService {
       .join('\n');
 
     const attachment = {
-      filename: `ETHMumbai-Invoice-${order.invoiceNumber}.pdf`,
+      filename: `ETHMumbai-Invoice-${order.id}.pdf`,
       contentType: 'application/pdf',
       data: pdfBuffer.toString('base64'),
     };
@@ -394,7 +394,6 @@ export class MailService {
 
   async sendDevconEmail(
     email: string,
-    firstName: string,
     discountCode: string,
   ) {
     const templateId = process.env.LOOPS_DEVCON_EMAIL_ID;
@@ -407,7 +406,6 @@ export class MailService {
       templateId,
       email,
       {
-        name: firstName,
         discountCode,
       },
     );
@@ -418,5 +416,46 @@ export class MailService {
     }
 
     this.logger.log(`Devcon email sent → ${email}`);
+  }
+
+  async sendEmails() {
+    const emails = fs.readFileSync("email.csv", "utf8")
+      .split("\n")
+      .map(e => e.trim())
+      .filter(Boolean);
+
+    const links = fs.readFileSync("links.csv", "utf8")
+      .split("\n")
+      .map(l => l.trim())
+      .filter(Boolean);
+
+    if (emails.length !== links.length) {
+      throw new Error("Emails and links count mismatch");
+    }
+
+    const outputRows: string[] = [];
+    outputRows.push("email,final_link"); // CSV header
+
+    for (let i = 0; i < emails.length; i++) {
+      const email = emails[i];
+      const baseLink = links[i];
+
+      const finalLink = `${baseLink}&email=${email}`;
+      console.log(`Processing ${i + 1}/${emails.length}`);
+
+      await this.sendDevconEmail(email, finalLink);
+
+      console.log(`Sent → ${email}`);
+
+      // store record
+      outputRows.push(`${email},${finalLink}`);
+
+      await new Promise(r => setTimeout(r, 200)); // avoid rate limits
+    }
+
+    // write CSV
+    fs.writeFileSync("email_links_output.csv", outputRows.join("\n"));
+
+    console.log("CSV saved → email_links_output.csv");
   }
 }
