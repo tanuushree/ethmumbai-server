@@ -13,6 +13,7 @@ import {
 import axios from 'axios';
 import { PrismaService } from '../prisma/prisma.service';
 import { MailService } from '../mail/mail.service';
+// import { AdminGuard } from 'src/utils/admin.guard';
 import { ApiKeyGuard } from 'src/utils/api-key-auth';
 import { TicketsService } from 'src/tickets/tickets.service';
 import Razorpay from 'razorpay';
@@ -22,6 +23,7 @@ import { createCanvas, loadImage, registerFont } from 'canvas';
 import type { Response } from 'express';
 
 @Controller('internal')
+// @UseGuards(AdminGuard)
 @UseGuards(ApiKeyGuard)
 export class InternalController {
   private readonly DAIMO_API_URL = 'https://pay.daimo.com/api/payment';
@@ -248,7 +250,6 @@ export class InternalController {
   }
 
   // --- Emails ---
-
   // @Post('email/buyer/:orderId')
   // async resendBuyerEmail(@Param('orderId') orderId: string) {
   //   await this.mailService.sendBuyerEmail(orderId);
@@ -278,7 +279,7 @@ export class InternalController {
     return { exists: false };
   }
 
-  //CLIENT Side API to fetch order details for success page after payment
+  //success endpoint for order success page
   @Get('orders/success/:orderId')
   async getOrderForSuccessPage(@Param('orderId') orderId: string) {
     const order = await this.prisma.order.findUnique({
@@ -363,9 +364,9 @@ export class InternalController {
     return this.ticketsService.getOrderStatusByUsers(users);
   }
 
-  //Generate New Order to send free tickets
-  @Post('sendFreeTickets')
-  async sendFreeTickets(
+  //endpoint to send free tickets
+  @Post('sendTickets')
+  async sendTickets(
     @Body() body: { firstName: string; lastName: string; email: string }[],
   ) {
     // const { firstName, lastName, email } = body;
@@ -443,7 +444,7 @@ export class InternalController {
 
         //generate ticket
         if (createdOrder) {
-          await this.ticketsService.generateTicketsForFreeOrder(createdOrder.id);
+          await this.ticketsService.generateTicketsForOrder(createdOrder.id);
           console.log(
             '✅ Ticket generated for order:',
             createdOrder.participants,
@@ -456,30 +457,6 @@ export class InternalController {
     return { success: true, message: `Tickets processed for ${body.length || 0} participants` };
   }
 
-  //order existing and ticket already generated
-  @Post('resendTicketsForTicketCode')
-  async resendTicketsForTicketCode(
-    @Body() body: { orderId: string; ticketCode: string }
-  ) {
-    await this.ticketsService.generateTicketsForOrderWithTicketCode(
-       body.orderId,
-       body.ticketCode,
-    );
-  }
-
-  //resend for wrong emails
-  @Post('resendTicketsForEmail')
-  async resendTicketsForEmail(
-    @Body() body: { orderId:string, updateEmail: string; ticketCode: string }
-  ) {
-    await this.ticketsService.generateTicketForEmail(
-      body.orderId,
-       body.updateEmail,
-       body.ticketCode,
-    );
-  }
-
-  // order existing but ticket not generated
   @Post('sendTicketsForExistingOrder')
   async sendTicketsForExistingOrder(
     @Body() body: { firstName: string; lastName: string; email: string }[],
@@ -551,7 +528,6 @@ export class InternalController {
     };
   }
 
-  // Send Participant Email with Conf Ticket 
   @Post('sendManualTicket')
   async sendManualTicket(
     @Body()
@@ -566,7 +542,6 @@ export class InternalController {
     });
   }
 
-  // Test API for Hacker Ticket PNG generation
   @Get('social/hacker')
   async hackerSocialGeneration(@Query('firstName') firstName: string) {
     if (!firstName) {
@@ -628,76 +603,6 @@ export class InternalController {
     // });
 
     // canvas.createPNGStream().pipe(res);
-  }
-
-  // Sending Participant and Buyer Emails with already genearted ticketCode
-  @Post('generate/:orderId')
-  async generateTickets(@Param('orderId') orderId: string) {
-    await this.ticketsService.generateTicketsForOrder(orderId);
-
-    return {
-      success: true,
-      message: 'Tickets generated and emails sent successfully',
-    };
-  }
-
-  // Send Participant Email with Ticket Creative (PNG)
-  @Post('sendEmailsWithPng')
-  async sendEmailsWithPng(@Body() body: { email: string }) {
-    console.log('Sending PNG ticket email to:', body.email);
-    await this.ticketsService.sendEmailsWithPngTicket(body);
-    console.log('PNG ticket email sent successfully');
-    return {
-      success: true,
-      message: `PNG ticket email sent to ${body.email}`,
-    };
-  }
-
-    // Send Participant Email with Ticket Creative (PNG) to participants NOT in DB
-  @Post('sendEmailsWithPngToNonParticipants')
-  async sendEmailsWithPngToNonParticipants(@Body() body: { ticketType: string, firstName: string, email: string }) {
-    console.log('Sending PNG ticket email to:', body.email);
-    await this.ticketsService.sendEmailsWithPngTicketNonDB(body);
-    console.log('PNG ticket email sent successfully');
-    return {
-      success: true,
-      message: `PNG ticket email sent to ${body.email}`,
-    };
-  }
-
-  // Send Participant Email with Ticket Creative (PNG) for all participant in DB
-  // @Post('sendEmailsWithPngForMultiple')
-  // async sendEmailsWithPngForMultiple() {
-  //   const body = this.prisma.participant.findMany({
-  //     where: {
-  //      generatedTicket: {
-  //         isNot: null,
-  //       },
-  //     }
-  //   });
-
-  //   for (const participant of await body) {
-  //     console.log('Sending PNG ticket email to:', participant.email);
-  //     await this.ticketService.sendEmailsWithPngTicket({ email: participant.email });
-  //     console.log('PNG ticket email sent successfully to:', participant.email);
-  //   }
-  //   return {
-  //     success: true,
-  //     message: `PNG ticket email sent to ${(await body).length}`,
-  //   };
-  // }
-
-  // Send Hacker Email with Ticket Creative (PNG) for all hackers in json
-  
-  @Post('hacker/sendEmailsWithPng')
-  async sendHackerEmailsWithPng(@Body() body: { firstName:string, email: string } []) {
-    for (const { firstName, email } of body) {
-      await this.ticketsService.sendHackerEmailsWithPngTicket(firstName, email);
-    }
-    return {
-      success: true,
-      message: `PNG hacker emails sent to ${body.length}`,
-    };
   }
 
   @Get("download/razorpay-invoices")

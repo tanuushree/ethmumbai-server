@@ -22,7 +22,6 @@ export class MailService {
   async sendBuyerEmail(
     orderId: string,
     pdfBuffer: Buffer, // Invoice PDF buffer
-    sentEmailCheck: boolean = false
   ) {
     const order = await this.prisma.order.findUnique({
       where: { id: orderId },
@@ -37,7 +36,7 @@ export class MailService {
       return;
     }
 
-    if (order.buyerEmailSent && !sentEmailCheck) {
+    if (order.buyerEmailSent) {
       this.logger.warn(`Buyer email already sent for ${order.id}`);
       return;
     }
@@ -91,7 +90,7 @@ export class MailService {
     this.logger.log(`Buyer email sent → ${order.buyer.email}`);
   }
 
-  async sendBuyerCryptoEmail(orderId: string, sentEmailCheck=false) {
+  async sendBuyerCryptoEmail(orderId: string) {
     const order = await this.prisma.order.findUnique({
       where: { id: orderId },
       include: {
@@ -105,7 +104,7 @@ export class MailService {
       return;
     }
 
-    if (order.buyerEmailSent && !sentEmailCheck) {
+    if (order.buyerEmailSent) {
       this.logger.warn(`Buyer email already sent for ${order.id}`);
       return;
     }
@@ -158,11 +157,10 @@ export class MailService {
   async sendParticipantEmails(
     orderId: string,
     pdfMap: Map<string, Buffer>, // ticketCode → PDF buffer
-    pngMap: Map<string, Buffer>, // ticketCode → PNG buffer
-    sentEmailCheck = false
+    pngMap: Map<string, Buffer> // ticketCode → PNG buffer
   ) {
     const participants = await this.prisma.participant.findMany({
-      where: { orderId, emailSent: sentEmailCheck },
+      where: { orderId, emailSent: false },
       include: { generatedTicket: true },
     });
 
@@ -239,80 +237,18 @@ export class MailService {
   }
 
   async sendParticipantEmailsWithPng(
-    email: string,
-    pngBuffer: Buffer) {
-    const participant = await this.prisma.participant.findFirst({
-      where: { email },
-      include: { order: true },
-    });
-
-    if (!participant) {
-      this.logger.warn(`No participant found with email: ${email}`);
-      return;
-    }
-
-    const templateId = process.env.LOOPS_SHARE_ON_X_EMAIL_ID;
-    if (!templateId) {
-      this.logger.error('Missing env: LOOPS_SHARE_ON_X_EMAIL_ID');
-      return;
-    }
-
-    if (!participant.firstName) {
-      throw new BadRequestException('Missing firstName (f) parameter');
-    }
-
-    // const pngBuffer = (await this.ticketService.visualTicketGeneration(
-    //   ticketType,
-    //   participant.firstName,
-    // )) as Buffer | undefined;
-
-    if (!pngBuffer) {
-      this.logger.error(`Missing PNG buffer for participant ${email}`);
-      return;
-    }
-
-    const pngAttachment = {
-      filename: `ETHMumbai-Ticket-${participant.firstName}.png`,
-      contentType: 'image/png',
-      data: pngBuffer.toString('base64'),
-    };
-    const tweetText = encodeURIComponent(
-      `I'm attending @ethmumbai 2026 🥳
-\n\nBEST Ethereum Conference in Mumbai on 12th March 2026 with 50 speakers & 500 participants. See you there!`,
-    );
-
-    const resp = await this.loops.sendTransactionalEmail(
-      templateId,
-      email,
-      {
-        name: participant.firstName,
-        tweetText,
-      },
-      [pngAttachment],
-    );
-
-    if (!resp?.success) {
-      this.logger.error(`Failed sending ticket → ${email}`);
-      return;
-    }
-
-    this.logger.log(`Ticket PDF sent → ${email}`);
-    // }
-  }
-
-  async sendParticipantEmailsWithPngForNonDB(
     firstName: string,
     email: string,
     pngBuffer: Buffer) {
-    const participant = await this.prisma.participant.findFirst({
-      where: { email },
-      include: { order: true },
-    });
+    // const participant = await this.prisma.participant.findFirst({
+    //   where: { email },
+    //   include: { order: true },
+    // });
 
-    if (!participant) {
-      this.logger.warn(`No participant found with email: ${email}`);
-      return;
-    }
+    // if (!participant) {
+    //   this.logger.warn(`No participant found with email: ${email}`);
+    //   return;
+    // }
 
     const templateId = process.env.LOOPS_SHARE_ON_X_EMAIL_ID;
     if (!templateId) {

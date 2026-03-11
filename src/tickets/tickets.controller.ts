@@ -19,10 +19,19 @@ import { MailService } from '../mail/mail.service';
 import { getDiscount } from '../utils/discount';
 import type { Response } from 'express';
 import * as QRCode from 'qrcode';
+// import { generateTicketsForOrder } from ./TicketsService
 import { generateTicketPDF } from './generateTicket';
+import {
+  generateInvoicePDFBuffer,
+  InvoiceData,
+} from '../utils/generateInvoicePdf';
+import PDFDocument from 'pdfkit';
+import * as path from 'path';
+import * as fs from 'fs';
 import { createCanvas, loadImage, registerFont } from 'canvas';
 import { ApiKeyGuard } from '../utils/api-key-auth';
 import Razorpay from 'razorpay';
+import { generateInvoiceNumberForOrder } from 'src/utils/ticket.utils';
 
 registerFont('assets/fonts/MPLUSRounded1c-Bold.ttf', {
   family: 'Rounded Mplus 1c',
@@ -44,7 +53,6 @@ export class TicketsController {
     });
   }
 
-  // Client Side API Call
   @Get('/currentInvoiceTicket')
   async getCurrentTicketForInvoice() {
     const ticket = await this.prisma.ticket.findFirst({
@@ -59,7 +67,7 @@ export class TicketsController {
       return { message: 'No active tickets available.' };
     }
 
-    const discount = getDiscount(ticket.fiat); 
+    const discount = getDiscount(ticket.fiat); // e.g., { amount, percentage, originalPrice }
     const discountedPrice = ticket.fiat; // price after discount
 
     // Default values
@@ -95,7 +103,6 @@ export class TicketsController {
     };
   }
 
-  // Client Side API Call
   @Get('/current')
   async getCurrentTicket() {
     const ticket = await this.prisma.ticket.findFirst({
@@ -116,17 +123,6 @@ export class TicketsController {
     };
   }
 
-  //Client Side API Call
-  @Get('/visual/:ticketType')
-  async visualTicket(
-    @Param('ticketType') ticketType: string,
-    @Query('firstName') firstName: string,
-    @Res() res: Response,
-  ) {
-    await this.ticketService.visualTicketGenerationPng(ticketType, firstName, res);
-  }
-
-  // Test API for PDF generation - preview
   @Get('/preview/pdf')
   async previewTicketPdf(
     @Query('name') name: string,
@@ -153,6 +149,177 @@ export class TicketsController {
     });
 
     pdfDoc.pipe(res);
+  }
+  @Get('/visual/:ticketType')
+  async visualTicket(
+    @Param('ticketType') ticketType: string,
+    @Query('firstName') firstName: string,
+    @Res() res: Response,
+  ) {
+    await this.ticketService.visualTicketGenerationPng(ticketType, firstName, res);
+  }
+
+  @Post('sendEmailsWithPng')
+  async sendEmailsWithPng(@Body() body: { firstName: string, email: string }) {
+    console.log('Sending PNG ticket email to:', body.email);
+    await this.ticketService.sendEmailsWithPngTicket(body);
+    console.log('PNG ticket email sent successfully');
+    return {
+      success: true,
+      message: `PNG ticket email sent to ${body.email}`,
+    };
+  }
+
+  // @Post('sendEmailsWithPngForMultiple')
+  // async sendEmailsWithPngForMultiple() {
+  //   const body = this.prisma.participant.findMany({
+  //     where: {
+  //      generatedTicket: {
+  //         isNot: null,
+  //       },
+  //     }
+  //   });
+
+  //   for (const participant of await body) {
+  //     console.log('Sending PNG ticket email to:', participant.email);
+  //     await this.ticketService.sendEmailsWithPngTicket({ email: participant.email });
+  //     console.log('PNG ticket email sent successfully to:', participant.email);
+  //   }
+  //   return {
+  //     success: true,
+  //     message: `PNG ticket email sent to ${(await body).length}`,
+  //   };
+  // }
+
+  @Post('hacker/sendEmailsWithPng')
+  async sendHackerEmailsWithPng(@Body() body: { firstName:string, email: string } []) {
+    for (const { firstName, email } of body) {
+      await this.ticketService.sendHackerEmailsWithPngTicket(firstName, email);
+    }
+    return {
+      success: true,
+      message: `PNG hacker emails sent to ${body.length}`,
+    };
+  }
+
+
+  // @Get('/ticketCount/:ticketType')
+  // async getTicketCountByType(@Param('ticketType') ticketType: string) {
+  //   return await this.ticketService.getTicketCount(ticketType);
+  // }
+
+  // @Get('/ticketCount')
+  // async getTicketCount(@Param('ticketType') ticketType: string) {
+  //   return await this.ticketService.getTicketCount();
+  // }
+
+  @Get('preview-invoice/:orderId')
+  async previewInvoice(
+    @Param('orderId') orderId: string,
+    @Res() res: Response,
+  ) {
+    const order = await this.prisma.order.findUnique({
+      where: { id: orderId },
+      include: {
+        buyer: {
+          include: { address: true },
+        },
+        ticket: true,
+        participants: true,
+      },
+    });
+
+    if (!order) {
+      throw new BadRequestException('Order not found');
+    }
+
+    const buyer = order.buyer;
+    const address = buyer.address;
+    const ticket = order.ticket;
+
+    let rzpLabel = '';
+
+    if (order.paymentType == 'RAZORPAY' && order.razorpayPaymentId != null) {
+      const payment = await this.razorpay.payments.fetch(
+        order.razorpayPaymentId,
+      );
+
+      // Convert to nice label for UI
+      switch (payment.method) {
+        case 'upi':
+          rzpLabel = 'UPI via Razorpay';
+          break;
+        case 'card':
+          rzpLabel = 'Card via Razorpay';
+          break;
+        case 'netbanking':
+          rzpLabel = 'Netbanking via Razorpay';
+          break;
+        case 'wallet':
+          rzpLabel = 'Razorpay';
+          break;
+        default:
+          rzpLabel = payment.method;
+      }
+    }
+
+    const invoiceData: InvoiceData = {
+      invoiceNo: order.invoiceNumber,
+      date: order.createdAt.toDateString(),
+
+      billedTo: {
+        name: `${buyer.firstName} ${buyer.lastName}`,
+        addressLine1: address?.line1 || '',
+        city: address?.city || '',
+        state: address?.state || '',
+        country: address?.state || '',
+        pincode: address?.postalCode || '',
+      },
+
+      item: {
+        description: ticket.title,
+        quantity: order.participants.length,
+        price: ticket.fiat,
+      },
+
+      discount: 0,
+      gstRate: 18,
+
+      paymentMethod:
+        order.paymentType === 'RAZORPAY'
+          ? `INR (${rzpLabel || 'Unknown'})`
+          : 'Crypto',
+    };
+
+    const pdfBuffer = await generateInvoicePDFBuffer(invoiceData);
+
+    res.set({
+      'Content-Type': 'application/pdf',
+      'Content-Disposition': 'inline; filename="invoice.pdf"',
+      'Content-Length': pdfBuffer.length,
+    });
+
+    res.send(pdfBuffer);
+  }
+
+  @Get('invoice/generate/:orderId')
+  async generateInvoice(
+    @Param('orderId') orderId: string,
+    @Res() res: Response,
+  ) {
+    if (!orderId) {
+      throw new BadRequestException('orderId is required');
+    }
+
+    const pdfBuffer = await this.ticketService.generateInvoiceForOrder(orderId);
+
+    res.set({
+      'Content-Type': 'application/pdf',
+      'Content-Disposition': `inline; filename="invoice-${orderId}.pdf"`,
+      'Content-Length': pdfBuffer.length,
+    });
+
+    res.send(pdfBuffer);
   }
 
    @Get('/details/:input')
