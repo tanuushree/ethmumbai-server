@@ -1,8 +1,0 @@
-id,title,type,fiat,crypto,quantity,remainingQuantity,isActive,priority
-ed6afbd1-3114-4456-a516-7cb69fa4595f,Christmas Special,christmas,499,5.5,-6,0,f,6
-47787a15-281f-4f7a-b9fc-22e4239033a5,Regular,regular,1249,13.8,462,0,f,4
-a8158ee9-342d-4cd5-8541-5beda1ad2021,Early Bird,earlybird,999,11,1,0,f,5
-17f06214-e8eb-4c93-a38c-492086a54166,Friends,friends,1499,16.6,200,200,t,7
-00799e6d-e55a-41f6-b688-09323e14968f,Regular – Phase 4,regular,2499,27.7,25,19,t,3
-532b7cbe-1bc1-4f22-9d05-136383bb8b58,Regular – Phase 2,regular,1499,16.6,75,0,t,1
-06dd8a61-aaab-4c0f-b6ae-e3d81fe7b085,Regular – Phase 3,regular,1999,22.2,165,37,t,2
